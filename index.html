@@ -1,12 +1,214 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AnberTech</title>
+
+  <style>
+    :root{
+      --brand: #003366;
+
+      --link: #2b2b2b;
+      --linkHover: #111111;
+
+      --glass: rgba(255, 255, 255, 0.80);
+      --glassBorder: rgba(0,0,0,0.06);
+      --shadow: 0 18px 46px rgba(0,0,0,0.18);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      color: #111;
+      text-align: center;
+
+      /* Arka plan görseli şimdilik yok: sade açık arka plan */
+      background: #f3f4f6;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 26px 14px 72px;
+    }
+
+    .overlay {
+      background: var(--glass);
+      border: 1px solid var(--glassBorder);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+
+      width: min(820px, 96vw);
+      padding: 26px 18px 18px;
+    }
+
+    .hero-block {
+      width: min(560px, 92vw);
+      margin: 0 auto 14px;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: auto;
+      display: block;
+
+      -webkit-mask-image: radial-gradient(ellipse at center, #000 72%, transparent 100%);
+      mask-image: radial-gradient(ellipse at center, #000 72%, transparent 100%);
+
+      filter: drop-shadow(0 12px 26px rgba(0,0,0,0.18));
+    }
+
+    .title {
+      margin: 10px 0 0;
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: 0.2px;
+      color: #111;
+    }
+
+    .subtitle {
+      margin: 6px 0 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: rgba(0,0,0,0.60);
+    }
+
+    /* Uygulama ikonları alanı */
+    .apps {
+      margin: 16px auto 8px;
+      width: min(560px, 92vw);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .app-link {
+      display: block;
+      text-decoration: none;
+      border-radius: 16px;
+
+      background: rgba(255,255,255,0.62);
+      border: 1px solid rgba(0,0,0,0.06);
+      padding: 14px 12px;
+
+      transition: transform 0.18s ease, background 0.18s ease;
+    }
+
+    .app-link:hover {
+      background: rgba(255,255,255,0.78);
+      transform: translateY(-2px);
+    }
+
+    .app-link img {
+      width: 100%;
+      max-width: 140px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 14px;
+      filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
+    }
+
+    .app-name {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--link);
+      letter-spacing: 0.1px;
+    }
+
+    footer {
+      width: 100%;
+      padding: 16px 0 18px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-pill {
+      font-size: 13px;
+      color: rgba(0,0,0,0.68);
+      background: rgba(255,255,255,0.62);
+      border: 1px solid rgba(0,0,0,0.06);
+      padding: 8px 16px;
+      border-radius: 999px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    @media (max-width: 720px) {
+      .apps {
+        grid-template-columns: 1fr;
+      }
+      .app-link img {
+        max-width: 160px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .overlay { padding: 20px 12px 14px; }
+      .title { font-size: 30px; }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>AnberTech</h1>
-  <p>Çatı site yakında.</p>
+  <div class="page">
+    <main>
+      <div class="overlay">
+
+        <div class="hero-block">
+          <!-- Üst görsel: anberTech.png -->
+          <img class="hero-img" src="anberTech.png" alt="AnberTech" />
+
+          <div class="title">AnberTech</div>
+          <div class="subtitle">Uygulamalarımız</div>
+        </div>
+
+        <!-- 3 logo = 3 link -->
+        <div class="apps">
+          <a class="app-link" href="Kuafix/" aria-label="Kuafix sayfasına git">
+            <img src="kuafix.png" alt="Kuafix" />
+            <div class="app-name">Kuafix</div>
+          </a>
+
+          <a class="app-link" href="TurnuVolt/" aria-label="TurnuVolt sayfasına git">
+            <img src="turnuvolt.png" alt="TurnuVolt" />
+            <div class="app-name">TurnuVolt</div>
+          </a>
+
+          <a class="app-link" href="NotHesaplayici/" aria-label="Not Hesaplayıcı sayfasına git">
+            <img src="not_hesaplayici.png" alt="Not Hesaplayıcı" />
+            <div class="app-name">Not Hesaplayıcı</div>
+          </a>
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-pill">© <span id="y"></span> AnberTech</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
