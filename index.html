@@ -104,22 +104,28 @@
       gap: 12px;
     }
 
-    .app-link {
-      display: block;
-      text-decoration: none;
-      border-radius: 16px;
+    .app-link{
+  display: block;
+  text-decoration: none;
+  border-radius: 16px;
 
-      background: rgba(255,255,255,0.62);
-      border: 1px solid rgba(0,0,0,0.06);
-      padding: 14px 12px;
+  background: transparent;  /* ✅ tamamen şeffaf */
+  border: none;             /* ✅ gölge kesen çerçeve yok */
+  padding: 10px 8px;
 
-      transition: transform 0.18s ease, background 0.18s ease;
-    }
+  transition: transform 0.18s ease;
+}
 
-    .app-link:hover {
-      background: rgba(255,255,255,0.78);
-      transform: translateY(-2px);
-    }
+.app-link:hover{
+  transform: translateY(-2px);
+}
+
+
+    .app-link:hover{
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.10); /* çok hafif */
+}
+
 
     .app-link img {
       width: 100%;
