@@ -64,16 +64,21 @@
       margin: 0 auto 14px;
     }
 
-    .hero-img {
-      width: 100%;
-      height: auto;
-      display: block;
+    .hero-img{
+  width: 100%;
+  max-width: 140px;    /* ikonlarla aynı */
+  height: 140px;       /* kare ikon hissi */
+  object-fit: contain; /* logo bozulmadan sığsın */
+  display: block;
+  margin: 0 auto 8px;
 
-      -webkit-mask-image: radial-gradient(ellipse at center, #000 72%, transparent 100%);
-      mask-image: radial-gradient(ellipse at center, #000 72%, transparent 100%);
+  /* Kuafix’teki fade mask burada gereksiz; ikon gibi dursun */
+  -webkit-mask-image: none;
+  mask-image: none;
 
-      filter: drop-shadow(0 12px 26px rgba(0,0,0,0.18));
-    }
+  filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
+}
+
 
     .title {
       margin: 10px 0 0;
