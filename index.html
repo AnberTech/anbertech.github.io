@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anberech</title>
+  <title>AnberTech</title>
 
   <style>
     :root{
@@ -16,6 +16,12 @@
       --glassBorder: rgba(0,0,0,0.06);
       --shadow: 0 18px 46px rgba(0,0,0,0.18);
       --radius: 18px;
+
+      /* app kart için */
+      --appRadius: 14px;                 /* ✅ 12–15 arası */
+      --appBorder: rgba(0,0,0,0.06);
+      --appBg: rgba(255,255,255,0.30);   /* ✅ hafif, gölgeyi fazla kesmez */
+      --appHoverBg: rgba(255,255,255,0.45);
     }
 
     * { box-sizing: border-box; }
@@ -27,9 +33,7 @@
       min-height: 100vh;
       color: #111;
       text-align: center;
-
-      /* Arka plan görseli şimdilik yok: sade arka plan */
-      background: #f3f4f6;
+      background: #f3f4f6; /* şimdilik sade */
     }
 
     .page {
@@ -64,21 +68,20 @@
       margin: 0 auto 14px;
     }
 
+    /* AnberTech logo: ikonlarla aynı ölçekte */
     .hero-img{
-  width: 100%;
-  max-width: 140px;    /* ikonlarla aynı */
-  height: 140px;       /* kare ikon hissi */
-  object-fit: contain; /* logo bozulmadan sığsın */
-  display: block;
-  margin: 0 auto 8px;
+      width: 100%;
+      max-width: 140px;
+      height: 140px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 8px;
 
-  /* Kuafix’teki fade mask burada gereksiz; ikon gibi dursun */
-  -webkit-mask-image: none;
-  mask-image: none;
+      -webkit-mask-image: none;
+      mask-image: none;
 
-  filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
-}
-
+      filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
+    }
 
     .title {
       margin: 10px 0 0;
@@ -95,37 +98,39 @@
       color: rgba(0,0,0,0.60);
     }
 
-    /* Uygulama ikonları alanı */
+    /* ✅ Uygulama ikonları: her zaman 3 sütun */
     .apps {
       margin: 16px auto 8px;
       width: min(560px, 92vw);
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 12px;
+      align-items: stretch;
     }
 
+    /* ✅ Kart: logo + ad birlikte, radius 14px, border var */
     .app-link{
-  display: block;
-  text-decoration: none;
-  border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
 
-  background: transparent;  /* ✅ tamamen şeffaf */
-  border: none;             /* ✅ gölge kesen çerçeve yok */
-  padding: 10px 8px;
+      text-decoration: none;
+      border-radius: var(--appRadius);
+      border: 1px solid var(--appBorder);
+      background: var(--appBg);
+      padding: 12px 10px;
 
-  transition: transform 0.18s ease;
-}
+      /* Kart içi taşmayı yumuşat (ikon gölgesini aşırı kesmesin) */
+      overflow: visible;
 
-.app-link:hover{
-  transform: translateY(-2px);
-}
-
+      transition: transform 0.18s ease, background 0.18s ease;
+    }
 
     .app-link:hover{
-  transform: translateY(-2px);
-  background: rgba(255,255,255,0.10); /* çok hafif */
-}
-
+      transform: translateY(-2px);
+      background: var(--appHoverBg);
+    }
 
     .app-link img {
       width: 100%;
@@ -134,6 +139,8 @@
       display: block;
       margin: 0 auto;
       border-radius: 14px;
+
+      /* ikon gölgesi */
       filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
     }
 
@@ -143,6 +150,7 @@
       font-weight: 900;
       color: var(--link);
       letter-spacing: 0.1px;
+      line-height: 1.15;
     }
 
     footer {
@@ -163,18 +171,44 @@
       -webkit-backdrop-filter: blur(10px);
     }
 
-    @media (max-width: 720px) {
-      .apps {
-        grid-template-columns: 1fr;
-      }
-      .app-link img {
-        max-width: 160px;
-      }
-    }
-
+    /* ✅ Küçük ekran: yine 3 sütun kalsın ama sıkıştır */
     @media (max-width: 520px) {
       .overlay { padding: 20px 12px 14px; }
       .title { font-size: 30px; }
+
+      .apps { gap: 10px; }
+
+      .app-link{
+        padding: 10px 6px;
+        border-radius: 12px; /* ✅ 12’ye çek */
+      }
+
+      .app-link img{
+        max-width: 96px;   /* ✅ yan yana sığsın */
+        border-radius: 12px;
+        filter: drop-shadow(0 10px 18px rgba(0,0,0,0.16));
+      }
+
+      .app-name{
+        font-size: 13px;
+        margin-top: 8px;
+      }
+
+      .hero-img{
+        max-width: 110px;
+        height: 110px;
+      }
+    }
+
+    /* ✅ Çok küçük ekranlar (eski/mini telefonlar) */
+    @media (max-width: 360px) {
+      .apps { gap: 8px; }
+
+      .app-link{ padding: 9px 5px; }
+
+      .app-link img{ max-width: 84px; }
+
+      .app-name{ font-size: 12px; }
     }
   </style>
 </head>
@@ -185,14 +219,11 @@
       <div class="overlay">
 
         <div class="hero-block">
-          <!-- Üst görsel: anberTech.png -->
           <img class="hero-img" src="anberTech.png" alt="AnberTech" />
-
           <div class="title">AnberTech</div>
           <div class="subtitle">Uygulamalarımız</div>
         </div>
 
-        <!-- 3 logo = 3 link -->
         <div class="apps">
           <a class="app-link" href="Kuafix/" aria-label="Kuafix sayfasına git">
             <img src="kuafix.png" alt="Kuafix" />
