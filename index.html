@@ -1,256 +1,80 @@
-<!DOCTYPE html>
-<html lang="tr">
+<!doctype html>
+<html lang="tr" data-theme="dark">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AnberTech</title>
-
-  <style>
-    :root{
-      --brand: #003366;
-
-      --link: #2b2b2b;
-      --linkHover: #111111;
-
-      --glass: rgba(255, 255, 255, 0.80);
-      --glassBorder: rgba(0,0,0,0.06);
-      --shadow: 0 18px 46px rgba(0,0,0,0.18);
-      --radius: 18px;
-
-      /* app kart için */
-      --appRadius: 14px;                 /* ✅ 12–15 arası */
-      --appBorder: rgba(0,0,0,0.06);
-      --appBg: rgba(255,255,255,0.30);   /* ✅ hafif, gölgeyi fazla kesmez */
-      --appHoverBg: rgba(255,255,255,0.45);
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-      color: #111;
-      text-align: center;
-      background: #f3f4f6; /* şimdilik sade */
-    }
-
-    .page {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-
-    main {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 26px 14px 72px;
-    }
-
-    .overlay {
-      background: var(--glass);
-      border: 1px solid var(--glassBorder);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-
-      width: min(820px, 96vw);
-      padding: 26px 18px 18px;
-    }
-
-    .hero-block {
-      width: min(560px, 92vw);
-      margin: 0 auto 14px;
-    }
-
-    /* AnberTech logo: ikonlarla aynı ölçekte */
-    .hero-img{
-      width: 100%;
-      max-width: 140px;
-      height: 140px;
-      object-fit: contain;
-      display: block;
-      margin: 0 auto 8px;
-
-      -webkit-mask-image: none;
-      mask-image: none;
-
-      filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
-    }
-
-    .title {
-      margin: 10px 0 0;
-      font-size: 34px;
-      font-weight: 900;
-      letter-spacing: 0.2px;
-      color: #111;
-    }
-
-    .subtitle {
-      margin: 6px 0 0;
-      font-size: 16px;
-      font-weight: 600;
-      color: rgba(0,0,0,0.60);
-    }
-
-    /* ✅ Uygulama ikonları: her zaman 3 sütun */
-    .apps {
-      margin: 16px auto 8px;
-      width: min(560px, 92vw);
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-      align-items: stretch;
-    }
-
-    /* ✅ Kart: logo + ad birlikte, radius 14px, border var */
-    .app-link{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      text-decoration: none;
-      border-radius: var(--appRadius);
-      border: 1px solid var(--appBorder);
-      background: var(--appBg);
-      padding: 12px 10px;
-
-      /* Kart içi taşmayı yumuşat (ikon gölgesini aşırı kesmesin) */
-      overflow: visible;
-
-      transition: transform 0.18s ease, background 0.18s ease;
-    }
-
-    .app-link:hover{
-      transform: translateY(-2px);
-      background: var(--appHoverBg);
-    }
-
-    .app-link img {
-      width: 100%;
-      max-width: 140px;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-      border-radius: 14px;
-
-      /* ikon gölgesi */
-      filter: drop-shadow(0 12px 24px rgba(0,0,0,0.18));
-    }
-
-    .app-name {
-      margin-top: 10px;
-      font-size: 16px;
-      font-weight: 900;
-      color: var(--link);
-      letter-spacing: 0.1px;
-      line-height: 1.15;
-    }
-
-    footer {
-      width: 100%;
-      padding: 16px 0 18px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .footer-pill {
-      font-size: 13px;
-      color: rgba(0,0,0,0.68);
-      background: rgba(255,255,255,0.62);
-      border: 1px solid rgba(0,0,0,0.06);
-      padding: 8px 16px;
-      border-radius: 999px;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-    }
-
-    /* ✅ Küçük ekran: yine 3 sütun kalsın ama sıkıştır */
-    @media (max-width: 520px) {
-      .overlay { padding: 20px 12px 14px; }
-      .title { font-size: 30px; }
-
-      .apps { gap: 10px; }
-
-      .app-link{
-        padding: 10px 6px;
-        border-radius: 12px; /* ✅ 12’ye çek */
-      }
-
-      .app-link img{
-        max-width: 96px;   /* ✅ yan yana sığsın */
-        border-radius: 12px;
-        filter: drop-shadow(0 10px 18px rgba(0,0,0,0.16));
-      }
-
-      .app-name{
-        font-size: 13px;
-        margin-top: 8px;
-      }
-
-      .hero-img{
-        max-width: 110px;
-        height: 110px;
-      }
-    }
-
-    /* ✅ Çok küçük ekranlar (eski/mini telefonlar) */
-    @media (max-width: 360px) {
-      .apps { gap: 8px; }
-
-      .app-link{ padding: 9px 5px; }
-
-      .app-link img{ max-width: 84px; }
-
-      .app-name{ font-size: 12px; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AnberTech</title>
+<meta name="description" content="AnberTech: Kuafix, TurnuVolt ve Not Hesaplayıcı uygulamalarının resmi sayfası.">
+<link rel="canonical" href="https://anbertech.github.io/">
+<link rel="alternate" hreflang="tr" href="https://anbertech.github.io/">
+<link rel="alternate" hreflang="en" href="https://anbertech.github.io/en/">
+<link rel="icon" href="anberTech.png">
+<meta property="og:title" content="AnberTech">
+<meta property="og:description" content="AnberTech: Kuafix, TurnuVolt ve Not Hesaplayıcı uygulamalarının resmi sayfası.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://anbertech.github.io/">
+<meta name="theme-color" content="#08090d">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var s=localStorage.getItem('ab_theme');var d=s||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',d)}catch(e){}</script>
 </head>
-
 <body>
-  <div class="page">
-    <main>
-      <div class="overlay">
-
-        <div class="hero-block">
-          <img class="hero-img" src="anberTech.png" alt="AnberTech" />
-          <div class="title">AnberTech</div>
-          <div class="subtitle">Uygulamalarımız</div>
-        </div>
-
-        <div class="apps">
-          <a class="app-link" href="Kuafix/" aria-label="Kuafix sayfasına git">
-            <img src="kuafix.png" alt="Kuafix" />
-            <div class="app-name">Kuafix</div>
-          </a>
-
-          <a class="app-link" href="TurnuVolt/" aria-label="TurnuVolt sayfasına git">
-            <img src="turnuvolt.png" alt="TurnuVolt" />
-            <div class="app-name">TurnuVolt</div>
-          </a>
-
-          <a class="app-link" href="NotHesaplayici/" aria-label="Not Hesaplayıcı sayfasına git">
-            <img src="not_hesaplayici.png" alt="Not Hesaplayıcı" />
-            <div class="app-name">Not Hesaplayıcı</div>
-          </a>
-        </div>
-
-      </div>
-    </main>
-
-    <footer>
-      <div class="footer-pill">© <span id="y"></span> AnberTech</div>
-    </footer>
-  </div>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-apple" viewBox="0 0 512 512"><path fill="currentColor" d="M248.644,123.476c-5.45-29.71,8.598-60.285,25.516-80.89c18.645-22.735,50.642-40.17,77.986-42.086c4.619,31.149-8.093,61.498-24.826,82.965C309.37,106.527,278.508,124.411,248.644,123.476z M409.034,231.131c8.461-23.606,25.223-44.845,51.227-59.175c-26.278-32.792-63.173-51.83-97.99-51.83c-46.065,0-65.542,21.947-97.538,21.947c-32.96,0-57.965-21.947-97.866-21.947c-39.127,0-80.776,23.848-107.19,64.577c-9.712,15.055-16.291,33.758-19.879,54.59c-9.956,58.439,4.916,134.557,49.279,202.144c21.57,32.796,50.321,69.737,87.881,70.059c33.459,0.327,42.951-21.392,88.246-21.616c45.362-0.258,53.959,21.841,87.372,21.522c37.571-0.317,67.906-41.199,89.476-73.991c15.359-23.532,21.167-35.418,33.11-62.023C414.435,352.487,389.459,285.571,409.034,231.131z"/></symbol>
+<symbol id="i-play" viewBox="0 0 32 32"><defs>
+<linearGradient id="gp0" x1="15.68" y1="10.87" x2="7.07" y2="19.55" gradientUnits="userSpaceOnUse"><stop stop-color="#00C3FF"/><stop offset="1" stop-color="#1BE2FA"/></linearGradient>
+<linearGradient id="gp1" x1="20.29" y1="15.82" x2="31.74" y2="15.82" gradientUnits="userSpaceOnUse"><stop stop-color="#FFCE00"/><stop offset="1" stop-color="#FFEA00"/></linearGradient>
+<linearGradient id="gp2" x1="7.37" y1="30.1" x2="22.6" y2="17.89" gradientUnits="userSpaceOnUse"><stop stop-color="#DE2453"/><stop offset="1" stop-color="#FE3944"/></linearGradient>
+<linearGradient id="gp3" x1="8.11" y1="1.9" x2="22.6" y2="13.74" gradientUnits="userSpaceOnUse"><stop stop-color="#11D574"/><stop offset="1" stop-color="#01F176"/></linearGradient></defs>
+<path d="M7.63 28.55L20.29 15.82 7.84 3.3C7.35 3.62 7 4.17 7 4.83v22.34c0 .57.25 1.05.63 1.38z" fill="url(#gp0)"/>
+<path d="M30.05 14.4c1.27.7 1.27 2.5 0 3.2l-5.12 2.82-4.64-4.6 4.4-4.36 5.36 2.94z" fill="url(#gp1)"/>
+<path d="M24.93 20.42l-4.64-4.6L7.63 28.55c.56.48 1.39.62 2.12.22l15.18-8.35z" fill="url(#gp2)"/>
+<path d="M7.84 3.3l12.45 12.52 4.4-4.37L9.76 3.23C9.11 2.88 8.39 2.95 7.84 3.3z" fill="url(#gp3)"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="wrap">
+<header>
+  <a class="brand" href="./"><img class="logo" src="anberTech.png" alt="" width="30" height="30" onerror="this.style.display='none'"><span>AnberTech</span></a>
+  <div class="tools"><a class="pill" href="en/" hreflang="en">English</a>
+  <button class="pill sq" id="theme" type="button" aria-label="Tema"><span class="sun">☀</span><span class="moon">☾</span></button></div>
+</header>
+<main>
+  <section class="hero">
+    <h1>Sade uygulamalar. <span class="grad">Net işler.</span></h1>
+    <p class="sub">Günlük işleri kolaylaştıran üç mobil uygulama.</p>
+  </section>
+  <section class="grid">
+<article class="card" style="--a:#22d3ee;--a2:#34d399;--i:0">
+  <a class="cover" href="https://anbertech.github.io/Kuafix/" aria-label="Kuafix"></a>
+  <div class="head"><span class="ico ico-kuafix"><img src="assets/img/kuafix.png" alt="" width="64" height="64"></span>
+    <div class="ttl"><h2>Kuafix</h2><p class="tag">İster kuaför ol, ister müşteri</p></div><svg class="ic go" aria-hidden="true"><use href="#i-arrow"/></svg></div>
+  <p class="txt">Kuaförler için takvim ve finans paneli, müşteriler için kolay randevu.</p>
+  <div class="stores"><a class="st" href="https://apps.apple.com/tr/app/kuafix/id6746421487?l=tr" target="_blank" rel="noopener" aria-label="App Store"><svg class="ic " aria-hidden="true"><use href="#i-apple"/></svg>App Store</a><a class="st" href="https://play.google.com/store/apps/details?id=com.anbertech.kuafix&hl=tr" target="_blank" rel="noopener" aria-label="Google Play"><svg class="ic " aria-hidden="true"><use href="#i-play"/></svg>Google Play</a></div>
+  <div class="foot"><span class="plat">iOS · Android</span><span class="lnk"><a href="https://anbertech.github.io/Kuafix/support.html">Destek</a><a href="https://anbertech.github.io/Kuafix/privacy.html">Gizlilik</a></span></div>
+</article>
+<article class="card" style="--a:#fbbf24;--a2:#f59e0b;--i:1">
+  <a class="cover" href="https://anbertech.github.io/TurnuVolt/" aria-label="TurnuVolt"></a>
+  <div class="head"><span class="ico ico-turnuvolt"><img src="assets/img/turnuvolt.png" alt="" width="64" height="64"></span>
+    <div class="ttl"><h2>TurnuVolt</h2><p class="tag">Her oyun için turnuva ve lig</p></div><svg class="ic go" aria-hidden="true"><use href="#i-arrow"/></svg></div>
+  <p class="txt">Fikstür, skor ve sıralama; top sporlarından e-spora onlarca oyun.</p>
+  <div class="stores"><a class="st" href="https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr" target="_blank" rel="noopener" aria-label="App Store"><svg class="ic " aria-hidden="true"><use href="#i-apple"/></svg>App Store</a></div>
+  <div class="foot"><span class="plat">iOS</span><span class="lnk"><a href="https://anbertech.github.io/TurnuVolt/support.html">Destek</a><a href="https://anbertech.github.io/TurnuVolt/privacy.html">Gizlilik</a></span></div>
+</article>
+<article class="card" style="--a:#60a5fa;--a2:#818cf8;--i:2">
+  <a class="cover" href="https://anbertech.github.io/NotHesaplayici/" aria-label="Not Hesaplayıcı"></a>
+  <div class="head"><span class="ico ico-nothesaplayici"><img src="assets/img/nothesaplayici.png" alt="" width="64" height="64"></span>
+    <div class="ttl"><h2>Not Hesaplayıcı</h2><p class="tag">Ortalama, final ve GANO</p></div><svg class="ic go" aria-hidden="true"><use href="#i-arrow"/></svg></div>
+  <p class="txt">Ortalamanı hesapla, gereken finali bul, GANO'nu takip et. 17 dilde.</p>
+  <div class="stores"><a class="st" href="https://apps.apple.com/tr/app/not-hesaplay%C4%B1c%C4%B1/id6745179531?l=tr" target="_blank" rel="noopener" aria-label="App Store"><svg class="ic " aria-hidden="true"><use href="#i-apple"/></svg>App Store</a><span class="st off"><svg class="ic " aria-hidden="true"><use href="#i-play"/></svg>Yakında</span></div>
+  <div class="foot"><span class="plat">iOS · Android yakında</span><span class="lnk"><a href="https://anbertech.github.io/NotHesaplayici/support.html">Destek</a><a href="https://anbertech.github.io/NotHesaplayici/privacy.html">Gizlilik</a></span></div>
+</article>
+  </section>
+</main>
+<footer>
+  <a class="mail" href="mailto:destek.anbertech@gmail.com">destek.anbertech@gmail.com</a>
+  <span>© 2026 AnberTech · Tüm hakları saklıdır.</span>
+</footer>
+</div>
+<script src="assets/app.js"></script>
 </body>
 </html>
