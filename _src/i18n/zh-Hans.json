@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech：Kuafix、TurnuVolt、成绩计算器和 Formal Nöbet Çözücü",
+ "meta_desc": "AnberTech 的应用：美发沙龙和理发店预约应用 Kuafix、赛事与赛程应用 TurnuVolt、成绩与 GPA 应用成绩计算器，以及面向医生的免费值班表工具 Formal Nöbet Çözücü。",
+ "h1_a": "简单的应用。",
+ "h1_b": "清楚的事。",
+ "lead": "AnberTech 是来自土耳其的独立开发者。每个应用只把一件事做好：预约、赛事、成绩和值班表。",
+ "aria_theme": "主题",
+ "aria_lang": "语言",
+ "soon": "即将推出",
+ "support": "支持",
+ "privacy": "隐私",
+ "kfx_tag": "无论你是美发师还是顾客",
+ "kfx_txt": "为美发沙龙提供预约日历、收入记录和统计；顾客可以找美发师、在线预约，并用 AI 试发型。",
+ "kfx_plat": "iOS · Android · 仅土耳其语 · Premium 订阅",
+ "tv_tag": "适用于任何游戏的赛事和联赛",
+ "tv_txt": "联赛和淘汰赛赛程、比分和积分榜，覆盖从足球到乒乓球、国际象棋和电子竞技的数十种游戏。支持 33 种语言。",
+ "tv_plat": "iOS · Android 即将推出 · 一次性购买",
+ "nh_tag": "平均分、期末考试和 GPA",
+ "nh_txt": "计算平均分，算出期末考试需要多少分，并跟踪你的 GPA。无广告、无需账号、可离线使用。支持 17 种语言。",
+ "nh_plat": "iOS · Android 即将推出 · 免费",
+ "nf_tag": "医生值班表",
+ "nf_txt": "根据加班目标、休假和法定节假日，为医院科室排出均衡的月度值班表。无需安装。",
+ "nf_plat": "网页浏览器 · 仅土耳其语 · 免费",
+ "nf_open": "打开工具",
+ "about_h2": "关于 AnberTech",
+ "about_p": "AnberTech 开发移动应用和网页工具，用简单的方式解决日常问题。应用已在 App Store 和 Google Play 上架，每个应用都有自己的网站，提供免费网页工具和指南。Kuafix 和 Formal Nöbet Çözücü 为土耳其用户以土耳其语制作；TurnuVolt 和成绩计算器支持多种语言。",
+ "faq_h2": "常见问题",
+ "rights": "保留所有权利。",
+ "faq": [
+  [
+   "AnberTech 的应用免费吗？",
+   "成绩计算器和 Formal Nöbet Çözücü 免费。TurnuVolt 为一次性购买。Kuafix 可免费下载，顾客免费使用；美发师面板在 1 个月免费试用后需要 Premium 订阅。"
+  ],
+  [
+   "每个应用是做什么的？",
+   "Kuafix 用于美发沙龙和理发店预约，TurnuVolt 为任何游戏生成赛事和联赛赛程，成绩计算器计算平均分、期末所需分数和 GPA，Formal Nöbet Çözücü 为医生排出月度值班表。"
+  ],
+  [
+   "不安装可以试用吗？",
+   "可以。TurnuVolt 网站有免费的赛程生成器，成绩计算器网站有免费的期末分数、平均分和 GPA 计算器。Formal Nöbet Çözücü 本身就在浏览器中运行。"
+  ],
+  [
+   "支持哪些语言？",
+   "TurnuVolt 支持 33 种语言，成绩计算器支持 17 种语言。Kuafix 和 Formal Nöbet Çözücü 为土耳其语。"
+  ],
+  [
+   "如何联系？",
+   "一般问题请发邮件至 destek.anbertech@gmail.com。每个应用也有自己的支持页面。"
+  ]
+ ]
+}

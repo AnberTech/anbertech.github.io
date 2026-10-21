@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator a Formal Nöbet Çözücü",
+ "meta_desc": "Aplikace AnberTech: Kuafix pro objednávky u kadeřníků a barberů, TurnuVolt pro turnaje a rozpisy zápasů, Grade Calculator pro známky a GPA a Formal Nöbet Çözücü, bezplatný nástroj pro rozpisy služeb lékařů.",
+ "h1_a": "Jednoduché aplikace.",
+ "h1_b": "Jasná práce.",
+ "lead": "AnberTech je nezávislý vývojář z Turecka. Každá aplikace dělá dobře jednu věc: objednávky, turnaje, známky a služby.",
+ "aria_theme": "Motiv",
+ "aria_lang": "Jazyk",
+ "soon": "Brzy",
+ "support": "Podpora",
+ "privacy": "Soukromí",
+ "kfx_tag": "Kadeřník i zákazník",
+ "kfx_txt": "Kalendář objednávek, přehled tržeb a statistiky pro salony; pro zákazníky: najít kadeřníka, objednat se online a vyzkoušet účes s AI.",
+ "kfx_plat": "iOS · Android · pouze turecky · předplatné Premium",
+ "tv_tag": "Turnaje a ligy pro jakoukoli hru",
+ "tv_txt": "Ligové a vyřazovací rozpisy, výsledky a tabulky pro desítky her, od fotbalu přes stolní tenis a šachy po e-sporty. V 33 jazycích.",
+ "tv_plat": "iOS · Android brzy · jednorázový nákup",
+ "nh_tag": "Průměr, závěrečná zkouška a GPA",
+ "nh_txt": "Spočítej si průměr, zjisti, jakou známku potřebuješ u závěrečné zkoušky, a sleduj své GPA. Bez reklam, bez účtu, offline. V 17 jazycích.",
+ "nh_plat": "iOS · Android brzy · zdarma",
+ "nf_tag": "Rozpisy služeb pro lékaře",
+ "nf_txt": "Sestaví pro nemocniční oddělení vyvážený měsíční rozpis služeb podle cílů přesčasů, dovolených a svátků. Nic se neinstaluje.",
+ "nf_plat": "Webový prohlížeč · pouze turecky · zdarma",
+ "nf_open": "Otevřít nástroj",
+ "about_h2": "O AnberTech",
+ "about_p": "AnberTech vyvíjí mobilní aplikace a webové nástroje, které jednoduše řeší každodenní problém. Aplikace jsou v App Store a na Google Play a každá má vlastní web s bezplatnými nástroji a návody. Kuafix a Formal Nöbet Çözücü jsou v turečtině pro Turecko; TurnuVolt a Grade Calculator jsou dostupné v mnoha jazycích.",
+ "faq_h2": "Časté otázky",
+ "rights": "Všechna práva vyhrazena.",
+ "faq": [
+  [
+   "Jsou aplikace AnberTech zdarma?",
+   "Grade Calculator a Formal Nöbet Çözücü jsou zdarma. TurnuVolt je jednorázový nákup. Kuafix lze stáhnout zdarma a pro zákazníky je zdarma; panel kadeřníka po měsíční bezplatné zkoušce vyžaduje předplatné Premium."
+  ],
+  [
+   "K čemu která aplikace slouží?",
+   "Kuafix slouží k objednávkám u kadeřníků a barberů, TurnuVolt vytváří rozpisy turnajů a lig pro jakoukoli hru, Grade Calculator počítá průměr, potřebnou známku u závěrečné zkoušky a GPA a Formal Nöbet Çözücü sestavuje měsíční rozpisy služeb lékařů."
+  ],
+  [
+   "Mohu je vyzkoušet bez instalace?",
+   "Ano. Web TurnuVolt nabízí bezplatný generátor rozpisu zápasů a web Grade Calculator bezplatné kalkulačky závěrečné známky, průměru a GPA. Formal Nöbet Çözücü běží přímo v prohlížeči."
+  ],
+  [
+   "V jakých jazycích jsou dostupné?",
+   "TurnuVolt je dostupný v 33 jazycích a Grade Calculator v 17. Kuafix a Formal Nöbet Çözücü jsou v turečtině."
+  ],
+  [
+   "Jak vás mohu kontaktovat?",
+   "S obecnými dotazy pište na destek.anbertech@gmail.com. Každá aplikace má i vlastní stránku podpory."
+  ]
+ ]
+}

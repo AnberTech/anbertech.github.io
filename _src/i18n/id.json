@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Kalkulator Nilai, dan Formal Nöbet Çözücü",
+ "meta_desc": "Aplikasi dari AnberTech: Kuafix untuk janji temu salon rambut dan barbershop; TurnuVolt untuk turnamen dan jadwal pertandingan; Kalkulator Nilai untuk nilai dan IPK; serta Formal Nöbet Çözücü, alat gratis untuk jadwal jaga dokter.",
+ "h1_a": "Aplikasi sederhana.",
+ "h1_b": "Tugas yang jelas.",
+ "lead": "AnberTech adalah pengembang independen dari Turki. Setiap aplikasi mengerjakan satu hal dengan baik: janji temu, turnamen, nilai, dan jadwal jaga.",
+ "aria_theme": "Tema",
+ "aria_lang": "Bahasa",
+ "soon": "Segera hadir",
+ "support": "Dukungan",
+ "privacy": "Privasi",
+ "kfx_tag": "Jadi penata rambut atau pelanggan",
+ "kfx_txt": "Kalender janji temu, pencatatan pendapatan, dan statistik untuk salon; untuk pelanggan: temukan penata rambut, pesan online, dan coba gaya rambut dengan AI.",
+ "kfx_plat": "iOS · Android · hanya bahasa Turki · langganan Premium",
+ "tv_tag": "Turnamen dan liga untuk semua permainan",
+ "tv_txt": "Jadwal liga dan sistem gugur, skor, dan klasemen untuk puluhan permainan, dari sepak bola hingga tenis meja, catur, dan esports. Dalam 33 bahasa.",
+ "tv_plat": "iOS · Android segera hadir · sekali beli",
+ "nh_tag": "Rata-rata, UAS, dan IPK",
+ "nh_txt": "Hitung rata-rata nilaimu, cari tahu nilai UAS yang kamu butuhkan, dan pantau IPK-mu. Tanpa iklan, tanpa akun, bisa offline. Dalam 17 bahasa.",
+ "nh_plat": "iOS · Android segera hadir · gratis",
+ "nf_tag": "Jadwal jaga untuk dokter",
+ "nf_txt": "Menyusun jadwal jaga bulanan yang seimbang untuk bagian rumah sakit berdasarkan target lembur, cuti, dan hari libur nasional. Tanpa instalasi.",
+ "nf_plat": "Peramban web · hanya bahasa Turki · gratis",
+ "nf_open": "Buka alat",
+ "about_h2": "Tentang AnberTech",
+ "about_p": "AnberTech membuat aplikasi seluler dan alat web yang menyelesaikan masalah sehari-hari dengan sederhana. Aplikasinya tersedia di App Store dan Google Play, dan masing-masing punya situs sendiri dengan alat web gratis dan panduan. Kuafix dan Formal Nöbet Çözücü dibuat dalam bahasa Turki untuk Turki; TurnuVolt dan Kalkulator Nilai tersedia dalam banyak bahasa.",
+ "faq_h2": "Pertanyaan umum",
+ "rights": "Hak cipta dilindungi.",
+ "faq": [
+  [
+   "Apakah aplikasi AnberTech gratis?",
+   "Kalkulator Nilai dan Formal Nöbet Çözücü gratis. TurnuVolt dibeli sekali. Kuafix gratis diunduh dan gratis untuk pelanggan; panel penata rambut memerlukan langganan Premium setelah uji coba gratis 1 bulan."
+  ],
+  [
+   "Apa fungsi setiap aplikasi?",
+   "Kuafix untuk janji temu di salon rambut dan barbershop, TurnuVolt membuat jadwal turnamen dan liga untuk permainan apa pun, Kalkulator Nilai menghitung rata-rata, nilai UAS yang dibutuhkan, dan IPK, dan Formal Nöbet Çözücü menyusun jadwal jaga bulanan dokter."
+  ],
+  [
+   "Bisakah saya mencobanya tanpa memasang?",
+   "Bisa. Situs TurnuVolt punya pembuat jadwal pertandingan gratis, dan situs Kalkulator Nilai punya kalkulator gratis untuk nilai UAS, rata-rata, dan IPK. Formal Nöbet Çözücü memang berjalan di peramban."
+  ],
+  [
+   "Tersedia dalam bahasa apa saja?",
+   "TurnuVolt tersedia dalam 33 bahasa dan Kalkulator Nilai dalam 17 bahasa. Kuafix dan Formal Nöbet Çözücü berbahasa Turki."
+  ],
+  [
+   "Bagaimana cara menghubungi kalian?",
+   "Untuk pertanyaan umum, kirim email ke destek.anbertech@gmail.com. Setiap aplikasi juga punya halaman dukungan sendiri."
+  ]
+ ]
+}

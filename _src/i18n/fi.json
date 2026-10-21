@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator ja Formal Nöbet Çözücü",
+ "meta_desc": "AnberTechin sovellukset: Kuafix kampaamo- ja parturiaikojen varaamiseen, TurnuVolt turnauksiin ja otteluohjelmiin, Grade Calculator arvosanoihin ja GPA:han sekä Formal Nöbet Çözücü, ilmainen päivystyslistatyökalu lääkäreille.",
+ "h1_a": "Yksinkertaisia sovelluksia.",
+ "h1_b": "Selkeitä tehtäviä.",
+ "lead": "AnberTech on itsenäinen kehittäjä Turkista. Jokainen sovellus tekee yhden asian hyvin: ajanvaraukset, turnaukset, arvosanat ja päivystykset.",
+ "aria_theme": "Teema",
+ "aria_lang": "Kieli",
+ "soon": "Tulossa",
+ "support": "Tuki",
+ "privacy": "Tietosuoja",
+ "kfx_tag": "Olitpa kampaaja tai asiakas",
+ "kfx_txt": "Ajanvarauskalenteri, tulojen seuranta ja tilastot kampaamoille; asiakkaille: löydä kampaaja, varaa aika verkossa ja kokeile kampauksia tekoälyllä.",
+ "kfx_plat": "iOS · Android · vain turkiksi · Premium-tilaus",
+ "tv_tag": "Turnauksia ja sarjoja kaikkiin peleihin",
+ "tv_txt": "Sarja- ja pudotuspeliohjelmat, tulokset ja sarjataulukot kymmeniin peleihin jalkapallosta pöytätennikseen, shakkiin ja e-urheiluun. 33 kielellä.",
+ "tv_plat": "iOS · Android tulossa · kertaostos",
+ "nh_tag": "Keskiarvo, loppukoe ja GPA",
+ "nh_txt": "Laske keskiarvosi, selvitä mikä arvosana tarvitset loppukokeesta ja seuraa GPA:tasi. Ei mainoksia, ei tiliä, toimii offline. 17 kielellä.",
+ "nh_plat": "iOS · Android tulossa · ilmainen",
+ "nf_tag": "Päivystyslistat lääkäreille",
+ "nf_txt": "Laatii sairaalaosastoille tasapainoisen kuukausittaisen päivystyslistan ylityötavoitteiden, lomien ja pyhäpäivien mukaan. Ei asennettavaa.",
+ "nf_plat": "Verkkoselain · vain turkiksi · ilmainen",
+ "nf_open": "Avaa työkalu",
+ "about_h2": "Tietoa AnberTechistä",
+ "about_p": "AnberTech tekee mobiilisovelluksia ja verkkotyökaluja, jotka ratkaisevat arjen ongelman yksinkertaisesti. Sovellukset ovat App Storessa ja Google Playssa, ja jokaisella on oma sivusto ilmaisine verkkotyökaluineen ja oppaineen. Kuafix ja Formal Nöbet Çözücü on tehty turkiksi Turkkia varten; TurnuVolt ja Grade Calculator ovat saatavilla monella kielellä.",
+ "faq_h2": "Usein kysytyt kysymykset",
+ "rights": "Kaikki oikeudet pidätetään.",
+ "faq": [
+  [
+   "Ovatko AnberTechin sovellukset ilmaisia?",
+   "Grade Calculator ja Formal Nöbet Çözücü ovat ilmaisia. TurnuVolt on kertaostos. Kuafixin lataaminen on ilmaista ja se on asiakkaille ilmainen; kampaajan paneeli vaatii Premium-tilauksen kuukauden ilmaisen kokeilun jälkeen."
+  ],
+  [
+   "Mihin mikin sovellus on tarkoitettu?",
+   "Kuafix on kampaamo- ja parturiaikoja varten, TurnuVolt laatii turnaus- ja sarjaohjelmat mihin tahansa peliin, Grade Calculator laskee keskiarvosi, loppukokeessa tarvittavan arvosanan ja GPA:si, ja Formal Nöbet Çözücü laatii lääkäreiden kuukausittaiset päivystyslistat."
+  ],
+  [
+   "Voinko kokeilla niitä asentamatta?",
+   "Kyllä. TurnuVoltin sivustolla on ilmainen otteluohjelmageneraattori ja Grade Calculatorin sivustolla ilmaiset laskurit loppuarvosanalle, keskiarvolle ja GPA:lle. Formal Nöbet Çözücü toimii joka tapauksessa selaimessa."
+  ],
+  [
+   "Millä kielillä ne ovat saatavilla?",
+   "TurnuVolt on saatavilla 33 kielellä ja Grade Calculator 17 kielellä. Kuafix ja Formal Nöbet Çözücü ovat turkinkielisiä."
+  ],
+  [
+   "Miten saan yhteyden?",
+   "Yleisissä kysymyksissä kirjoita osoitteeseen destek.anbertech@gmail.com. Jokaisella sovelluksella on myös oma tukisivunsa."
+  ]
+ ]
+}

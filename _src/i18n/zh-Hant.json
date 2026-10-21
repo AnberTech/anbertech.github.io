@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech：Kuafix、TurnuVolt、Grade Calculator 與 Formal Nöbet Çözücü",
+ "meta_desc": "AnberTech 的 App：美髮沙龍與理髮店預約 App Kuafix、賽事與賽程 App TurnuVolt、成績與 GPA App Grade Calculator，以及醫師專用的免費值班表工具 Formal Nöbet Çözücü。",
+ "h1_a": "簡單的 App。",
+ "h1_b": "清楚的事。",
+ "lead": "AnberTech 是來自土耳其的獨立開發者。每個 App 只把一件事做好：預約、賽事、成績與值班表。",
+ "aria_theme": "主題",
+ "aria_lang": "語言",
+ "soon": "即將推出",
+ "support": "支援",
+ "privacy": "隱私",
+ "kfx_tag": "無論你是美髮師還是顧客",
+ "kfx_txt": "為美髮沙龍提供預約行事曆、收入記錄與統計；顧客可以找美髮師、線上預約，並用 AI 試髮型。",
+ "kfx_plat": "iOS · Android · 僅土耳其語 · Premium 訂閱",
+ "tv_tag": "適用於任何遊戲的賽事與聯賽",
+ "tv_txt": "聯賽與淘汰賽賽程、比分與積分榜，涵蓋從足球到桌球、西洋棋與電競的數十種遊戲。支援 33 種語言。",
+ "tv_plat": "iOS · Android 即將推出 · 一次性購買",
+ "nh_tag": "平均分數、期末考與 GPA",
+ "nh_txt": "計算平均分數，算出期末考需要幾分，並追蹤你的 GPA。無廣告、免帳號、可離線使用。支援 17 種語言。",
+ "nh_plat": "iOS · Android 即將推出 · 免費",
+ "nf_tag": "醫師值班表",
+ "nf_txt": "依照加班目標、休假與國定假日，為醫院科別排出均衡的每月值班表。無需安裝。",
+ "nf_plat": "網頁瀏覽器 · 僅土耳其語 · 免費",
+ "nf_open": "開啟工具",
+ "about_h2": "關於 AnberTech",
+ "about_p": "AnberTech 開發行動 App 與網頁工具，用簡單的方式解決日常問題。App 已在 App Store 與 Google Play 上架，每個 App 都有自己的網站，提供免費網頁工具與指南。Kuafix 與 Formal Nöbet Çözücü 為土耳其使用者以土耳其語製作；TurnuVolt 與 Grade Calculator 支援多種語言。",
+ "faq_h2": "常見問題",
+ "rights": "版權所有。",
+ "faq": [
+  [
+   "AnberTech 的 App 免費嗎？",
+   "Grade Calculator 與 Formal Nöbet Çözücü 免費。TurnuVolt 為一次性購買。Kuafix 可免費下載，顧客免費使用；美髮師面板在 1 個月免費試用後需要 Premium 訂閱。"
+  ],
+  [
+   "每個 App 是做什麼的？",
+   "Kuafix 用於美髮沙龍與理髮店預約，TurnuVolt 為任何遊戲產生賽事與聯賽賽程，Grade Calculator 計算平均分數、期末所需分數與 GPA，Formal Nöbet Çözücü 為醫師排出每月值班表。"
+  ],
+  [
+   "不安裝可以試用嗎？",
+   "可以。TurnuVolt 網站有免費的賽程產生器，Grade Calculator 網站有免費的期末分數、平均分數與 GPA 計算器。Formal Nöbet Çözücü 本身就在瀏覽器中執行。"
+  ],
+  [
+   "支援哪些語言？",
+   "TurnuVolt 支援 33 種語言，Grade Calculator 支援 17 種語言。Kuafix 與 Formal Nöbet Çözücü 為土耳其語。"
+  ],
+  [
+   "如何聯絡？",
+   "一般問題請寄信至 destek.anbertech@gmail.com。每個 App 也有自己的支援頁面。"
+  ]
+ ]
+}

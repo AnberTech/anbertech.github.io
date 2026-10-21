@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Calculadora de notas y Formal Nöbet Çözücü",
+ "meta_desc": "Apps de AnberTech: Kuafix, una app de citas para peluquerías y barberías; TurnuVolt, una app de torneos y calendarios; Calculadora de notas, para notas y GPA; y Formal Nöbet Çözücü, una herramienta gratuita de guardias para médicos.",
+ "h1_a": "Apps sencillas.",
+ "h1_b": "Tareas claras.",
+ "lead": "AnberTech es un desarrollador independiente de Turquía. Cada app hace bien una sola cosa: citas, torneos, notas y guardias.",
+ "aria_theme": "Tema",
+ "aria_lang": "Idioma",
+ "soon": "Próximamente",
+ "support": "Soporte",
+ "privacy": "Privacidad",
+ "kfx_tag": "Seas peluquero o cliente",
+ "kfx_txt": "Agenda de citas, control de ingresos y estadísticas para peluquerías; para clientes: encontrar peluquero, reservar en línea y probar peinados con IA.",
+ "kfx_plat": "iOS · Android · solo en turco · suscripción Premium",
+ "tv_tag": "Torneos y ligas para cualquier juego",
+ "tv_txt": "Calendarios de liga y eliminatoria, resultados y clasificaciones para decenas de juegos, del fútbol al tenis de mesa, el ajedrez y los esports. En 33 idiomas.",
+ "tv_plat": "iOS · Android próximamente · pago único",
+ "nh_tag": "Media, examen final y GPA",
+ "nh_txt": "Calcula tu media, descubre qué nota necesitas en el examen final y sigue tu GPA. Sin anuncios, sin cuenta, sin conexión. En 17 idiomas.",
+ "nh_plat": "iOS · Android próximamente · gratis",
+ "nf_tag": "Guardias para médicos",
+ "nf_txt": "Crea para servicios hospitalarios un calendario mensual de guardias equilibrado según las horas extra objetivo, permisos y festivos. Sin instalar nada.",
+ "nf_plat": "Navegador web · solo en turco · gratis",
+ "nf_open": "Abrir la herramienta",
+ "about_h2": "Sobre AnberTech",
+ "about_p": "AnberTech crea apps móviles y herramientas web que dan una solución sencilla a un problema cotidiano. Las apps se publican en App Store y Google Play, y cada una tiene su propia web con herramientas gratuitas y guías. Kuafix y Formal Nöbet Çözücü están hechas en turco para Turquía; TurnuVolt y Calculadora de notas están disponibles en muchos idiomas.",
+ "faq_h2": "Preguntas frecuentes",
+ "rights": "Todos los derechos reservados.",
+ "faq": [
+  [
+   "¿Las apps de AnberTech son gratis?",
+   "Calculadora de notas y Formal Nöbet Çözücü son gratis. TurnuVolt es de pago único. Kuafix es gratis para descargar y para los clientes; el panel de peluquero requiere una suscripción Premium tras un mes de prueba gratis."
+  ],
+  [
+   "¿Para qué sirve cada app?",
+   "Kuafix es para citas en peluquerías y barberías, TurnuVolt crea calendarios de torneos y ligas para cualquier juego, Calculadora de notas calcula tu media, la nota que necesitas en el final y tu GPA, y Formal Nöbet Çözücü crea calendarios mensuales de guardias para médicos."
+  ],
+  [
+   "¿Puedo probarlas sin instalar nada?",
+   "Sí. La web de TurnuVolt tiene un generador de calendarios gratuito, y la de Calculadora de notas calculadoras gratuitas de nota final, media y GPA. Formal Nöbet Çözücü ya funciona en el navegador."
+  ],
+  [
+   "¿En qué idiomas están?",
+   "TurnuVolt está en 33 idiomas y Calculadora de notas en 17. Kuafix y Formal Nöbet Çözücü están en turco."
+  ],
+  [
+   "¿Cómo puedo contactar?",
+   "Para preguntas generales, escribe a destek.anbertech@gmail.com. Cada app tiene además su propia página de soporte."
+  ]
+ ]
+}

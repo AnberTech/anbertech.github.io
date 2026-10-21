@@ -13,3 +13,9 @@
     });
   });
 })();
+(function(){
+  /* dil menüsü: dışarı tıklayınca veya Esc ile kapanır */
+  var lm=document.querySelector('.lang-menu');if(!lm)return;
+  document.addEventListener('click',function(e){if(lm.open&&!lm.contains(e.target))lm.open=false});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lm.open){lm.open=false;lm.querySelector('summary').focus()}});
+})();

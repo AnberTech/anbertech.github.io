@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator và Formal Nöbet Çözücü",
+ "meta_desc": "Ứng dụng của AnberTech: Kuafix để đặt lịch tiệm tóc và barbershop, TurnuVolt cho giải đấu và lịch thi đấu, Grade Calculator cho điểm số và GPA, và Formal Nöbet Çözücü, công cụ miễn phí xếp lịch trực cho bác sĩ.",
+ "h1_a": "Ứng dụng đơn giản.",
+ "h1_b": "Việc rõ ràng.",
+ "lead": "AnberTech là nhà phát triển độc lập đến từ Thổ Nhĩ Kỳ. Mỗi ứng dụng làm tốt một việc: đặt lịch, giải đấu, điểm số và lịch trực.",
+ "aria_theme": "Giao diện",
+ "aria_lang": "Ngôn ngữ",
+ "soon": "Sắp ra mắt",
+ "support": "Hỗ trợ",
+ "privacy": "Quyền riêng tư",
+ "kfx_tag": "Dù là thợ tóc hay khách hàng",
+ "kfx_txt": "Lịch hẹn, theo dõi doanh thu và thống kê cho tiệm tóc; với khách hàng: tìm thợ tóc, đặt lịch trực tuyến và thử kiểu tóc bằng AI.",
+ "kfx_plat": "iOS · Android · chỉ tiếng Thổ Nhĩ Kỳ · gói Premium",
+ "tv_tag": "Giải đấu và giải vô địch cho mọi trò chơi",
+ "tv_txt": "Lịch thi đấu vòng tròn và loại trực tiếp, tỉ số và bảng xếp hạng cho hàng chục trò chơi, từ bóng đá đến bóng bàn, cờ vua và thể thao điện tử. 33 ngôn ngữ.",
+ "tv_plat": "iOS · Android sắp ra mắt · mua một lần",
+ "nh_tag": "Điểm trung bình, thi cuối kỳ và GPA",
+ "nh_txt": "Tính điểm trung bình, biết cần bao nhiêu điểm thi cuối kỳ và theo dõi GPA. Không quảng cáo, không cần tài khoản, dùng ngoại tuyến. 17 ngôn ngữ.",
+ "nh_plat": "iOS · Android sắp ra mắt · miễn phí",
+ "nf_tag": "Lịch trực cho bác sĩ",
+ "nf_txt": "Xếp lịch trực hằng tháng cân bằng cho các khoa trong bệnh viện theo mục tiêu giờ làm thêm, ngày nghỉ phép và ngày lễ. Không cần cài đặt.",
+ "nf_plat": "Trình duyệt web · chỉ tiếng Thổ Nhĩ Kỳ · miễn phí",
+ "nf_open": "Mở công cụ",
+ "about_h2": "Về AnberTech",
+ "about_p": "AnberTech làm ứng dụng di động và công cụ web giúp giải quyết đơn giản một vấn đề hằng ngày. Các ứng dụng có trên App Store và Google Play, và mỗi ứng dụng có trang web riêng với công cụ web miễn phí và hướng dẫn. Kuafix và Formal Nöbet Çözücü được làm bằng tiếng Thổ Nhĩ Kỳ cho Thổ Nhĩ Kỳ; TurnuVolt và Grade Calculator có nhiều ngôn ngữ.",
+ "faq_h2": "Câu hỏi thường gặp",
+ "rights": "Bảo lưu mọi quyền.",
+ "faq": [
+  [
+   "Ứng dụng của AnberTech có miễn phí không?",
+   "Grade Calculator và Formal Nöbet Çözücü miễn phí. TurnuVolt mua một lần. Kuafix tải về miễn phí và miễn phí cho khách hàng; bảng điều khiển của thợ tóc cần gói Premium sau 1 tháng dùng thử miễn phí."
+  ],
+  [
+   "Mỗi ứng dụng dùng để làm gì?",
+   "Kuafix để đặt lịch tiệm tóc và barbershop, TurnuVolt tạo lịch thi đấu giải và vòng tròn cho mọi trò chơi, Grade Calculator tính điểm trung bình, điểm cần đạt khi thi cuối kỳ và GPA, còn Formal Nöbet Çözücü xếp lịch trực hằng tháng cho bác sĩ."
+  ],
+  [
+   "Tôi có thể dùng thử mà không cần cài đặt không?",
+   "Có. Trang TurnuVolt có công cụ tạo lịch thi đấu miễn phí, trang Grade Calculator có máy tính điểm cuối kỳ, điểm trung bình và GPA miễn phí. Formal Nöbet Çözücü vốn chạy trong trình duyệt."
+  ],
+  [
+   "Có những ngôn ngữ nào?",
+   "TurnuVolt có 33 ngôn ngữ và Grade Calculator có 17 ngôn ngữ. Kuafix và Formal Nöbet Çözücü bằng tiếng Thổ Nhĩ Kỳ."
+  ],
+  [
+   "Làm sao để liên hệ?",
+   "Với câu hỏi chung, hãy gửi email đến destek.anbertech@gmail.com. Mỗi ứng dụng cũng có trang hỗ trợ riêng."
+  ]
+ ]
+}

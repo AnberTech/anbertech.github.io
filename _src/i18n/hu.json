@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator és Formal Nöbet Çözücü",
+ "meta_desc": "Az AnberTech alkalmazásai: Kuafix fodrászok és borbélyok időpontfoglalásához, TurnuVolt tornákhoz és sorsolásokhoz, Grade Calculator jegyekhez és GPA-hoz, valamint Formal Nöbet Çözücü, ingyenes ügyeleti beosztó orvosoknak.",
+ "h1_a": "Egyszerű appok.",
+ "h1_b": "Világos feladatok.",
+ "lead": "Az AnberTech független fejlesztő Törökországból. Minden app egy dolgot csinál jól: időpontok, tornák, jegyek és ügyeletek.",
+ "aria_theme": "Téma",
+ "aria_lang": "Nyelv",
+ "soon": "Hamarosan",
+ "support": "Támogatás",
+ "privacy": "Adatvédelem",
+ "kfx_tag": "Akár fodrász vagy, akár vendég",
+ "kfx_txt": "Időpontnaptár, bevételkövetés és statisztikák szalonoknak; vendégeknek: fodrász keresése, online foglalás és frizurák kipróbálása MI-vel.",
+ "kfx_plat": "iOS · Android · csak törökül · Premium-előfizetés",
+ "tv_tag": "Tornák és bajnokságok bármilyen játékhoz",
+ "tv_txt": "Bajnoki és kieséses sorsolás, eredmények és tabellák több tucat játékhoz a focitól az asztaliteniszen és a sakkon át az e-sportig. 33 nyelven.",
+ "tv_plat": "iOS · Android hamarosan · egyszeri vásárlás",
+ "nh_tag": "Átlag, vizsga és GPA",
+ "nh_txt": "Számold ki az átlagodat, nézd meg, milyen jegy kell a vizsgán, és kövesd a GPA-dat. Reklám és fiók nélkül, offline. 17 nyelven.",
+ "nh_plat": "iOS · Android hamarosan · ingyenes",
+ "nf_tag": "Ügyeleti beosztás orvosoknak",
+ "nf_txt": "Kórházi osztályoknak kiegyensúlyozott havi ügyeleti beosztást készít a túlóracélok, szabadságok és ünnepnapok alapján. Nincs mit telepíteni.",
+ "nf_plat": "Böngésző · csak törökül · ingyenes",
+ "nf_open": "Eszköz megnyitása",
+ "about_h2": "Az AnberTechről",
+ "about_p": "Az AnberTech mobilalkalmazásokat és webes eszközöket készít, amelyek egyszerűen oldanak meg egy hétköznapi problémát. Az appok az App Store-ban és a Google Playen érhetők el, és mindegyiknek saját weboldala van ingyenes eszközökkel és útmutatókkal. A Kuafix és a Formal Nöbet Çözücü törökül készült Törökországnak; a TurnuVolt és a Grade Calculator sok nyelven elérhető.",
+ "faq_h2": "Gyakori kérdések",
+ "rights": "Minden jog fenntartva.",
+ "faq": [
+  [
+   "Ingyenesek az AnberTech appjai?",
+   "A Grade Calculator és a Formal Nöbet Çözücü ingyenes. A TurnuVolt egyszeri vásárlás. A Kuafix ingyen letölthető és a vendégeknek ingyenes; a fodrászpanelhez egy hónap ingyenes próba után Premium-előfizetés kell."
+  ],
+  [
+   "Melyik app mire való?",
+   "A Kuafix fodrász- és borbélyidőpontokhoz, a TurnuVolt bármilyen játékhoz torna- és bajnoki sorsolást készít, a Grade Calculator kiszámolja az átlagot, a vizsgán szükséges jegyet és a GPA-t, a Formal Nöbet Çözücü pedig havi ügyeleti beosztást készít orvosoknak."
+  ],
+  [
+   "Kipróbálhatom telepítés nélkül?",
+   "Igen. A TurnuVolt oldalán ingyenes sorsolásgenerátor, a Grade Calculator oldalán ingyenes vizsgajegy-, átlag- és GPA-kalkulátorok vannak. A Formal Nöbet Çözücü eleve a böngészőben fut."
+  ],
+  [
+   "Milyen nyelveken érhetők el?",
+   "A TurnuVolt 33, a Grade Calculator 17 nyelven érhető el. A Kuafix és a Formal Nöbet Çözücü török nyelvű."
+  ],
+  [
+   "Hogyan léphetek kapcsolatba veletek?",
+   "Általános kérdésekkel írj a destek.anbertech@gmail.com címre. Minden appnak saját támogatási oldala is van."
+  ]
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator dan Formal Nöbet Çözücü",
+ "meta_desc": "Aplikasi AnberTech: Kuafix untuk temu janji salun rambut dan kedai gunting; TurnuVolt untuk kejohanan dan jadual perlawanan; Grade Calculator untuk markah dan PNGK; dan Formal Nöbet Çözücü, alat percuma untuk jadual atas panggilan doktor.",
+ "h1_a": "Aplikasi ringkas.",
+ "h1_b": "Kerja yang jelas.",
+ "lead": "AnberTech ialah pembangun bebas dari Turki. Setiap aplikasi melakukan satu kerja dengan baik: temu janji, kejohanan, markah dan jadual atas panggilan.",
+ "aria_theme": "Tema",
+ "aria_lang": "Bahasa",
+ "soon": "Akan datang",
+ "support": "Sokongan",
+ "privacy": "Privasi",
+ "kfx_tag": "Sama ada pendandan rambut atau pelanggan",
+ "kfx_txt": "Kalendar temu janji, penjejakan pendapatan dan statistik untuk salun; untuk pelanggan: cari pendandan rambut, tempah dalam talian dan cuba gaya rambut dengan AI.",
+ "kfx_plat": "iOS · Android · bahasa Turki sahaja · langganan Premium",
+ "tv_tag": "Kejohanan dan liga untuk sebarang permainan",
+ "tv_txt": "Jadual liga dan kalah mati, skor dan kedudukan untuk berpuluh-puluh permainan, dari bola sepak hingga ping pong, catur dan e-sukan. Dalam 33 bahasa.",
+ "tv_plat": "iOS · Android akan datang · beli sekali",
+ "nh_tag": "Purata, peperiksaan akhir dan PNGK",
+ "nh_txt": "Kira purata anda, ketahui markah yang diperlukan dalam peperiksaan akhir dan jejaki PNGK anda. Tanpa iklan, tanpa akaun, berfungsi luar talian. Dalam 17 bahasa.",
+ "nh_plat": "iOS · Android akan datang · percuma",
+ "nf_tag": "Jadual atas panggilan untuk doktor",
+ "nf_txt": "Menyusun jadual atas panggilan bulanan yang seimbang untuk jabatan hospital mengikut sasaran kerja lebih masa, cuti dan cuti umum. Tiada pemasangan.",
+ "nf_plat": "Pelayar web · bahasa Turki sahaja · percuma",
+ "nf_open": "Buka alat",
+ "about_h2": "Tentang AnberTech",
+ "about_p": "AnberTech membina aplikasi mudah alih dan alat web yang menyelesaikan masalah harian dengan ringkas. Aplikasinya tersedia di App Store dan Google Play, dan setiap satu mempunyai laman sendiri dengan alat web percuma dan panduan. Kuafix dan Formal Nöbet Çözücü dibuat dalam bahasa Turki untuk Turki; TurnuVolt dan Grade Calculator tersedia dalam banyak bahasa.",
+ "faq_h2": "Soalan lazim",
+ "rights": "Hak cipta terpelihara.",
+ "faq": [
+  [
+   "Adakah aplikasi AnberTech percuma?",
+   "Grade Calculator dan Formal Nöbet Çözücü percuma. TurnuVolt dibeli sekali. Kuafix percuma dimuat turun dan percuma untuk pelanggan; panel pendandan rambut memerlukan langganan Premium selepas percubaan percuma 1 bulan."
+  ],
+  [
+   "Apakah fungsi setiap aplikasi?",
+   "Kuafix untuk temu janji di salun rambut dan kedai gunting, TurnuVolt membuat jadual kejohanan dan liga untuk sebarang permainan, Grade Calculator mengira purata, markah peperiksaan akhir yang diperlukan dan PNGK, dan Formal Nöbet Çözücü menyusun jadual atas panggilan bulanan doktor."
+  ],
+  [
+   "Bolehkah saya mencubanya tanpa memasang?",
+   "Boleh. Laman TurnuVolt ada penjana jadual perlawanan percuma, dan laman Grade Calculator ada kalkulator percuma untuk markah akhir, purata dan PNGK. Formal Nöbet Çözücü memang berjalan dalam pelayar."
+  ],
+  [
+   "Dalam bahasa apakah ia tersedia?",
+   "TurnuVolt tersedia dalam 33 bahasa dan Grade Calculator dalam 17 bahasa. Kuafix dan Formal Nöbet Çözücü dalam bahasa Turki."
+  ],
+  [
+   "Bagaimana untuk menghubungi anda?",
+   "Untuk soalan umum, e-mel destek.anbertech@gmail.com. Setiap aplikasi juga mempunyai halaman sokongan sendiri."
+  ]
+ ]
+}

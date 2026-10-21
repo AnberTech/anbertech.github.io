@@ -1,0 +1,13 @@
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-apple" viewBox="0 0 512 512"><path fill="currentColor" d="M248.644,123.476c-5.45-29.71,8.598-60.285,25.516-80.89c18.645-22.735,50.642-40.17,77.986-42.086c4.619,31.149-8.093,61.498-24.826,82.965C309.37,106.527,278.508,124.411,248.644,123.476z M409.034,231.131c8.461-23.606,25.223-44.845,51.227-59.175c-26.278-32.792-63.173-51.83-97.99-51.83c-46.065,0-65.542,21.947-97.538,21.947c-32.96,0-57.965-21.947-97.866-21.947c-39.127,0-80.776,23.848-107.19,64.577c-9.712,15.055-16.291,33.758-19.879,54.59c-9.956,58.439,4.916,134.557,49.279,202.144c21.57,32.796,50.321,69.737,87.881,70.059c33.459,0.327,42.951-21.392,88.246-21.616c45.362-0.258,53.959,21.841,87.372,21.522c37.571-0.317,67.906-41.199,89.476-73.991c15.359-23.532,21.167-35.418,33.11-62.023C414.435,352.487,389.459,285.571,409.034,231.131z"/></symbol>
+<symbol id="i-play" viewBox="0 0 32 32"><defs>
+<linearGradient id="gp0" x1="15.68" y1="10.87" x2="7.07" y2="19.55" gradientUnits="userSpaceOnUse"><stop stop-color="#00C3FF"/><stop offset="1" stop-color="#1BE2FA"/></linearGradient>
+<linearGradient id="gp1" x1="20.29" y1="15.82" x2="31.74" y2="15.82" gradientUnits="userSpaceOnUse"><stop stop-color="#FFCE00"/><stop offset="1" stop-color="#FFEA00"/></linearGradient>
+<linearGradient id="gp2" x1="7.37" y1="30.1" x2="22.6" y2="17.89" gradientUnits="userSpaceOnUse"><stop stop-color="#DE2453"/><stop offset="1" stop-color="#FE3944"/></linearGradient>
+<linearGradient id="gp3" x1="8.11" y1="1.9" x2="22.6" y2="13.74" gradientUnits="userSpaceOnUse"><stop stop-color="#11D574"/><stop offset="1" stop-color="#01F176"/></linearGradient></defs>
+<path d="M7.63 28.55L20.29 15.82 7.84 3.3C7.35 3.62 7 4.17 7 4.83v22.34c0 .57.25 1.05.63 1.38z" fill="url(#gp0)"/>
+<path d="M30.05 14.4c1.27.7 1.27 2.5 0 3.2l-5.12 2.82-4.64-4.6 4.4-4.36 5.36 2.94z" fill="url(#gp1)"/>
+<path d="M24.93 20.42l-4.64-4.6L7.63 28.55c.56.48 1.39.62 2.12.22l15.18-8.35z" fill="url(#gp2)"/>
+<path d="M7.84 3.3l12.45 12.52 4.4-4.37L9.76 3.23C9.11 2.88 8.39 2.95 7.84 3.3z" fill="url(#gp3)"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>

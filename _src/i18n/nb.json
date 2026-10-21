@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator og Formal Nöbet Çözücü",
+ "meta_desc": "Apper fra AnberTech: Kuafix for timebestilling hos frisører og barberere, TurnuVolt for turneringer og kampoppsett, Grade Calculator for karakterer og GPA, og Formal Nöbet Çözücü, et gratis verktøy for vaktlister til leger.",
+ "h1_a": "Enkle apper.",
+ "h1_b": "Tydelige oppgaver.",
+ "lead": "AnberTech er en uavhengig utvikler fra Tyrkia. Hver app gjør én ting godt: timebestilling, turneringer, karakterer og vaktlister.",
+ "aria_theme": "Tema",
+ "aria_lang": "Språk",
+ "soon": "Kommer snart",
+ "support": "Støtte",
+ "privacy": "Personvern",
+ "kfx_tag": "Enten du er frisør eller kunde",
+ "kfx_txt": "Timebok, inntektsoversikt og statistikk for frisørsalonger; for kunder: finn frisør, bestill time på nett og prøv frisyrer med KI.",
+ "kfx_plat": "iOS · Android · kun på tyrkisk · Premium-abonnement",
+ "tv_tag": "Turneringer og serier for alle spill",
+ "tv_txt": "Serie- og utslagsoppsett, resultater og tabeller for dusinvis av spill, fra fotball til bordtennis, sjakk og e-sport. På 33 språk.",
+ "tv_plat": "iOS · Android kommer snart · engangskjøp",
+ "nh_tag": "Snitt, eksamen og GPA",
+ "nh_txt": "Regn ut snittet ditt, finn ut hvilken karakter du trenger på eksamen, og følg GPA-en din. Uten reklame, uten konto, fungerer offline. På 17 språk.",
+ "nh_plat": "iOS · Android kommer snart · gratis",
+ "nf_tag": "Vaktlister for leger",
+ "nf_txt": "Lager en balansert månedlig vaktliste for sykehusavdelinger ut fra mål for overtid, ferie og helligdager. Ingenting å installere.",
+ "nf_plat": "Nettleser · kun på tyrkisk · gratis",
+ "nf_open": "Åpne verktøyet",
+ "about_h2": "Om AnberTech",
+ "about_p": "AnberTech lager mobilapper og nettverktøy som løser et hverdagsproblem på en enkel måte. Appene finnes i App Store og Google Play, og hver har sitt eget nettsted med gratis verktøy og veiledninger. Kuafix og Formal Nöbet Çözücü er laget på tyrkisk for Tyrkia; TurnuVolt og Grade Calculator finnes på mange språk.",
+ "faq_h2": "Vanlige spørsmål",
+ "rights": "Alle rettigheter forbeholdt.",
+ "faq": [
+  [
+   "Er AnberTechs apper gratis?",
+   "Grade Calculator og Formal Nöbet Çözücü er gratis. TurnuVolt er et engangskjøp. Kuafix er gratis å laste ned og gratis for kunder; frisørpanelet krever Premium-abonnement etter én gratis prøvemåned."
+  ],
+  [
+   "Hva brukes hver app til?",
+   "Kuafix er for timebestilling hos frisører og barberere, TurnuVolt lager turnerings- og serieoppsett for alle spill, Grade Calculator regner ut snittet, karakteren du trenger på eksamen og GPA-en, og Formal Nöbet Çözücü lager månedlige vaktlister for leger."
+  ],
+  [
+   "Kan jeg prøve dem uten å installere?",
+   "Ja. TurnuVolts nettsted har en gratis kampoppsett-generator, og Grade Calculators nettsted har gratis kalkulatorer for eksamenskarakter, snitt og GPA. Formal Nöbet Çözücü kjører uansett i nettleseren."
+  ],
+  [
+   "Hvilke språk finnes de på?",
+   "TurnuVolt finnes på 33 språk og Grade Calculator på 17. Kuafix og Formal Nöbet Çözücü er på tyrkisk."
+  ],
+  [
+   "Hvordan kontakter jeg dere?",
+   "Send generelle spørsmål til destek.anbertech@gmail.com. Hver app har også sin egen støtteside."
+  ]
+ ]
+}

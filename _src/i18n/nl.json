@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Cijfercalculator en Formal Nöbet Çözücü",
+ "meta_desc": "Apps van AnberTech: Kuafix, een afspraken-app voor kappers en barbiers; TurnuVolt, een app voor toernooien en speelschema's; Cijfercalculator, voor cijfers en GPA; en Formal Nöbet Çözücü, een gratis dienstrooster-tool voor artsen.",
+ "h1_a": "Eenvoudige apps.",
+ "h1_b": "Heldere taken.",
+ "lead": "AnberTech is een onafhankelijke ontwikkelaar uit Turkije. Elke app doet één ding goed: afspraken, toernooien, cijfers en diensten.",
+ "aria_theme": "Thema",
+ "aria_lang": "Taal",
+ "soon": "Binnenkort",
+ "support": "Ondersteuning",
+ "privacy": "Privacy",
+ "kfx_tag": "Of je nu kapper bent of klant",
+ "kfx_txt": "Afsprakenagenda, inkomsten en statistieken voor kapsalons; voor klanten: een kapper vinden, online boeken en kapsels proberen met AI.",
+ "kfx_plat": "iOS · Android · alleen Turks · Premium-abonnement",
+ "tv_tag": "Toernooien en competities voor elk spel",
+ "tv_txt": "Competitie- en knock-outschema's, uitslagen en standen voor tientallen spellen, van voetbal tot tafeltennis, schaken en esports. In 33 talen.",
+ "tv_plat": "iOS · Android binnenkort · eenmalige aankoop",
+ "nh_tag": "Gemiddelde, eindtentamen en GPA",
+ "nh_txt": "Bereken je gemiddelde, ontdek welk cijfer je op je eindtentamen nodig hebt en volg je GPA. Zonder advertenties, zonder account, offline. In 17 talen.",
+ "nh_plat": "iOS · Android binnenkort · gratis",
+ "nf_tag": "Dienstroosters voor artsen",
+ "nf_txt": "Maakt voor ziekenhuisafdelingen een evenwichtig maandelijks rooster van diensten op basis van overuurdoelen, verlof en feestdagen. Niets te installeren.",
+ "nf_plat": "Webbrowser · alleen Turks · gratis",
+ "nf_open": "Tool openen",
+ "about_h2": "Over AnberTech",
+ "about_p": "AnberTech maakt mobiele apps en webtools die een alledaags probleem eenvoudig oplossen. De apps staan in de App Store en Google Play, en elke app heeft een eigen website met gratis webtools en gidsen. Kuafix en Formal Nöbet Çözücü zijn in het Turks gemaakt voor Turkije; TurnuVolt en Cijfercalculator zijn in veel talen beschikbaar.",
+ "faq_h2": "Veelgestelde vragen",
+ "rights": "Alle rechten voorbehouden.",
+ "faq": [
+  [
+   "Zijn de apps van AnberTech gratis?",
+   "Cijfercalculator en Formal Nöbet Çözücü zijn gratis. TurnuVolt is een eenmalige aankoop. Kuafix is gratis te downloaden en gratis voor klanten; het kapperspaneel vereist na een gratis proefmaand een Premium-abonnement."
+  ],
+  [
+   "Waarvoor dient elke app?",
+   "Kuafix is voor afspraken bij kappers en barbiers, TurnuVolt maakt toernooi- en competitieschema's voor elk spel, Cijfercalculator berekent je gemiddelde, het cijfer dat je op je eindtentamen nodig hebt en je GPA, en Formal Nöbet Çözücü maakt maandelijkse dienstroosters voor artsen."
+  ],
+  [
+   "Kan ik ze proberen zonder te installeren?",
+   "Ja. De TurnuVolt-site heeft een gratis speelschema-generator en de Cijfercalculator-site gratis rekenhulpen voor eindcijfer, gemiddelde en GPA. Formal Nöbet Çözücü werkt sowieso in de browser."
+  ],
+  [
+   "In welke talen zijn ze beschikbaar?",
+   "TurnuVolt is beschikbaar in 33 talen en Cijfercalculator in 17. Kuafix en Formal Nöbet Çözücü zijn in het Turks."
+  ],
+  [
+   "Hoe neem ik contact op?",
+   "Voor algemene vragen kun je mailen naar destek.anbertech@gmail.com. Elke app heeft ook een eigen ondersteuningspagina."
+  ]
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Kalkulator ocen i Formal Nöbet Çözücü",
+ "meta_desc": "Aplikacje AnberTech: Kuafix do rezerwacji u fryzjerów i barberów; TurnuVolt do turniejów i terminarzy; Kalkulator ocen do ocen i średniej GPA; oraz Formal Nöbet Çözücü, darmowe narzędzie do grafików dyżurów lekarzy.",
+ "h1_a": "Proste aplikacje.",
+ "h1_b": "Jasne zadania.",
+ "lead": "AnberTech to niezależny twórca z Turcji. Każda aplikacja dobrze robi jedną rzecz: wizyty, turnieje, oceny i grafiki dyżurów.",
+ "aria_theme": "Motyw",
+ "aria_lang": "Język",
+ "soon": "Wkrótce",
+ "support": "Pomoc",
+ "privacy": "Prywatność",
+ "kfx_tag": "Fryzjer czy klient",
+ "kfx_txt": "Kalendarz wizyt, przychody i statystyki dla salonów; dla klientów: znajdź fryzjera, zarezerwuj online i przymierz fryzurę z AI.",
+ "kfx_plat": "iOS · Android · tylko po turecku · subskrypcja Premium",
+ "tv_tag": "Turnieje i ligi w każdej grze",
+ "tv_txt": "Terminarze ligowe i pucharowe, wyniki i tabele dla dziesiątek gier, od piłki nożnej po tenis stołowy, szachy i e-sport. W 33 językach.",
+ "tv_plat": "iOS · Android wkrótce · jednorazowy zakup",
+ "nh_tag": "Średnia, egzamin końcowy i GPA",
+ "nh_txt": "Oblicz średnią, sprawdź, ile potrzebujesz z egzaminu końcowego, i śledź swoje GPA. Bez reklam, bez konta, offline. W 17 językach.",
+ "nh_plat": "iOS · Android wkrótce · za darmo",
+ "nf_tag": "Grafiki dyżurów dla lekarzy",
+ "nf_txt": "Układa dla oddziałów szpitalnych zrównoważony miesięczny grafik dyżurów według limitów nadgodzin, urlopów i świąt. Bez instalacji.",
+ "nf_plat": "Przeglądarka · tylko po turecku · za darmo",
+ "nf_open": "Otwórz narzędzie",
+ "about_h2": "O AnberTech",
+ "about_p": "AnberTech tworzy aplikacje mobilne i narzędzia internetowe, które w prosty sposób rozwiązują codzienny problem. Aplikacje są dostępne w App Store i Google Play, a każda ma własną stronę z darmowymi narzędziami i poradnikami. Kuafix i Formal Nöbet Çözücü są po turecku dla Turcji; TurnuVolt i Kalkulator ocen są dostępne w wielu językach.",
+ "faq_h2": "Najczęstsze pytania",
+ "rights": "Wszelkie prawa zastrzeżone.",
+ "faq": [
+  [
+   "Czy aplikacje AnberTech są darmowe?",
+   "Kalkulator ocen i Formal Nöbet Çözücü są darmowe. TurnuVolt to jednorazowy zakup. Kuafix można pobrać za darmo i jest darmowy dla klientów; panel fryzjera wymaga subskrypcji Premium po miesięcznym darmowym okresie próbnym."
+  ],
+  [
+   "Do czego służy każda aplikacja?",
+   "Kuafix służy do wizyt u fryzjerów i barberów, TurnuVolt tworzy terminarze turniejów i lig w każdej grze, Kalkulator ocen liczy średnią, ocenę potrzebną z egzaminu końcowego i GPA, a Formal Nöbet Çözücü układa miesięczne grafiki dyżurów lekarzy."
+  ],
+  [
+   "Czy mogę je wypróbować bez instalacji?",
+   "Tak. Na stronie TurnuVolt jest darmowy generator terminarza, a na stronie Kalkulatora ocen darmowe kalkulatory oceny z egzaminu, średniej i GPA. Formal Nöbet Çözücü i tak działa w przeglądarce."
+  ],
+  [
+   "W jakich językach są dostępne?",
+   "TurnuVolt jest dostępny w 33 językach, a Kalkulator ocen w 17. Kuafix i Formal Nöbet Çözücü są po turecku."
+  ],
+  [
+   "Jak się skontaktować?",
+   "W sprawach ogólnych napisz na destek.anbertech@gmail.com. Każda aplikacja ma też własną stronę pomocy."
+  ]
+ ]
+}

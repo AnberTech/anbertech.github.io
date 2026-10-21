@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator și Formal Nöbet Çözücü",
+ "meta_desc": "Aplicațiile AnberTech: Kuafix pentru programări la frizerii și saloane, TurnuVolt pentru turnee și programul meciurilor, Grade Calculator pentru note și medie, și Formal Nöbet Çözücü, un instrument gratuit pentru graficul de gărzi al medicilor.",
+ "h1_a": "Aplicații simple.",
+ "h1_b": "Treburi clare.",
+ "lead": "AnberTech este un dezvoltator independent din Turcia. Fiecare aplicație face bine un singur lucru: programări, turnee, note și gărzi.",
+ "aria_theme": "Temă",
+ "aria_lang": "Limbă",
+ "soon": "În curând",
+ "support": "Asistență",
+ "privacy": "Confidențialitate",
+ "kfx_tag": "Fie că ești coafor, fie că ești client",
+ "kfx_txt": "Calendar de programări, evidența încasărilor și statistici pentru saloane; pentru clienți: găsește un coafor, programează-te online și încearcă tunsori cu AI.",
+ "kfx_plat": "iOS · Android · doar în turcă · abonament Premium",
+ "tv_tag": "Turnee și campionate pentru orice joc",
+ "tv_txt": "Programe de campionat și eliminatorii, scoruri și clasamente pentru zeci de jocuri, de la fotbal la tenis de masă, șah și esports. În 33 de limbi.",
+ "tv_plat": "iOS · Android în curând · plată unică",
+ "nh_tag": "Medie, examen final și GPA",
+ "nh_txt": "Calculează-ți media, află ce notă îți trebuie la examenul final și urmărește-ți GPA-ul. Fără reclame, fără cont, offline. În 17 limbi.",
+ "nh_plat": "iOS · Android în curând · gratuit",
+ "nf_tag": "Grafic de gărzi pentru medici",
+ "nf_txt": "Întocmește pentru secțiile de spital un grafic lunar de gărzi echilibrat în funcție de orele suplimentare țintă, concedii și sărbători legale. Nimic de instalat.",
+ "nf_plat": "Browser web · doar în turcă · gratuit",
+ "nf_open": "Deschide instrumentul",
+ "about_h2": "Despre AnberTech",
+ "about_p": "AnberTech creează aplicații mobile și instrumente web care rezolvă simplu o problemă de zi cu zi. Aplicațiile sunt publicate în App Store și Google Play, iar fiecare are propriul site cu instrumente web gratuite și ghiduri. Kuafix și Formal Nöbet Çözücü sunt făcute în turcă pentru Turcia; TurnuVolt și Grade Calculator sunt disponibile în multe limbi.",
+ "faq_h2": "Întrebări frecvente",
+ "rights": "Toate drepturile rezervate.",
+ "faq": [
+  [
+   "Aplicațiile AnberTech sunt gratuite?",
+   "Grade Calculator și Formal Nöbet Çözücü sunt gratuite. TurnuVolt se cumpără o singură dată. Kuafix se descarcă gratuit și este gratuit pentru clienți; panoul coaforului necesită abonament Premium după o lună de probă gratuită."
+  ],
+  [
+   "La ce folosește fiecare aplicație?",
+   "Kuafix este pentru programări la saloane și frizerii, TurnuVolt creează programe de turnee și campionate pentru orice joc, Grade Calculator calculează media, nota necesară la examenul final și GPA-ul, iar Formal Nöbet Çözücü întocmește graficul lunar de gărzi al medicilor."
+  ],
+  [
+   "Le pot încerca fără instalare?",
+   "Da. Site-ul TurnuVolt are un generator gratuit de program al meciurilor, iar site-ul Grade Calculator are calculatoare gratuite pentru nota finală, medie și GPA. Formal Nöbet Çözücü rulează oricum în browser."
+  ],
+  [
+   "În ce limbi sunt disponibile?",
+   "TurnuVolt este disponibil în 33 de limbi, iar Grade Calculator în 17. Kuafix și Formal Nöbet Çözücü sunt în turcă."
+  ],
+  [
+   "Cum vă pot contacta?",
+   "Pentru întrebări generale, scrie la destek.anbertech@gmail.com. Fiecare aplicație are și propria pagină de asistență."
+  ]
+ ]
+}

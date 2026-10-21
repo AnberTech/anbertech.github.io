@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Notenrechner und Formal Nöbet Çözücü",
+ "meta_desc": "Apps von AnberTech: Kuafix, eine Termin-App für Friseure und Barbiere; TurnuVolt, eine App für Turniere und Spielpläne; Notenrechner, eine App für Noten und GPA; und Formal Nöbet Çözücü, ein kostenloses Dienstplan-Tool für Ärzte.",
+ "h1_a": "Einfache Apps.",
+ "h1_b": "Klare Aufgaben.",
+ "lead": "AnberTech ist ein unabhängiger Entwickler aus der Türkei. Jede App erledigt eine Aufgabe gut: Termine, Turniere, Noten und Bereitschaftsdienste.",
+ "aria_theme": "Design",
+ "aria_lang": "Sprache",
+ "soon": "Demnächst",
+ "support": "Support",
+ "privacy": "Datenschutz",
+ "kfx_tag": "Ob Friseur oder Kunde",
+ "kfx_txt": "Terminkalender, Einnahmen und Statistiken für Friseursalons; für Kunden: Friseur finden, online buchen und Frisuren mit KI ausprobieren.",
+ "kfx_plat": "iOS · Android · nur Türkisch · Premium-Abo",
+ "tv_tag": "Turniere und Ligen für jedes Spiel",
+ "tv_txt": "Liga- und K.-o.-Spielpläne, Ergebnisse und Tabellen für Dutzende Spiele, von Fußball über Tischtennis und Schach bis E-Sport. In 33 Sprachen.",
+ "tv_plat": "iOS · Android demnächst · Einmalkauf",
+ "nh_tag": "Durchschnitt, Abschlussprüfung und GPA",
+ "nh_txt": "Berechne deinen Kursdurchschnitt, finde die Note, die du in der Abschlussprüfung brauchst, und verfolge deinen GPA. Ohne Werbung, ohne Konto, offline. In 17 Sprachen.",
+ "nh_plat": "iOS · Android demnächst · Kostenlos",
+ "nf_tag": "Dienstpläne für Ärzte",
+ "nf_txt": "Erstellt für Klinikabteilungen einen ausgewogenen monatlichen Bereitschaftsdienstplan nach Überstundenzielen, Urlaub und Feiertagen. Ohne Installation.",
+ "nf_plat": "Webbrowser · nur Türkisch · Kostenlos",
+ "nf_open": "Tool öffnen",
+ "about_h2": "Über AnberTech",
+ "about_p": "AnberTech entwickelt mobile Apps und Web-Tools, die ein alltägliches Problem einfach lösen. Die Apps erscheinen im App Store und bei Google Play, und jede hat eine eigene Website mit kostenlosen Web-Tools und Ratgebern. Kuafix und Formal Nöbet Çözücü sind auf Türkisch für die Türkei gemacht; TurnuVolt und Notenrechner gibt es in vielen Sprachen.",
+ "faq_h2": "Häufige Fragen",
+ "rights": "Alle Rechte vorbehalten.",
+ "faq": [
+  [
+   "Sind die Apps von AnberTech kostenlos?",
+   "Notenrechner und Formal Nöbet Çözücü sind kostenlos. TurnuVolt ist ein Einmalkauf. Kuafix ist kostenlos herunterzuladen und für Kunden kostenlos; das Friseur-Panel braucht nach einem kostenlosen Probemonat ein Premium-Abo."
+  ],
+  [
+   "Wofür ist welche App?",
+   "Kuafix ist für Termine bei Friseuren und Barbieren, TurnuVolt erstellt Turnier- und Ligaspielpläne für jedes Spiel, Notenrechner berechnet deinen Durchschnitt, die nötige Prüfungsnote und deinen GPA, und Formal Nöbet Çözücü erstellt monatliche Bereitschaftsdienstpläne für Ärzte."
+  ],
+  [
+   "Kann ich sie ohne Installation ausprobieren?",
+   "Ja. Auf der TurnuVolt-Website gibt es einen kostenlosen Spielplan-Generator, auf der Notenrechner-Website kostenlose Rechner für Prüfungsnote, Durchschnitt und GPA. Formal Nöbet Çözücü läuft ohnehin im Browser."
+  ],
+  [
+   "In welchen Sprachen gibt es sie?",
+   "TurnuVolt gibt es in 33 Sprachen, Notenrechner in 17. Kuafix und Formal Nöbet Çözücü sind auf Türkisch."
+  ],
+  [
+   "Wie erreiche ich euch?",
+   "Für allgemeine Fragen schreib an destek.anbertech@gmail.com. Jede App hat außerdem eine eigene Support-Seite."
+  ]
+ ]
+}

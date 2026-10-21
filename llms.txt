@@ -1,15 +1,14 @@
 # AnberTech
 
-> AnberTech is an independent developer of simple, privacy-friendly mobile apps for iPhone and Android. Each app has its own site with details, support and privacy pages.
+> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) and on-call rosters for doctors (Formal Nöbet Çözücü).
 
 ## Apps
 
-- [TurnuVolt: Tournament Maker](https://anbertech.github.io/TurnuVolt/): league and knockout tournament organizer for 63 sports and games, plus a free in-browser fixture generator. iPhone and iPad; Android coming soon. Details: https://anbertech.github.io/TurnuVolt/llms.txt
-- [Kuafix](https://anbertech.github.io/Kuafix/): appointment app for hair salons and barbers in Turkey. Salons get a booking calendar, statistics and income tracking; customers find a salon, book appointments and try hairstyles with AI. Free on iPhone and Android. Details: https://anbertech.github.io/Kuafix/llms.txt
-- [Not Hesaplayıcı / Grade Calculator](https://anbertech.github.io/NotHesaplayici/): course average, the final exam grade needed to pass, and GPA (GANO) tracking. Free, ad-free, offline, no account. iPhone and iPad (17 languages); Android coming soon. The site also has free web calculators in 17 languages (final grade needed, grade average, GPA), e.g. https://anbertech.github.io/NotHesaplayici/en/final-grade-calculator/ and https://anbertech.github.io/NotHesaplayici/final-notu-hesaplama/ (Turkish). Details: https://anbertech.github.io/NotHesaplayici/llms.txt
+- [Kuafix](https://anbertech.github.io/Kuafix/): hair salon and barber booking app for Turkey (one app for hairdressers and customers): booking calendar, payment and income tracking, busy-hour statistics, online booking and AI hairstyle try-on. iPhone, iPad and Android. The app is in Turkish. Free to download and free for customers; hairdresser panel needs Hairdresser Premium (399 TL/month) after a 1-month free trial. Guides: https://anbertech.github.io/Kuafix/en/salon-booking-app/, https://anbertech.github.io/Kuafix/en/salon-income-tracker/, https://anbertech.github.io/Kuafix/en/ai-hairstyle-try-on/. Details: https://anbertech.github.io/Kuafix/llms.txt
+- [TurnuVolt](https://anbertech.github.io/TurnuVolt/): tournament and league organizer for any game, from football to chess and esports: league and knockout fixtures, scores, standings, podium. iPhone and iPad (Android coming soon), 33 languages, one-time purchase. Free web fixture generator: https://anbertech.github.io/TurnuVolt/en/fixture-generator/. Details: https://anbertech.github.io/TurnuVolt/llms.txt
+- [Not Hesaplayıcı / Grade Calculator](https://anbertech.github.io/NotHesaplayici/): course average, the final exam grade needed to pass, and GPA (GANO) tracking. Free, ad-free, offline, no account. iPhone and iPad (Android coming soon), 17 languages. Free web calculators: https://anbertech.github.io/NotHesaplayici/en/final-grade-calculator/, https://anbertech.github.io/NotHesaplayici/en/grade-average-calculator/, https://anbertech.github.io/NotHesaplayici/en/gpa-calculator/. Details: https://anbertech.github.io/NotHesaplayici/llms.txt
 - [Formal Nöbet Çözücü](https://anbertech.github.io/NobetFormal/): free in-browser tool that builds balanced monthly on-call (nöbet) schedules for hospital doctors around overtime targets, leave and holidays. Turkish. Details: https://anbertech.github.io/NobetFormal/llms.txt
 
 ## Contact
 
-- Email: destek.anbertech@gmail.com
-- English site: https://anbertech.github.io/en/
+- destek.anbertech@gmail.com

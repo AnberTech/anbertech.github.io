@@ -1,0 +1,51 @@
+{
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator och Formal Nöbet Çözücü",
+ "meta_desc": "Appar från AnberTech: Kuafix för tidsbokning hos frisörer och barberare, TurnuVolt för turneringar och spelscheman, Grade Calculator för betyg och GPA, och Formal Nöbet Çözücü, ett gratis verktyg för jourscheman för läkare.",
+ "h1_a": "Enkla appar.",
+ "h1_b": "Tydliga uppgifter.",
+ "lead": "AnberTech är en oberoende utvecklare från Turkiet. Varje app gör en sak bra: tidsbokning, turneringar, betyg och jourscheman.",
+ "aria_theme": "Tema",
+ "aria_lang": "Språk",
+ "soon": "Kommer snart",
+ "support": "Support",
+ "privacy": "Integritet",
+ "kfx_tag": "Oavsett om du är frisör eller kund",
+ "kfx_txt": "Bokningskalender, intäktsöversikt och statistik för frisörsalonger; för kunder: hitta en frisör, boka online och prova frisyrer med AI.",
+ "kfx_plat": "iOS · Android · endast på turkiska · Premium-prenumeration",
+ "tv_tag": "Turneringar och serier för alla spel",
+ "tv_txt": "Serie- och utslagsscheman, resultat och tabeller för dussintals spel, från fotboll till bordtennis, schack och e-sport. På 33 språk.",
+ "tv_plat": "iOS · Android kommer snart · engångsköp",
+ "nh_tag": "Snitt, slutprov och GPA",
+ "nh_txt": "Räkna ut ditt snitt, se vilket betyg du behöver på slutprovet och följ ditt GPA. Utan reklam, utan konto, fungerar offline. På 17 språk.",
+ "nh_plat": "iOS · Android kommer snart · gratis",
+ "nf_tag": "Jourscheman för läkare",
+ "nf_txt": "Skapar ett balanserat jourschema per månad för sjukhusavdelningar utifrån mål för övertid, ledighet och helgdagar. Inget att installera.",
+ "nf_plat": "Webbläsare · endast på turkiska · gratis",
+ "nf_open": "Öppna verktyget",
+ "about_h2": "Om AnberTech",
+ "about_p": "AnberTech gör mobilappar och webbverktyg som löser ett vardagsproblem på ett enkelt sätt. Apparna finns i App Store och Google Play, och var och en har en egen webbplats med gratis webbverktyg och guider. Kuafix och Formal Nöbet Çözücü är gjorda på turkiska för Turkiet; TurnuVolt och Grade Calculator finns på många språk.",
+ "faq_h2": "Vanliga frågor",
+ "rights": "Alla rättigheter förbehållna.",
+ "faq": [
+  [
+   "Är AnberTechs appar gratis?",
+   "Grade Calculator och Formal Nöbet Çözücü är gratis. TurnuVolt är ett engångsköp. Kuafix är gratis att ladda ner och gratis för kunder; frisörpanelen kräver en Premium-prenumeration efter en gratis provmånad."
+  ],
+  [
+   "Vad används varje app till?",
+   "Kuafix är för tidsbokning hos frisörer och barberare, TurnuVolt skapar turnerings- och seriescheman för alla spel, Grade Calculator räknar ut ditt snitt, betyget du behöver på slutprovet och ditt GPA, och Formal Nöbet Çözücü gör månatliga jourscheman för läkare."
+  ],
+  [
+   "Kan jag prova dem utan att installera?",
+   "Ja. TurnuVolts webbplats har en gratis spelschemagenerator och Grade Calculators webbplats gratis räknare för slutbetyg, snitt och GPA. Formal Nöbet Çözücü körs ändå i webbläsaren."
+  ],
+  [
+   "Vilka språk finns de på?",
+   "TurnuVolt finns på 33 språk och Grade Calculator på 17. Kuafix och Formal Nöbet Çözücü är på turkiska."
+  ],
+  [
+   "Hur kontaktar jag er?",
+   "Skicka allmänna frågor till destek.anbertech@gmail.com. Varje app har också en egen supportsida."
+  ]
+ ]
+}
