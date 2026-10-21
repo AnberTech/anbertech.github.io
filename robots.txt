@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anbertech.github.io/sitemap.xml
+Sitemap: https://anbertech.github.io/TurnuVolt/sitemap.xml
+Sitemap: https://anbertech.github.io/Kuafix/sitemap.xml
+Sitemap: https://anbertech.github.io/NotHesaplayici/sitemap.xml
+Sitemap: https://anbertech.github.io/NobetFormal/sitemap.xml
