@@ -6,7 +6,7 @@
 
 - [TurnuVolt: Tournament Maker](https://anbertech.github.io/TurnuVolt/): league and knockout tournament organizer for 63 sports and games, plus a free in-browser fixture generator. iPhone and iPad; Android coming soon. Details: https://anbertech.github.io/TurnuVolt/llms.txt
 - [Kuafix](https://anbertech.github.io/Kuafix/): appointment app for hair salons and barbers in Turkey. Salons get a booking calendar, statistics and income tracking; customers find a salon, book appointments and try hairstyles with AI. Free on iPhone and Android. Details: https://anbertech.github.io/Kuafix/llms.txt
-- [Not Hesaplayıcı / Grade Calculator](https://anbertech.github.io/NotHesaplayici/): course average, the final exam grade needed to pass, and GPA (GANO) tracking. Free, ad-free, offline, no account. iPhone; Android coming soon. Details: https://anbertech.github.io/NotHesaplayici/llms.txt
+- [Not Hesaplayıcı / Grade Calculator](https://anbertech.github.io/NotHesaplayici/): course average, the final exam grade needed to pass, and GPA (GANO) tracking. Free, ad-free, offline, no account. iPhone and iPad (17 languages); Android coming soon. The site also has free web calculators in 17 languages (final grade needed, grade average, GPA), e.g. https://anbertech.github.io/NotHesaplayici/en/final-grade-calculator/ and https://anbertech.github.io/NotHesaplayici/final-notu-hesaplama/ (Turkish). Details: https://anbertech.github.io/NotHesaplayici/llms.txt
 - [Formal Nöbet Çözücü](https://anbertech.github.io/NobetFormal/): free in-browser tool that builds balanced monthly on-call (nöbet) schedules for hospital doctors around overtime targets, leave and holidays. Turkish. Details: https://anbertech.github.io/NobetFormal/llms.txt
 
 ## Contact
