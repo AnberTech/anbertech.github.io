@@ -50,11 +50,11 @@ APPS = {
             'category': 'BusinessApplication'},
     'tv': {'name': 'TurnuVolt', 'repo': 'TurnuVolt', 'path': 'TurnuVolt/', 'icon': 'turnuvolt.png', 'cls': 'ico-turnuvolt', 'a': '#fbbf24', 'a2': '#f59e0b',
            'ios': 'https://apps.apple.com/app/id6745177155', 'ios_tr': 'https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr',
-           'play': None, 'guides': ('fx',), 'category': 'SportsApplication'},
+           'play': 'https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt', 'guides': ('fx',), 'category': 'SportsApplication'},
     'nh': {'name': 'Not Hesaplayıcı', 'repo': 'NotHesaplayici', 'path': 'NotHesaplayici/', 'icon': 'nothesaplayici.png', 'cls': 'ico-nothesaplayici',
            'a': '#60a5fa', 'a2': '#818cf8', 'ios': 'https://apps.apple.com/app/id6745179531',
            'ios_tr': 'https://apps.apple.com/tr/app/not-hesaplay%C4%B1c%C4%B1/id6745179531?l=tr',
-           'play': None, 'guides': ('fin', 'avg', 'gpa'), 'category': 'EducationalApplication'},
+           'play': 'https://play.google.com/store/apps/details?id=com.anbertech.nothesaplayici', 'guides': ('fin', 'avg', 'gpa'), 'category': 'EducationalApplication'},
     'nf': {'name': 'Formal Nöbet Çözücü', 'repo': 'NobetFormal', 'path': 'NobetFormal/', 'icon': 'nobetformal.png', 'cls': 'ico-nobet',
            'a': '#f472b6', 'a2': '#fb7185', 'ios': None, 'play': None, 'guides': (), 'category': 'BusinessApplication'},
 }
@@ -313,10 +313,10 @@ def build_llms(S):
         'Free to download and free for customers; hairdresser panel needs Hairdresser Premium (399 TL/month) after a 1-month free trial. '
         f'Guides: {", ".join(h for _, h in kg)}. Details: {SITE}Kuafix/llms.txt',
         f'- [TurnuVolt]({SITE}TurnuVolt/): tournament and league organizer for any game, from football to chess and esports: league and knockout fixtures, '
-        'scores, standings, podium. iPhone and iPad (Android coming soon), 33 languages, one-time purchase. '
+        'scores, standings, podium. iPhone, iPad and Android, 33 languages, one-time purchase. '
         f'Free web fixture generator: {tg[0][1]}. Details: {SITE}TurnuVolt/llms.txt',
         f'- [Not Hesaplayıcı / Grade Calculator]({SITE}NotHesaplayici/): course average, the final exam grade needed to pass, and GPA (GANO) tracking. '
-        'Free, ad-free, offline, no account. iPhone and iPad (Android coming soon), 17 languages. '
+        'Free, ad-free, offline, no account. iPhone, iPad and Android, 17 languages. '
         f'Free web calculators: {", ".join(h for _, h in ng)}. Details: {SITE}NotHesaplayici/llms.txt',
         f'- [Formal Nöbet Çözücü]({SITE}NobetFormal/): free in-browser tool that builds balanced monthly on-call (nöbet) schedules for hospital doctors '
         f'around overtime targets, leave and holidays. Turkish. Details: {SITE}NobetFormal/llms.txt',
