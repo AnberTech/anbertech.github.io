@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator ja Formal Nöbet Çözücü",
- "meta_desc": "AnberTechin sovellukset: Kuafix kampaamo- ja parturiaikojen varaamiseen, TurnuVolt turnauksiin ja otteluohjelmiin, Grade Calculator arvosanoihin ja GPA:han sekä Formal Nöbet Çözücü, ilmainen päivystyslistatyökalu lääkäreille.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator, PinkOrBlue ja muut",
+ "meta_desc": "AnberTechin sovellukset: Kuafix kampaamoaikoihin, TurnuVolt turnauksiin, Grade Calculator arvosanoihin, Formal Nöbet Çözücü lääkärien päivystyksiin ja PinkOrBlue online gender reveal -juhliin.",
  "h1_a": "Yksinkertaisia sovelluksia.",
  "h1_b": "Selkeitä tehtäviä.",
- "lead": "AnberTech on itsenäinen kehittäjä Turkista. Jokainen sovellus tekee yhden asian hyvin: ajanvaraukset, turnaukset, arvosanat ja päivystykset.",
+ "lead": "AnberTech on itsenäinen kehittäjä Turkista. Jokainen sovellus tekee yhden asian hyvin: ajanvaraukset, turnaukset, arvosanat, päivystykset ja gender reveal -juhlat.",
  "aria_theme": "Teema",
  "aria_lang": "Kieli",
  "soon": "Tulossa",
@@ -23,25 +23,25 @@
  "nf_plat": "Verkkoselain · vain turkiksi · ilmainen",
  "nf_open": "Avaa työkalu",
  "about_h2": "Tietoa AnberTechistä",
- "about_p": "AnberTech tekee mobiilisovelluksia ja verkkotyökaluja, jotka ratkaisevat arjen ongelman yksinkertaisesti. Sovellukset ovat App Storessa ja Google Playssa, ja jokaisella on oma sivusto ilmaisine verkkotyökaluineen ja oppaineen. Kuafix ja Formal Nöbet Çözücü on tehty turkiksi Turkkia varten; TurnuVolt ja Grade Calculator ovat saatavilla monella kielellä.",
+ "about_p": "AnberTech tekee mobiilisovelluksia ja verkkotyökaluja, jotka ratkaisevat arjen ongelman yksinkertaisesti. Sovellukset ovat App Storessa ja Google Playssa, ja jokaisella on oma sivusto ilmaisine verkkotyökaluineen ja oppaineen. Kuafix ja Formal Nöbet Çözücü on tehty turkiksi Turkkia varten; TurnuVolt ja Grade Calculator ovat saatavilla monella kielellä. PinkOrBlue on ilmainen sivusto online gender reveal -juhliin; se toimii selaimessa ja on saatavilla 15 kielellä.",
  "faq_h2": "Usein kysytyt kysymykset",
  "rights": "Kaikki oikeudet pidätetään.",
  "faq": [
   [
    "Ovatko AnberTechin sovellukset ilmaisia?",
-   "Grade Calculator ja Formal Nöbet Çözücü ovat ilmaisia. TurnuVolt on kertaostos. Kuafixin lataaminen on ilmaista ja se on asiakkaille ilmainen; kampaajan paneeli vaatii Premium-tilauksen kuukauden ilmaisen kokeilun jälkeen."
+   "Grade Calculator ja Formal Nöbet Çözücü ovat ilmaisia. TurnuVolt on kertaostos. Kuafixin lataaminen on ilmaista ja se on asiakkaille ilmainen; kampaajan paneeli vaatii Premium-tilauksen kuukauden ilmaisen kokeilun jälkeen. Myös PinkOrBlue on ilmainen, ilman sovellusta ja rekisteröitymistä."
   ],
   [
    "Mihin mikin sovellus on tarkoitettu?",
-   "Kuafix on kampaamo- ja parturiaikoja varten, TurnuVolt laatii turnaus- ja sarjaohjelmat mihin tahansa peliin, Grade Calculator laskee keskiarvosi, loppukokeessa tarvittavan arvosanan ja GPA:si, ja Formal Nöbet Çözücü laatii lääkäreiden kuukausittaiset päivystyslistat."
+   "Kuafix on kampaamo- ja parturiaikoja varten, TurnuVolt laatii turnaus- ja sarjaohjelmat mihin tahansa peliin, Grade Calculator laskee keskiarvosi, loppukokeessa tarvittavan arvosanan ja GPA:si, ja Formal Nöbet Çözücü laatii lääkäreiden kuukausittaiset päivystyslistat. PinkOrBlue on online gender reveal -juhliin: kaikki äänestävät tyttöä tai poikaa, puhaltavat ilmapallon yhdessä ja näkevät tuloksen samalla sekunnilla."
   ],
   [
    "Voinko kokeilla niitä asentamatta?",
-   "Kyllä. TurnuVoltin sivustolla on ilmainen otteluohjelmageneraattori ja Grade Calculatorin sivustolla ilmaiset laskurit loppuarvosanalle, keskiarvolle ja GPA:lle. Formal Nöbet Çözücü toimii joka tapauksessa selaimessa."
+   "Kyllä. TurnuVoltin sivustolla on ilmainen otteluohjelmageneraattori ja Grade Calculatorin sivustolla ilmaiset laskurit loppuarvosanalle, keskiarvolle ja GPA:lle. Formal Nöbet Çözücü toimii joka tapauksessa selaimessa. Myös PinkOrBlue toimii selaimessa yhdellä linkillä."
   ],
   [
    "Millä kielillä ne ovat saatavilla?",
-   "TurnuVolt on saatavilla 33 kielellä ja Grade Calculator 17 kielellä. Kuafix ja Formal Nöbet Çözücü ovat turkinkielisiä."
+   "TurnuVolt on saatavilla 33 kielellä ja Grade Calculator 17 kielellä. Kuafix ja Formal Nöbet Çözücü ovat turkinkielisiä. PinkOrBlue on saatavilla 15 kielellä."
   ],
   [
    "Miten saan yhteyden?",

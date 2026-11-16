@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Calculadora de Notas e Formal Nöbet Çözücü",
- "meta_desc": "Apps da AnberTech: Kuafix, app de agendamento para salões e barbearias; TurnuVolt, app de torneios e tabelas de jogos; Calculadora de Notas, para notas e CR; e Formal Nöbet Çözücü, ferramenta gratuita de escala de plantões para médicos.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Calculadora de Notas, PinkOrBlue e mais",
+ "meta_desc": "Apps da AnberTech: Kuafix para agendar em salões, TurnuVolt para torneios, Calculadora de Notas para notas e CR, Formal Nöbet Çözücü para plantões médicos e PinkOrBlue para chá revelação online.",
  "h1_a": "Apps simples.",
  "h1_b": "Tarefas claras.",
- "lead": "A AnberTech é uma desenvolvedora independente da Turquia. Cada app faz bem uma única coisa: agendamentos, torneios, notas e plantões.",
+ "lead": "A AnberTech é uma desenvolvedora independente da Turquia. Cada app faz bem uma única coisa: agendamentos, torneios, notas, plantões e chás revelação.",
  "aria_theme": "Tema",
  "aria_lang": "Idioma",
  "soon": "Em breve",
@@ -23,25 +23,25 @@
  "nf_plat": "Navegador · só em turco · grátis",
  "nf_open": "Abrir a ferramenta",
  "about_h2": "Sobre a AnberTech",
- "about_p": "A AnberTech cria apps e ferramentas web que resolvem de forma simples um problema do dia a dia. Os apps estão na App Store e no Google Play, e cada um tem seu próprio site com ferramentas gratuitas e guias. Kuafix e Formal Nöbet Çözücü são feitos em turco para a Turquia; TurnuVolt e Calculadora de Notas estão disponíveis em vários idiomas.",
+ "about_p": "A AnberTech cria apps e ferramentas web que resolvem de forma simples um problema do dia a dia. Os apps estão na App Store e no Google Play, e cada um tem seu próprio site com ferramentas gratuitas e guias. Kuafix e Formal Nöbet Çözücü são feitos em turco para a Turquia; TurnuVolt e Calculadora de Notas estão disponíveis em vários idiomas. O PinkOrBlue é um site gratuito de chá revelação online que funciona no navegador e está disponível em 15 idiomas.",
  "faq_h2": "Perguntas frequentes",
  "rights": "Todos os direitos reservados.",
  "faq": [
   [
    "Os apps da AnberTech são gratuitos?",
-   "Calculadora de Notas e Formal Nöbet Çözücü são gratuitos. TurnuVolt é uma compra única. Kuafix é grátis para baixar e para os clientes; o painel do cabeleireiro exige assinatura Premium depois de um mês de teste grátis."
+   "Calculadora de Notas e Formal Nöbet Çözücü são gratuitos. TurnuVolt é uma compra única. Kuafix é grátis para baixar e para os clientes; o painel do cabeleireiro exige assinatura Premium depois de um mês de teste grátis. O PinkOrBlue também é grátis, sem app e sem cadastro."
   ],
   [
    "Para que serve cada app?",
-   "Kuafix é para agendamentos em salões e barbearias, TurnuVolt cria tabelas de torneios e ligas para qualquer jogo, Calculadora de Notas calcula sua média, a nota necessária na prova final e seu CR, e Formal Nöbet Çözücü monta escalas mensais de plantões para médicos."
+   "Kuafix é para agendamentos em salões e barbearias, TurnuVolt cria tabelas de torneios e ligas para qualquer jogo, Calculadora de Notas calcula sua média, a nota necessária na prova final e seu CR, e Formal Nöbet Çözücü monta escalas mensais de plantões para médicos. O PinkOrBlue é para fazer um chá revelação online: todo mundo vota menina ou menino, enche o balão junto e vê o resultado no mesmo segundo."
   ],
   [
    "Posso testar sem instalar?",
-   "Sim. O site do TurnuVolt tem um gerador de tabelas grátis, e o da Calculadora de Notas tem calculadoras grátis de nota final, média e CR. O Formal Nöbet Çözücü já funciona no navegador."
+   "Sim. O site do TurnuVolt tem um gerador de tabelas grátis, e o da Calculadora de Notas tem calculadoras grátis de nota final, média e CR. O Formal Nöbet Çözücü já funciona no navegador. O PinkOrBlue também funciona no navegador com um só link."
   ],
   [
    "Em quais idiomas estão disponíveis?",
-   "TurnuVolt está disponível em 33 idiomas e Calculadora de Notas em 17. Kuafix e Formal Nöbet Çözücü estão em turco."
+   "TurnuVolt está disponível em 33 idiomas e Calculadora de Notas em 17. Kuafix e Formal Nöbet Çözücü estão em turco. PinkOrBlue está disponível em 15 idiomas."
   ],
   [
    "Como entro em contato?",

@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator og Formal Nöbet Çözücü",
- "meta_desc": "Apps fra AnberTech: Kuafix til tidsbestilling hos frisører og barberer, TurnuVolt til turneringer og kampprogrammer, Grade Calculator til karakterer og GPA og Formal Nöbet Çözücü, et gratis vagtplansværktøj til læger.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator, PinkOrBlue og flere",
+ "meta_desc": "Apps fra AnberTech: Kuafix til frisørbooking, TurnuVolt til turneringer, Grade Calculator til karakterer og GPA, Formal Nöbet Çözücü til lægevagter og PinkOrBlue til online gender reveal.",
  "h1_a": "Enkle apps.",
  "h1_b": "Klare opgaver.",
- "lead": "AnberTech er en uafhængig udvikler fra Tyrkiet. Hver app gør én ting godt: tidsbestilling, turneringer, karakterer og vagtplaner.",
+ "lead": "AnberTech er en uafhængig udvikler fra Tyrkiet. Hver app gør én ting godt: tidsbestilling, turneringer, karakterer, vagtplaner og gender reveal-fester.",
  "aria_theme": "Tema",
  "aria_lang": "Sprog",
  "soon": "Kommer snart",
@@ -23,25 +23,25 @@
  "nf_plat": "Webbrowser · kun på tyrkisk · gratis",
  "nf_open": "Åbn værktøjet",
  "about_h2": "Om AnberTech",
- "about_p": "AnberTech laver mobilapps og webværktøjer, der løser et hverdagsproblem på en enkel måde. Apps'ene findes i App Store og Google Play, og hver har sin egen hjemmeside med gratis webværktøjer og guides. Kuafix og Formal Nöbet Çözücü er lavet på tyrkisk til Tyrkiet; TurnuVolt og Grade Calculator findes på mange sprog.",
+ "about_p": "AnberTech laver mobilapps og webværktøjer, der løser et hverdagsproblem på en enkel måde. Apps'ene findes i App Store og Google Play, og hver har sin egen hjemmeside med gratis webværktøjer og guides. Kuafix og Formal Nöbet Çözücü er lavet på tyrkisk til Tyrkiet; TurnuVolt og Grade Calculator findes på mange sprog. PinkOrBlue er et gratis website til en online gender reveal-fest, der kører i browseren og findes på 15 sprog.",
  "faq_h2": "Ofte stillede spørgsmål",
  "rights": "Alle rettigheder forbeholdes.",
  "faq": [
   [
    "Er AnberTechs apps gratis?",
-   "Grade Calculator og Formal Nöbet Çözücü er gratis. TurnuVolt er et engangskøb. Kuafix er gratis at hente og gratis for kunder; frisørpanelet kræver et Premium-abonnement efter en gratis prøvemåned."
+   "Grade Calculator og Formal Nöbet Çözücü er gratis. TurnuVolt er et engangskøb. Kuafix er gratis at hente og gratis for kunder; frisørpanelet kræver et Premium-abonnement efter en gratis prøvemåned. PinkOrBlue er også gratis, uden app og tilmelding."
   ],
   [
    "Hvad bruges hver app til?",
-   "Kuafix er til tidsbestilling hos frisører og barberer, TurnuVolt laver turnerings- og ligaprogrammer til ethvert spil, Grade Calculator udregner dit gennemsnit, den karakter du skal have til eksamen og dit GPA, og Formal Nöbet Çözücü laver månedlige vagtplaner til læger."
+   "Kuafix er til tidsbestilling hos frisører og barberer, TurnuVolt laver turnerings- og ligaprogrammer til ethvert spil, Grade Calculator udregner dit gennemsnit, den karakter du skal have til eksamen og dit GPA, og Formal Nöbet Çözücü laver månedlige vagtplaner til læger. PinkOrBlue samler en online gender reveal-fest: gæsterne stemmer pige eller dreng, puster ballonen op sammen og ser resultatet i samme sekund."
   ],
   [
    "Kan jeg prøve dem uden at installere?",
-   "Ja. TurnuVolts hjemmeside har en gratis kampprogram-generator, og Grade Calculators hjemmeside har gratis beregnere til eksamenskarakter, gennemsnit og GPA. Formal Nöbet Çözücü kører i forvejen i browseren."
+   "Ja. TurnuVolts hjemmeside har en gratis kampprogram-generator, og Grade Calculators hjemmeside har gratis beregnere til eksamenskarakter, gennemsnit og GPA. Formal Nöbet Çözücü kører i forvejen i browseren. PinkOrBlue kører også i browseren via ét link."
   ],
   [
    "Hvilke sprog findes de på?",
-   "TurnuVolt findes på 33 sprog og Grade Calculator på 17. Kuafix og Formal Nöbet Çözücü er på tyrkisk."
+   "TurnuVolt findes på 33 sprog og Grade Calculator på 17. Kuafix og Formal Nöbet Çözücü er på tyrkisk. PinkOrBlue findes på 15 sprog."
   ],
   [
    "Hvordan kontakter jeg jer?",

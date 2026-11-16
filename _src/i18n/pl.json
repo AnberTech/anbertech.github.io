@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Kalkulator ocen i Formal Nöbet Çözücü",
- "meta_desc": "Aplikacje AnberTech: Kuafix do rezerwacji u fryzjerów i barberów; TurnuVolt do turniejów i terminarzy; Kalkulator ocen do ocen i średniej GPA; oraz Formal Nöbet Çözücü, darmowe narzędzie do grafików dyżurów lekarzy.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Kalkulator ocen, PinkOrBlue i inne",
+ "meta_desc": "Aplikacje AnberTech: Kuafix do wizyt u fryzjera, TurnuVolt do turniejów, Kalkulator ocen do ocen i GPA, Formal Nöbet Çözücü do dyżurów lekarzy i PinkOrBlue do gender reveal online.",
  "h1_a": "Proste aplikacje.",
  "h1_b": "Jasne zadania.",
- "lead": "AnberTech to niezależny twórca z Turcji. Każda aplikacja dobrze robi jedną rzecz: wizyty, turnieje, oceny i grafiki dyżurów.",
+ "lead": "AnberTech to niezależny twórca z Turcji. Każda aplikacja dobrze robi jedną rzecz: wizyty, turnieje, oceny, grafiki dyżurów i gender reveal.",
  "aria_theme": "Motyw",
  "aria_lang": "Język",
  "soon": "Wkrótce",
@@ -23,25 +23,25 @@
  "nf_plat": "Przeglądarka · tylko po turecku · za darmo",
  "nf_open": "Otwórz narzędzie",
  "about_h2": "O AnberTech",
- "about_p": "AnberTech tworzy aplikacje mobilne i narzędzia internetowe, które w prosty sposób rozwiązują codzienny problem. Aplikacje są dostępne w App Store i Google Play, a każda ma własną stronę z darmowymi narzędziami i poradnikami. Kuafix i Formal Nöbet Çözücü są po turecku dla Turcji; TurnuVolt i Kalkulator ocen są dostępne w wielu językach.",
+ "about_p": "AnberTech tworzy aplikacje mobilne i narzędzia internetowe, które w prosty sposób rozwiązują codzienny problem. Aplikacje są dostępne w App Store i Google Play, a każda ma własną stronę z darmowymi narzędziami i poradnikami. Kuafix i Formal Nöbet Çözücü są po turecku dla Turcji; TurnuVolt i Kalkulator ocen są dostępne w wielu językach. PinkOrBlue to darmowa strona do gender reveal online, która działa w przeglądarce i jest dostępna w 15 językach.",
  "faq_h2": "Najczęstsze pytania",
  "rights": "Wszelkie prawa zastrzeżone.",
  "faq": [
   [
    "Czy aplikacje AnberTech są darmowe?",
-   "Kalkulator ocen i Formal Nöbet Çözücü są darmowe. TurnuVolt to jednorazowy zakup. Kuafix można pobrać za darmo i jest darmowy dla klientów; panel fryzjera wymaga subskrypcji Premium po miesięcznym darmowym okresie próbnym."
+   "Kalkulator ocen i Formal Nöbet Çözücü są darmowe. TurnuVolt to jednorazowy zakup. Kuafix można pobrać za darmo i jest darmowy dla klientów; panel fryzjera wymaga subskrypcji Premium po miesięcznym darmowym okresie próbnym. PinkOrBlue też jest darmowy, bez aplikacji i rejestracji."
   ],
   [
    "Do czego służy każda aplikacja?",
-   "Kuafix służy do wizyt u fryzjerów i barberów, TurnuVolt tworzy terminarze turniejów i lig w każdej grze, Kalkulator ocen liczy średnią, ocenę potrzebną z egzaminu końcowego i GPA, a Formal Nöbet Çözücü układa miesięczne grafiki dyżurów lekarzy."
+   "Kuafix służy do wizyt u fryzjerów i barberów, TurnuVolt tworzy terminarze turniejów i lig w każdej grze, Kalkulator ocen liczy średnią, ocenę potrzebną z egzaminu końcowego i GPA, a Formal Nöbet Çözücü układa miesięczne grafiki dyżurów lekarzy. PinkOrBlue służy do gender reveal online: wszyscy głosują, dziewczynka czy chłopiec, razem nadmuchują balon i widzą wynik w tej samej sekundzie."
   ],
   [
    "Czy mogę je wypróbować bez instalacji?",
-   "Tak. Na stronie TurnuVolt jest darmowy generator terminarza, a na stronie Kalkulatora ocen darmowe kalkulatory oceny z egzaminu, średniej i GPA. Formal Nöbet Çözücü i tak działa w przeglądarce."
+   "Tak. Na stronie TurnuVolt jest darmowy generator terminarza, a na stronie Kalkulatora ocen darmowe kalkulatory oceny z egzaminu, średniej i GPA. Formal Nöbet Çözücü i tak działa w przeglądarce. PinkOrBlue również działa w przeglądarce dzięki jednemu linkowi."
   ],
   [
    "W jakich językach są dostępne?",
-   "TurnuVolt jest dostępny w 33 językach, a Kalkulator ocen w 17. Kuafix i Formal Nöbet Çözücü są po turecku."
+   "TurnuVolt jest dostępny w 33 językach, a Kalkulator ocen w 17. Kuafix i Formal Nöbet Çözücü są po turecku. PinkOrBlue jest dostępny w 15 językach."
   ],
   [
    "Jak się skontaktować?",

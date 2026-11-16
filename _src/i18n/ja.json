@@ -1,9 +1,9 @@
 {
- "title": "AnberTech：Kuafix・TurnuVolt・成績計算機・Formal Nöbet Çözücü",
- "meta_desc": "AnberTechのアプリ：美容室・理容室の予約アプリKuafix、大会と対戦表のTurnuVolt、成績とGPAの成績計算機、医師向けの無料当直表ツールFormal Nöbet Çözücü。",
+ "title": "AnberTech：Kuafix・TurnuVolt・成績計算機・PinkOrBlue ほか",
+ "meta_desc": "AnberTechのアプリ：美容室予約のKuafix、大会と対戦表のTurnuVolt、成績とGPAの成績計算機、医師向け当直表のFormal Nöbet Çözücü、オンライン・ジェンダーリビールのPinkOrBlue。",
  "h1_a": "シンプルなアプリ。",
  "h1_b": "明確な仕事。",
- "lead": "AnberTechはトルコの個人開発者です。どのアプリもひとつの仕事をしっかりこなします：予約、大会、成績、当直表。",
+ "lead": "AnberTechはトルコの個人開発者です。どのアプリもひとつの仕事をしっかりこなします：予約、大会、成績、当直表、ジェンダーリビール。",
  "aria_theme": "テーマ",
  "aria_lang": "言語",
  "soon": "近日公開",
@@ -23,25 +23,25 @@
  "nf_plat": "Webブラウザ · トルコ語のみ · 無料",
  "nf_open": "ツールを開く",
  "about_h2": "AnberTechについて",
- "about_p": "AnberTechは、日常の困りごとをシンプルに解決するモバイルアプリとWebツールを作っています。アプリはApp StoreとGoogle Playで公開され、それぞれ無料のWebツールとガイドを備えた専用サイトがあります。KuafixとFormal Nöbet Çözücüはトルコ向けにトルコ語で作られ、TurnuVoltと成績計算機は多くの言語で利用できます。",
+ "about_p": "AnberTechは、日常の困りごとをシンプルに解決するモバイルアプリとWebツールを作っています。アプリはApp StoreとGoogle Playで公開され、それぞれ無料のWebツールとガイドを備えた専用サイトがあります。KuafixとFormal Nöbet Çözücüはトルコ向けにトルコ語で作られ、TurnuVoltと成績計算機は多くの言語で利用できます。PinkOrBlueは、ブラウザで使える無料のオンライン・ジェンダーリビールサイトで、15言語に対応しています。",
  "faq_h2": "よくある質問",
  "rights": "無断転載を禁じます。",
  "faq": [
   [
    "AnberTechのアプリは無料ですか？",
-   "成績計算機とFormal Nöbet Çözücüは無料です。TurnuVoltは買い切りです。Kuafixはダウンロード無料でお客様は無料で使えます。美容師パネルは1か月の無料体験後にPremiumサブスクリプションが必要です。"
+   "成績計算機とFormal Nöbet Çözücüは無料です。TurnuVoltは買い切りです。Kuafixはダウンロード無料でお客様は無料で使えます。美容師パネルは1か月の無料体験後にPremiumサブスクリプションが必要です。PinkOrBlueも無料で、アプリも登録も不要です。"
   ],
   [
    "それぞれのアプリは何に使いますか？",
-   "Kuafixは美容室・理容室の予約、TurnuVoltはあらゆるゲームの大会・リーグの対戦表作成、成績計算機は平均点、期末試験で必要な点数、GPAの計算、Formal Nöbet Çözücüは医師の月間当直表の作成に使います。"
+   "Kuafixは美容室・理容室の予約、TurnuVoltはあらゆるゲームの大会・リーグの対戦表作成、成績計算機は平均点、期末試験で必要な点数、GPAの計算、Formal Nöbet Çözücüは医師の月間当直表の作成に使います。PinkOrBlueはオンライン・ジェンダーリビール用で、みんなで男の子か女の子かを予想し、一緒に風船をふくらませて、同じ瞬間に結果を見られます。"
   ],
   [
    "インストールせずに試せますか？",
-   "はい。TurnuVoltのサイトには無料の対戦表ジェネレーター、成績計算機のサイトには期末試験の必要点数・平均点・GPAの無料計算ツールがあります。Formal Nöbet Çözücüはもともとブラウザで動きます。"
+   "はい。TurnuVoltのサイトには無料の対戦表ジェネレーター、成績計算機のサイトには期末試験の必要点数・平均点・GPAの無料計算ツールがあります。Formal Nöbet Çözücüはもともとブラウザで動きます。PinkOrBlueもリンクひとつでブラウザで動きます。"
   ],
   [
    "対応言語は？",
-   "TurnuVoltは33言語、成績計算機は17言語に対応しています。KuafixとFormal Nöbet Çözücüはトルコ語です。"
+   "TurnuVoltは33言語、成績計算機は17言語に対応しています。KuafixとFormal Nöbet Çözücüはトルコ語です。PinkOrBlueは15言語に対応しています。"
   ],
   [
    "問い合わせ方法は？",

@@ -1,9 +1,9 @@
 {
- "title": "AnberTech : Kuafix, TurnuVolt, Calculateur de notes et Formal Nöbet Çözücü",
- "meta_desc": "Les applications d’AnberTech : Kuafix, prise de rendez-vous pour coiffeurs et barbiers ; TurnuVolt, tournois et calendriers de matchs ; Calculateur de notes, moyennes et GPA ; et Formal Nöbet Çözücü, un outil gratuit de planning de gardes pour médecins.",
+ "title": "AnberTech : Kuafix, TurnuVolt, Calculateur de notes, PinkOrBlue et plus",
+ "meta_desc": "Les applis d’AnberTech : Kuafix pour les coiffeurs, TurnuVolt pour les tournois, Calculateur de notes pour les moyennes, Formal Nöbet Çözücü pour les gardes et PinkOrBlue, un gender reveal en ligne.",
  "h1_a": "Des applis simples.",
  "h1_b": "Un travail clair.",
- "lead": "AnberTech est un développeur indépendant basé en Turquie. Chaque appli fait bien une seule chose : rendez-vous, tournois, notes et plannings de garde.",
+ "lead": "AnberTech est un développeur indépendant basé en Turquie. Chaque appli fait bien une seule chose : rendez-vous, tournois, notes, plannings de garde et gender reveals.",
  "aria_theme": "Thème",
  "aria_lang": "Langue",
  "soon": "Bientôt",
@@ -23,25 +23,25 @@
  "nf_plat": "Navigateur web · en turc uniquement · gratuit",
  "nf_open": "Ouvrir l’outil",
  "about_h2": "À propos d’AnberTech",
- "about_p": "AnberTech crée des applications mobiles et des outils web qui apportent une solution simple à un problème du quotidien. Les applis sont publiées sur l’App Store et Google Play, et chacune a son propre site avec des outils web gratuits et des guides. Kuafix et Formal Nöbet Çözücü sont conçus en turc pour la Turquie ; TurnuVolt et Calculateur de notes sont disponibles dans de nombreuses langues.",
+ "about_p": "AnberTech crée des applications mobiles et des outils web qui apportent une solution simple à un problème du quotidien. Les applis sont publiées sur l’App Store et Google Play, et chacune a son propre site avec des outils web gratuits et des guides. Kuafix et Formal Nöbet Çözücü sont conçus en turc pour la Turquie ; TurnuVolt et Calculateur de notes sont disponibles dans de nombreuses langues. PinkOrBlue est un site gratuit de gender reveal en ligne qui fonctionne dans le navigateur et existe en 15 langues.",
  "faq_h2": "Questions fréquentes",
  "rights": "Tous droits réservés.",
  "faq": [
   [
    "Les applis d’AnberTech sont-elles gratuites ?",
-   "Calculateur de notes et Formal Nöbet Çözücü sont gratuits. TurnuVolt est un achat unique. Kuafix se télécharge gratuitement et reste gratuit pour les clients ; l’espace coiffeur nécessite un abonnement Premium après un mois d’essai gratuit."
+   "Calculateur de notes et Formal Nöbet Çözücü sont gratuits. TurnuVolt est un achat unique. Kuafix se télécharge gratuitement et reste gratuit pour les clients ; l’espace coiffeur nécessite un abonnement Premium après un mois d’essai gratuit. PinkOrBlue est gratuit lui aussi, sans appli ni inscription."
   ],
   [
    "À quoi sert chaque appli ?",
-   "Kuafix sert aux rendez-vous chez le coiffeur et le barbier, TurnuVolt crée des calendriers de tournois et de championnats pour tous les jeux, Calculateur de notes calcule ta moyenne, la note nécessaire à l’examen final et ton GPA, et Formal Nöbet Çözücü établit les plannings de garde mensuels des médecins."
+   "Kuafix sert aux rendez-vous chez le coiffeur et le barbier, TurnuVolt crée des calendriers de tournois et de championnats pour tous les jeux, Calculateur de notes calcule ta moyenne, la note nécessaire à l’examen final et ton GPA, et Formal Nöbet Çözücü établit les plannings de garde mensuels des médecins. PinkOrBlue sert à organiser un gender reveal en ligne : tout le monde vote fille ou garçon, gonfle le ballon ensemble et découvre le résultat à la même seconde."
   ],
   [
    "Puis-je les essayer sans installation ?",
-   "Oui. Le site de TurnuVolt propose un générateur de calendrier gratuit, et celui de Calculateur de notes des calculateurs gratuits de note finale, de moyenne et de GPA. Formal Nöbet Çözücü fonctionne de toute façon dans le navigateur."
+   "Oui. Le site de TurnuVolt propose un générateur de calendrier gratuit, et celui de Calculateur de notes des calculateurs gratuits de note finale, de moyenne et de GPA. Formal Nöbet Çözücü fonctionne de toute façon dans le navigateur. PinkOrBlue fonctionne lui aussi dans le navigateur, avec un seul lien."
   ],
   [
    "Dans quelles langues sont-elles disponibles ?",
-   "TurnuVolt est disponible en 33 langues et Calculateur de notes en 17. Kuafix et Formal Nöbet Çözücü sont en turc."
+   "TurnuVolt est disponible en 33 langues et Calculateur de notes en 17. Kuafix et Formal Nöbet Çözücü sont en turc. PinkOrBlue est disponible en 15 langues."
   ],
   [
    "Comment vous contacter ?",

@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Notenrechner und Formal Nöbet Çözücü",
- "meta_desc": "Apps von AnberTech: Kuafix, eine Termin-App für Friseure und Barbiere; TurnuVolt, eine App für Turniere und Spielpläne; Notenrechner, eine App für Noten und GPA; und Formal Nöbet Çözücü, ein kostenloses Dienstplan-Tool für Ärzte.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Notenrechner, PinkOrBlue und mehr",
+ "meta_desc": "Apps von AnberTech: Kuafix für Friseurtermine, TurnuVolt für Turniere, Notenrechner für Noten und GPA, Formal Nöbet Çözücü für Ärzte-Dienstpläne und PinkOrBlue für Gender Reveals online.",
  "h1_a": "Einfache Apps.",
  "h1_b": "Klare Aufgaben.",
- "lead": "AnberTech ist ein unabhängiger Entwickler aus der Türkei. Jede App erledigt eine Aufgabe gut: Termine, Turniere, Noten und Bereitschaftsdienste.",
+ "lead": "AnberTech ist ein unabhängiger Entwickler aus der Türkei. Jede App erledigt eine Aufgabe gut: Termine, Turniere, Noten, Bereitschaftsdienste und Gender Reveal Partys.",
  "aria_theme": "Design",
  "aria_lang": "Sprache",
  "soon": "Demnächst",
@@ -23,25 +23,25 @@
  "nf_plat": "Webbrowser · nur Türkisch · Kostenlos",
  "nf_open": "Tool öffnen",
  "about_h2": "Über AnberTech",
- "about_p": "AnberTech entwickelt mobile Apps und Web-Tools, die ein alltägliches Problem einfach lösen. Die Apps erscheinen im App Store und bei Google Play, und jede hat eine eigene Website mit kostenlosen Web-Tools und Ratgebern. Kuafix und Formal Nöbet Çözücü sind auf Türkisch für die Türkei gemacht; TurnuVolt und Notenrechner gibt es in vielen Sprachen.",
+ "about_p": "AnberTech entwickelt mobile Apps und Web-Tools, die ein alltägliches Problem einfach lösen. Die Apps erscheinen im App Store und bei Google Play, und jede hat eine eigene Website mit kostenlosen Web-Tools und Ratgebern. Kuafix und Formal Nöbet Çözücü sind auf Türkisch für die Türkei gemacht; TurnuVolt und Notenrechner gibt es in vielen Sprachen. PinkOrBlue ist eine kostenlose Website für Gender Reveal Partys online, die im Browser läuft und in 15 Sprachen verfügbar ist.",
  "faq_h2": "Häufige Fragen",
  "rights": "Alle Rechte vorbehalten.",
  "faq": [
   [
    "Sind die Apps von AnberTech kostenlos?",
-   "Notenrechner und Formal Nöbet Çözücü sind kostenlos. TurnuVolt ist ein Einmalkauf. Kuafix ist kostenlos herunterzuladen und für Kunden kostenlos; das Friseur-Panel braucht nach einem kostenlosen Probemonat ein Premium-Abo."
+   "Notenrechner und Formal Nöbet Çözücü sind kostenlos. TurnuVolt ist ein Einmalkauf. Kuafix ist kostenlos herunterzuladen und für Kunden kostenlos; das Friseur-Panel braucht nach einem kostenlosen Probemonat ein Premium-Abo. PinkOrBlue ist ebenfalls kostenlos, ohne App und Anmeldung."
   ],
   [
    "Wofür ist welche App?",
-   "Kuafix ist für Termine bei Friseuren und Barbieren, TurnuVolt erstellt Turnier- und Ligaspielpläne für jedes Spiel, Notenrechner berechnet deinen Durchschnitt, die nötige Prüfungsnote und deinen GPA, und Formal Nöbet Çözücü erstellt monatliche Bereitschaftsdienstpläne für Ärzte."
+   "Kuafix ist für Termine bei Friseuren und Barbieren, TurnuVolt erstellt Turnier- und Ligaspielpläne für jedes Spiel, Notenrechner berechnet deinen Durchschnitt, die nötige Prüfungsnote und deinen GPA, und Formal Nöbet Çözücü erstellt monatliche Bereitschaftsdienstpläne für Ärzte. PinkOrBlue ist für eine Gender Reveal Party online: Alle tippen auf Mädchen oder Junge, blasen gemeinsam den Ballon auf und sehen das Ergebnis in derselben Sekunde."
   ],
   [
    "Kann ich sie ohne Installation ausprobieren?",
-   "Ja. Auf der TurnuVolt-Website gibt es einen kostenlosen Spielplan-Generator, auf der Notenrechner-Website kostenlose Rechner für Prüfungsnote, Durchschnitt und GPA. Formal Nöbet Çözücü läuft ohnehin im Browser."
+   "Ja. Auf der TurnuVolt-Website gibt es einen kostenlosen Spielplan-Generator, auf der Notenrechner-Website kostenlose Rechner für Prüfungsnote, Durchschnitt und GPA. Formal Nöbet Çözücü läuft ohnehin im Browser. Auch PinkOrBlue läuft im Browser, über einen einzigen Link."
   ],
   [
    "In welchen Sprachen gibt es sie?",
-   "TurnuVolt gibt es in 33 Sprachen, Notenrechner in 17. Kuafix und Formal Nöbet Çözücü sind auf Türkisch."
+   "TurnuVolt gibt es in 33 Sprachen, Notenrechner in 17. Kuafix und Formal Nöbet Çözücü sind auf Türkisch. PinkOrBlue gibt es in 15 Sprachen."
   ],
   [
    "Wie erreiche ich euch?",

@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Not Hesaplayıcı ve Formal Nöbet Çözücü",
- "meta_desc": "AnberTech'in uygulamaları: kuaför ve berber randevu uygulaması Kuafix, turnuva ve fikstür uygulaması TurnuVolt, not ve GANO hesaplama uygulaması Not Hesaplayıcı ve doktorlar için ücretsiz nöbet listesi aracı Formal Nöbet Çözücü.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Not Hesaplayıcı, PinkOrBlue ve diğerleri",
+ "meta_desc": "AnberTech'in uygulamaları: kuaför randevusu için Kuafix, turnuva için TurnuVolt, not ve GANO için Not Hesaplayıcı, nöbet için Formal Nöbet Çözücü, online cinsiyet partisi için PinkOrBlue.",
  "h1_a": "Sade uygulamalar.",
  "h1_b": "Net işler.",
- "lead": "AnberTech, Türkiye'den bağımsız bir geliştirici. Her uygulama tek bir işi iyi yapar: randevu, turnuva, not hesabı ve nöbet listesi.",
+ "lead": "AnberTech, Türkiye'den bağımsız bir geliştirici. Her uygulama tek bir işi iyi yapar: randevu, turnuva, not hesabı, nöbet listesi ve cinsiyet partisi.",
  "aria_theme": "Tema",
  "aria_lang": "Dil",
  "soon": "Yakında",
@@ -23,24 +23,24 @@
  "nf_plat": "Web tarayıcı · Türkçe · Ücretsiz",
  "nf_open": "Aracı aç",
  "about_h2": "AnberTech hakkında",
- "about_p": "AnberTech, günlük bir derde sade bir çözüm sunan mobil uygulamalar ve web araçları geliştirir. Uygulamalar App Store ve Google Play'de yayınlanır; her birinin kendi sitesinde ücretsiz web araçları ve rehberler vardır. Kuafix ve Formal Nöbet Çözücü Türkiye için Türkçe hazırlanmıştır; TurnuVolt ve Not Hesaplayıcı birçok dilde kullanılabilir.",
+ "about_p": "AnberTech, günlük bir derde sade bir çözüm sunan mobil uygulamalar ve web araçları geliştirir. Uygulamalar App Store ve Google Play'de yayınlanır; her birinin kendi sitesinde ücretsiz web araçları ve rehberler vardır. Kuafix ve Formal Nöbet Çözücü Türkiye için Türkçe hazırlanmıştır; TurnuVolt ve Not Hesaplayıcı birçok dilde kullanılabilir. PinkOrBlue ise tarayıcıda çalışan ve 15 dilde kullanılabilen ücretsiz bir online cinsiyet partisi sitesidir.",
  "faq_h2": "Sıkça sorulan sorular",
  "faq": [
   [
    "AnberTech'in uygulamaları ücretsiz mi?",
-   "Not Hesaplayıcı ve Formal Nöbet Çözücü ücretsizdir. TurnuVolt tek seferlik ücretle satılır. Kuafix'i indirmek ve müşteri olarak randevu almak ücretsizdir; kuaför paneli 1 ay ücretsiz denendikten sonra Premium abonelik gerektirir."
+   "Not Hesaplayıcı ve Formal Nöbet Çözücü ücretsizdir. TurnuVolt tek seferlik ücretle satılır. Kuafix'i indirmek ve müşteri olarak randevu almak ücretsizdir; kuaför paneli 1 ay ücretsiz denendikten sonra Premium abonelik gerektirir. PinkOrBlue da ücretsizdir; uygulama ve üyelik gerekmez."
   ],
   [
    "Hangi uygulama ne işe yarar?",
-   "Kuafix kuaför ve berber randevuları içindir, TurnuVolt her oyun için turnuva ve lig fikstürü hazırlar, Not Hesaplayıcı ortalama, gereken final notu ve GANO hesaplar, Formal Nöbet Çözücü doktorlar için aylık nöbet listesi oluşturur."
+   "Kuafix kuaför ve berber randevuları içindir, TurnuVolt her oyun için turnuva ve lig fikstürü hazırlar, Not Hesaplayıcı ortalama, gereken final notu ve GANO hesaplar, Formal Nöbet Çözücü doktorlar için aylık nöbet listesi oluşturur. PinkOrBlue ile online cinsiyet partisi yapılır: herkes kız mı erkek mi oylar, balonu birlikte şişirir ve sonucu aynı saniyede görür."
   ],
   [
    "Uygulamaları indirmeden deneyebilir miyim?",
-   "Evet. TurnuVolt sitesinde ücretsiz fikstür oluşturucu, Not Hesaplayıcı sitesinde final, ortalama ve GANO hesaplayıcıları vardır. Formal Nöbet Çözücü zaten tarayıcıda çalışır."
+   "Evet. TurnuVolt sitesinde ücretsiz fikstür oluşturucu, Not Hesaplayıcı sitesinde final, ortalama ve GANO hesaplayıcıları vardır. Formal Nöbet Çözücü zaten tarayıcıda çalışır. PinkOrBlue da tek bir linkle tarayıcıda çalışır."
   ],
   [
    "Hangi dillerde kullanılabilir?",
-   "TurnuVolt 33 dilde, Not Hesaplayıcı 17 dilde kullanılabilir. Kuafix ve Formal Nöbet Çözücü Türkçedir."
+   "TurnuVolt 33 dilde, Not Hesaplayıcı 17 dilde kullanılabilir. Kuafix ve Formal Nöbet Çözücü Türkçedir. PinkOrBlue 15 dilde kullanılabilir."
   ],
   [
    "Nasıl iletişime geçebilirim?",

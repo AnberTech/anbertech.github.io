@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator és Formal Nöbet Çözücü",
- "meta_desc": "Az AnberTech alkalmazásai: Kuafix fodrászok és borbélyok időpontfoglalásához, TurnuVolt tornákhoz és sorsolásokhoz, Grade Calculator jegyekhez és GPA-hoz, valamint Formal Nöbet Çözücü, ingyenes ügyeleti beosztó orvosoknak.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator, PinkOrBlue és mások",
+ "meta_desc": "Az AnberTech appjai: Kuafix fodrászidőpontokhoz, TurnuVolt tornákhoz, Grade Calculator jegyekhez, Formal Nöbet Çözücü orvosi ügyeletekhez és PinkOrBlue online gender reveal partihoz.",
  "h1_a": "Egyszerű appok.",
  "h1_b": "Világos feladatok.",
- "lead": "Az AnberTech független fejlesztő Törökországból. Minden app egy dolgot csinál jól: időpontok, tornák, jegyek és ügyeletek.",
+ "lead": "Az AnberTech független fejlesztő Törökországból. Minden app egy dolgot csinál jól: időpontok, tornák, jegyek, ügyeletek és gender reveal partik.",
  "aria_theme": "Téma",
  "aria_lang": "Nyelv",
  "soon": "Hamarosan",
@@ -23,25 +23,25 @@
  "nf_plat": "Böngésző · csak törökül · ingyenes",
  "nf_open": "Eszköz megnyitása",
  "about_h2": "Az AnberTechről",
- "about_p": "Az AnberTech mobilalkalmazásokat és webes eszközöket készít, amelyek egyszerűen oldanak meg egy hétköznapi problémát. Az appok az App Store-ban és a Google Playen érhetők el, és mindegyiknek saját weboldala van ingyenes eszközökkel és útmutatókkal. A Kuafix és a Formal Nöbet Çözücü törökül készült Törökországnak; a TurnuVolt és a Grade Calculator sok nyelven elérhető.",
+ "about_p": "Az AnberTech mobilalkalmazásokat és webes eszközöket készít, amelyek egyszerűen oldanak meg egy hétköznapi problémát. Az appok az App Store-ban és a Google Playen érhetők el, és mindegyiknek saját weboldala van ingyenes eszközökkel és útmutatókkal. A Kuafix és a Formal Nöbet Çözücü törökül készült Törökországnak; a TurnuVolt és a Grade Calculator sok nyelven elérhető. A PinkOrBlue ingyenes online gender reveal parti oldal, amely a böngészőben fut, és 15 nyelven érhető el.",
  "faq_h2": "Gyakori kérdések",
  "rights": "Minden jog fenntartva.",
  "faq": [
   [
    "Ingyenesek az AnberTech appjai?",
-   "A Grade Calculator és a Formal Nöbet Çözücü ingyenes. A TurnuVolt egyszeri vásárlás. A Kuafix ingyen letölthető és a vendégeknek ingyenes; a fodrászpanelhez egy hónap ingyenes próba után Premium-előfizetés kell."
+   "A Grade Calculator és a Formal Nöbet Çözücü ingyenes. A TurnuVolt egyszeri vásárlás. A Kuafix ingyen letölthető és a vendégeknek ingyenes; a fodrászpanelhez egy hónap ingyenes próba után Premium-előfizetés kell. A PinkOrBlue is ingyenes, alkalmazás és regisztráció nélkül."
   ],
   [
    "Melyik app mire való?",
-   "A Kuafix fodrász- és borbélyidőpontokhoz, a TurnuVolt bármilyen játékhoz torna- és bajnoki sorsolást készít, a Grade Calculator kiszámolja az átlagot, a vizsgán szükséges jegyet és a GPA-t, a Formal Nöbet Çözücü pedig havi ügyeleti beosztást készít orvosoknak."
+   "A Kuafix fodrász- és borbélyidőpontokhoz, a TurnuVolt bármilyen játékhoz torna- és bajnoki sorsolást készít, a Grade Calculator kiszámolja az átlagot, a vizsgán szükséges jegyet és a GPA-t, a Formal Nöbet Çözücü pedig havi ügyeleti beosztást készít orvosoknak. A PinkOrBlue online gender reveal partihoz való: mindenki szavaz, kislány vagy kisfiú, együtt fújják fel a lufit, és ugyanabban a másodpercben látják az eredményt."
   ],
   [
    "Kipróbálhatom telepítés nélkül?",
-   "Igen. A TurnuVolt oldalán ingyenes sorsolásgenerátor, a Grade Calculator oldalán ingyenes vizsgajegy-, átlag- és GPA-kalkulátorok vannak. A Formal Nöbet Çözücü eleve a böngészőben fut."
+   "Igen. A TurnuVolt oldalán ingyenes sorsolásgenerátor, a Grade Calculator oldalán ingyenes vizsgajegy-, átlag- és GPA-kalkulátorok vannak. A Formal Nöbet Çözücü eleve a böngészőben fut. A PinkOrBlue is a böngészőben fut, egyetlen linkkel."
   ],
   [
    "Milyen nyelveken érhetők el?",
-   "A TurnuVolt 33, a Grade Calculator 17 nyelven érhető el. A Kuafix és a Formal Nöbet Çözücü török nyelvű."
+   "A TurnuVolt 33, a Grade Calculator 17 nyelven érhető el. A Kuafix és a Formal Nöbet Çözücü török nyelvű. A PinkOrBlue 15 nyelven érhető el."
   ],
   [
    "Hogyan léphetek kapcsolatba veletek?",

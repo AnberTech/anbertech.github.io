@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator và Formal Nöbet Çözücü",
- "meta_desc": "Ứng dụng của AnberTech: Kuafix để đặt lịch tiệm tóc và barbershop, TurnuVolt cho giải đấu và lịch thi đấu, Grade Calculator cho điểm số và GPA, và Formal Nöbet Çözücü, công cụ miễn phí xếp lịch trực cho bác sĩ.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator, PinkOrBlue và nhiều hơn",
+ "meta_desc": "Ứng dụng của AnberTech: Kuafix đặt lịch tiệm tóc, TurnuVolt cho giải đấu, Grade Calculator tính điểm và GPA, Formal Nöbet Çözücü xếp lịch trực và PinkOrBlue cho tiệc tiết lộ giới tính online.",
  "h1_a": "Ứng dụng đơn giản.",
  "h1_b": "Việc rõ ràng.",
- "lead": "AnberTech là nhà phát triển độc lập đến từ Thổ Nhĩ Kỳ. Mỗi ứng dụng làm tốt một việc: đặt lịch, giải đấu, điểm số và lịch trực.",
+ "lead": "AnberTech là nhà phát triển độc lập đến từ Thổ Nhĩ Kỳ. Mỗi ứng dụng làm tốt một việc: đặt lịch, giải đấu, điểm số, lịch trực và tiệc tiết lộ giới tính.",
  "aria_theme": "Giao diện",
  "aria_lang": "Ngôn ngữ",
  "soon": "Sắp ra mắt",
@@ -23,25 +23,25 @@
  "nf_plat": "Trình duyệt web · chỉ tiếng Thổ Nhĩ Kỳ · miễn phí",
  "nf_open": "Mở công cụ",
  "about_h2": "Về AnberTech",
- "about_p": "AnberTech làm ứng dụng di động và công cụ web giúp giải quyết đơn giản một vấn đề hằng ngày. Các ứng dụng có trên App Store và Google Play, và mỗi ứng dụng có trang web riêng với công cụ web miễn phí và hướng dẫn. Kuafix và Formal Nöbet Çözücü được làm bằng tiếng Thổ Nhĩ Kỳ cho Thổ Nhĩ Kỳ; TurnuVolt và Grade Calculator có nhiều ngôn ngữ.",
+ "about_p": "AnberTech làm ứng dụng di động và công cụ web giúp giải quyết đơn giản một vấn đề hằng ngày. Các ứng dụng có trên App Store và Google Play, và mỗi ứng dụng có trang web riêng với công cụ web miễn phí và hướng dẫn. Kuafix và Formal Nöbet Çözücü được làm bằng tiếng Thổ Nhĩ Kỳ cho Thổ Nhĩ Kỳ; TurnuVolt và Grade Calculator có nhiều ngôn ngữ. PinkOrBlue là trang web miễn phí tổ chức tiệc tiết lộ giới tính online, chạy trong trình duyệt và có 15 ngôn ngữ.",
  "faq_h2": "Câu hỏi thường gặp",
  "rights": "Bảo lưu mọi quyền.",
  "faq": [
   [
    "Ứng dụng của AnberTech có miễn phí không?",
-   "Grade Calculator và Formal Nöbet Çözücü miễn phí. TurnuVolt mua một lần. Kuafix tải về miễn phí và miễn phí cho khách hàng; bảng điều khiển của thợ tóc cần gói Premium sau 1 tháng dùng thử miễn phí."
+   "Grade Calculator và Formal Nöbet Çözücü miễn phí. TurnuVolt mua một lần. Kuafix tải về miễn phí và miễn phí cho khách hàng; bảng điều khiển của thợ tóc cần gói Premium sau 1 tháng dùng thử miễn phí. PinkOrBlue cũng miễn phí, không cần ứng dụng hay đăng ký."
   ],
   [
    "Mỗi ứng dụng dùng để làm gì?",
-   "Kuafix để đặt lịch tiệm tóc và barbershop, TurnuVolt tạo lịch thi đấu giải và vòng tròn cho mọi trò chơi, Grade Calculator tính điểm trung bình, điểm cần đạt khi thi cuối kỳ và GPA, còn Formal Nöbet Çözücü xếp lịch trực hằng tháng cho bác sĩ."
+   "Kuafix để đặt lịch tiệm tóc và barbershop, TurnuVolt tạo lịch thi đấu giải và vòng tròn cho mọi trò chơi, Grade Calculator tính điểm trung bình, điểm cần đạt khi thi cuối kỳ và GPA, còn Formal Nöbet Çözücü xếp lịch trực hằng tháng cho bác sĩ. PinkOrBlue dùng để tổ chức tiệc tiết lộ giới tính online: mọi người bình chọn bé gái hay bé trai, cùng thổi bóng bay và xem kết quả trong cùng một giây."
   ],
   [
    "Tôi có thể dùng thử mà không cần cài đặt không?",
-   "Có. Trang TurnuVolt có công cụ tạo lịch thi đấu miễn phí, trang Grade Calculator có máy tính điểm cuối kỳ, điểm trung bình và GPA miễn phí. Formal Nöbet Çözücü vốn chạy trong trình duyệt."
+   "Có. Trang TurnuVolt có công cụ tạo lịch thi đấu miễn phí, trang Grade Calculator có máy tính điểm cuối kỳ, điểm trung bình và GPA miễn phí. Formal Nöbet Çözücü vốn chạy trong trình duyệt. PinkOrBlue cũng chạy trong trình duyệt chỉ với một đường link."
   ],
   [
    "Có những ngôn ngữ nào?",
-   "TurnuVolt có 33 ngôn ngữ và Grade Calculator có 17 ngôn ngữ. Kuafix và Formal Nöbet Çözücü bằng tiếng Thổ Nhĩ Kỳ."
+   "TurnuVolt có 33 ngôn ngữ và Grade Calculator có 17 ngôn ngữ. Kuafix và Formal Nöbet Çözücü bằng tiếng Thổ Nhĩ Kỳ. PinkOrBlue có 15 ngôn ngữ."
   ],
   [
    "Làm sao để liên hệ?",

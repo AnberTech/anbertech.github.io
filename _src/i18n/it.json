@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Calcolo Voti e Formal Nöbet Çözücü",
- "meta_desc": "Le app di AnberTech: Kuafix, prenotazioni per parrucchieri e barbieri; TurnuVolt, tornei e calendari; Calcolo Voti, voti e media; e Formal Nöbet Çözücü, uno strumento gratuito per i turni di guardia dei medici.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Calcolo Voti, PinkOrBlue e altre app",
+ "meta_desc": "Le app di AnberTech: Kuafix per parrucchieri, TurnuVolt per i tornei, Calcolo Voti per voti e media, Formal Nöbet Çözücü per i turni dei medici e PinkOrBlue per il gender reveal online.",
  "h1_a": "App semplici.",
  "h1_b": "Compiti chiari.",
- "lead": "AnberTech è uno sviluppatore indipendente con sede in Turchia. Ogni app fa bene una sola cosa: appuntamenti, tornei, voti e turni di guardia.",
+ "lead": "AnberTech è uno sviluppatore indipendente con sede in Turchia. Ogni app fa bene una sola cosa: appuntamenti, tornei, voti, turni di guardia e gender reveal.",
  "aria_theme": "Tema",
  "aria_lang": "Lingua",
  "soon": "In arrivo",
@@ -23,25 +23,25 @@
  "nf_plat": "Browser web · solo in turco · gratis",
  "nf_open": "Apri lo strumento",
  "about_h2": "Chi è AnberTech",
- "about_p": "AnberTech sviluppa app e strumenti web che offrono una soluzione semplice a un problema quotidiano. Le app sono pubblicate su App Store e Google Play, e ognuna ha il proprio sito con strumenti web gratuiti e guide. Kuafix e Formal Nöbet Çözücü sono in turco per la Turchia; TurnuVolt e Calcolo Voti sono disponibili in molte lingue.",
+ "about_p": "AnberTech sviluppa app e strumenti web che offrono una soluzione semplice a un problema quotidiano. Le app sono pubblicate su App Store e Google Play, e ognuna ha il proprio sito con strumenti web gratuiti e guide. Kuafix e Formal Nöbet Çözücü sono in turco per la Turchia; TurnuVolt e Calcolo Voti sono disponibili in molte lingue. PinkOrBlue è un sito gratuito per il gender reveal online che funziona nel browser ed è disponibile in 15 lingue.",
  "faq_h2": "Domande frequenti",
  "rights": "Tutti i diritti riservati.",
  "faq": [
   [
    "Le app di AnberTech sono gratuite?",
-   "Calcolo Voti e Formal Nöbet Çözücü sono gratuiti. TurnuVolt è un acquisto unico. Kuafix si scarica gratis ed è gratuito per i clienti; il pannello del parrucchiere richiede un abbonamento Premium dopo un mese di prova gratuita."
+   "Calcolo Voti e Formal Nöbet Çözücü sono gratuiti. TurnuVolt è un acquisto unico. Kuafix si scarica gratis ed è gratuito per i clienti; il pannello del parrucchiere richiede un abbonamento Premium dopo un mese di prova gratuita. Anche PinkOrBlue è gratuito, senza app e senza registrazione."
   ],
   [
    "A cosa serve ciascuna app?",
-   "Kuafix serve per gli appuntamenti da parrucchieri e barbieri, TurnuVolt crea calendari di tornei e campionati per ogni gioco, Calcolo Voti calcola la media, il voto necessario all’esame finale e il GPA, e Formal Nöbet Çözücü crea i turni di guardia mensili dei medici."
+   "Kuafix serve per gli appuntamenti da parrucchieri e barbieri, TurnuVolt crea calendari di tornei e campionati per ogni gioco, Calcolo Voti calcola la media, il voto necessario all’esame finale e il GPA, e Formal Nöbet Çözücü crea i turni di guardia mensili dei medici. PinkOrBlue serve per un gender reveal online: tutti votano femmina o maschio, gonfiano insieme il palloncino e vedono il risultato nello stesso istante."
   ],
   [
    "Posso provarle senza installarle?",
-   "Sì. Il sito di TurnuVolt ha un generatore di calendari gratuito e quello di Calcolo Voti calcolatori gratuiti per voto finale, media e GPA. Formal Nöbet Çözücü funziona già nel browser."
+   "Sì. Il sito di TurnuVolt ha un generatore di calendari gratuito e quello di Calcolo Voti calcolatori gratuiti per voto finale, media e GPA. Formal Nöbet Çözücü funziona già nel browser. Anche PinkOrBlue funziona nel browser con un solo link."
   ],
   [
    "In quali lingue sono disponibili?",
-   "TurnuVolt è disponibile in 33 lingue e Calcolo Voti in 17. Kuafix e Formal Nöbet Çözücü sono in turco."
+   "TurnuVolt è disponibile in 33 lingue e Calcolo Voti in 17. Kuafix e Formal Nöbet Çözücü sono in turco. PinkOrBlue è disponibile in 15 lingue."
   ],
   [
    "Come posso contattarvi?",

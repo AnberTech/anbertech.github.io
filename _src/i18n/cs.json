@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator a Formal Nöbet Çözücü",
- "meta_desc": "Aplikace AnberTech: Kuafix pro objednávky u kadeřníků a barberů, TurnuVolt pro turnaje a rozpisy zápasů, Grade Calculator pro známky a GPA a Formal Nöbet Çözücü, bezplatný nástroj pro rozpisy služeb lékařů.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator, PinkOrBlue a další",
+ "meta_desc": "Aplikace AnberTech: Kuafix pro objednávky u kadeřníků, TurnuVolt pro turnaje, Grade Calculator pro známky a GPA, Formal Nöbet Çözücü pro služby lékařů a PinkOrBlue pro online gender reveal.",
  "h1_a": "Jednoduché aplikace.",
  "h1_b": "Jasná práce.",
- "lead": "AnberTech je nezávislý vývojář z Turecka. Každá aplikace dělá dobře jednu věc: objednávky, turnaje, známky a služby.",
+ "lead": "AnberTech je nezávislý vývojář z Turecka. Každá aplikace dělá dobře jednu věc: objednávky, turnaje, známky, služby a gender reveal oslavy.",
  "aria_theme": "Motiv",
  "aria_lang": "Jazyk",
  "soon": "Brzy",
@@ -23,25 +23,25 @@
  "nf_plat": "Webový prohlížeč · pouze turecky · zdarma",
  "nf_open": "Otevřít nástroj",
  "about_h2": "O AnberTech",
- "about_p": "AnberTech vyvíjí mobilní aplikace a webové nástroje, které jednoduše řeší každodenní problém. Aplikace jsou v App Store a na Google Play a každá má vlastní web s bezplatnými nástroji a návody. Kuafix a Formal Nöbet Çözücü jsou v turečtině pro Turecko; TurnuVolt a Grade Calculator jsou dostupné v mnoha jazycích.",
+ "about_p": "AnberTech vyvíjí mobilní aplikace a webové nástroje, které jednoduše řeší každodenní problém. Aplikace jsou v App Store a na Google Play a každá má vlastní web s bezplatnými nástroji a návody. Kuafix a Formal Nöbet Çözücü jsou v turečtině pro Turecko; TurnuVolt a Grade Calculator jsou dostupné v mnoha jazycích. PinkOrBlue je bezplatný web pro online gender reveal party, který běží v prohlížeči a je dostupný v 15 jazycích.",
  "faq_h2": "Časté otázky",
  "rights": "Všechna práva vyhrazena.",
  "faq": [
   [
    "Jsou aplikace AnberTech zdarma?",
-   "Grade Calculator a Formal Nöbet Çözücü jsou zdarma. TurnuVolt je jednorázový nákup. Kuafix lze stáhnout zdarma a pro zákazníky je zdarma; panel kadeřníka po měsíční bezplatné zkoušce vyžaduje předplatné Premium."
+   "Grade Calculator a Formal Nöbet Çözücü jsou zdarma. TurnuVolt je jednorázový nákup. Kuafix lze stáhnout zdarma a pro zákazníky je zdarma; panel kadeřníka po měsíční bezplatné zkoušce vyžaduje předplatné Premium. PinkOrBlue je také zdarma, bez aplikace a registrace."
   ],
   [
    "K čemu která aplikace slouží?",
-   "Kuafix slouží k objednávkám u kadeřníků a barberů, TurnuVolt vytváří rozpisy turnajů a lig pro jakoukoli hru, Grade Calculator počítá průměr, potřebnou známku u závěrečné zkoušky a GPA a Formal Nöbet Çözücü sestavuje měsíční rozpisy služeb lékařů."
+   "Kuafix slouží k objednávkám u kadeřníků a barberů, TurnuVolt vytváří rozpisy turnajů a lig pro jakoukoli hru, Grade Calculator počítá průměr, potřebnou známku u závěrečné zkoušky a GPA a Formal Nöbet Çözücü sestavuje měsíční rozpisy služeb lékařů. PinkOrBlue slouží k online gender reveal party: hosté hlasují holka nebo kluk, společně nafouknou balónek a výsledek uvidí všichni ve stejnou vteřinu."
   ],
   [
    "Mohu je vyzkoušet bez instalace?",
-   "Ano. Web TurnuVolt nabízí bezplatný generátor rozpisu zápasů a web Grade Calculator bezplatné kalkulačky závěrečné známky, průměru a GPA. Formal Nöbet Çözücü běží přímo v prohlížeči."
+   "Ano. Web TurnuVolt nabízí bezplatný generátor rozpisu zápasů a web Grade Calculator bezplatné kalkulačky závěrečné známky, průměru a GPA. Formal Nöbet Çözücü běží přímo v prohlížeči. Také PinkOrBlue běží v prohlížeči přes jediný odkaz."
   ],
   [
    "V jakých jazycích jsou dostupné?",
-   "TurnuVolt je dostupný v 33 jazycích a Grade Calculator v 17. Kuafix a Formal Nöbet Çözücü jsou v turečtině."
+   "TurnuVolt je dostupný v 33 jazycích a Grade Calculator v 17. Kuafix a Formal Nöbet Çözücü jsou v turečtině. PinkOrBlue je dostupný v 15 jazycích."
   ],
   [
    "Jak vás mohu kontaktovat?",

@@ -1,9 +1,9 @@
 {
- "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator och Formal Nöbet Çözücü",
- "meta_desc": "Appar från AnberTech: Kuafix för tidsbokning hos frisörer och barberare, TurnuVolt för turneringar och spelscheman, Grade Calculator för betyg och GPA, och Formal Nöbet Çözücü, ett gratis verktyg för jourscheman för läkare.",
+ "title": "AnberTech: Kuafix, TurnuVolt, Grade Calculator, PinkOrBlue med flera",
+ "meta_desc": "Appar från AnberTech: Kuafix för frisörbokning, TurnuVolt för turneringar, Grade Calculator för betyg och GPA, Formal Nöbet Çözücü för läkarjourer och PinkOrBlue för gender reveal online.",
  "h1_a": "Enkla appar.",
  "h1_b": "Tydliga uppgifter.",
- "lead": "AnberTech är en oberoende utvecklare från Turkiet. Varje app gör en sak bra: tidsbokning, turneringar, betyg och jourscheman.",
+ "lead": "AnberTech är en oberoende utvecklare från Turkiet. Varje app gör en sak bra: tidsbokning, turneringar, betyg, jourscheman och gender reveal-fester.",
  "aria_theme": "Tema",
  "aria_lang": "Språk",
  "soon": "Kommer snart",
@@ -23,25 +23,25 @@
  "nf_plat": "Webbläsare · endast på turkiska · gratis",
  "nf_open": "Öppna verktyget",
  "about_h2": "Om AnberTech",
- "about_p": "AnberTech gör mobilappar och webbverktyg som löser ett vardagsproblem på ett enkelt sätt. Apparna finns i App Store och Google Play, och var och en har en egen webbplats med gratis webbverktyg och guider. Kuafix och Formal Nöbet Çözücü är gjorda på turkiska för Turkiet; TurnuVolt och Grade Calculator finns på många språk.",
+ "about_p": "AnberTech gör mobilappar och webbverktyg som löser ett vardagsproblem på ett enkelt sätt. Apparna finns i App Store och Google Play, och var och en har en egen webbplats med gratis webbverktyg och guider. Kuafix och Formal Nöbet Çözücü är gjorda på turkiska för Turkiet; TurnuVolt och Grade Calculator finns på många språk. PinkOrBlue är en gratis webbplats för gender reveal-fest online som körs i webbläsaren och finns på 15 språk.",
  "faq_h2": "Vanliga frågor",
  "rights": "Alla rättigheter förbehållna.",
  "faq": [
   [
    "Är AnberTechs appar gratis?",
-   "Grade Calculator och Formal Nöbet Çözücü är gratis. TurnuVolt är ett engångsköp. Kuafix är gratis att ladda ner och gratis för kunder; frisörpanelen kräver en Premium-prenumeration efter en gratis provmånad."
+   "Grade Calculator och Formal Nöbet Çözücü är gratis. TurnuVolt är ett engångsköp. Kuafix är gratis att ladda ner och gratis för kunder; frisörpanelen kräver en Premium-prenumeration efter en gratis provmånad. PinkOrBlue är också gratis, utan app och registrering."
   ],
   [
    "Vad används varje app till?",
-   "Kuafix är för tidsbokning hos frisörer och barberare, TurnuVolt skapar turnerings- och seriescheman för alla spel, Grade Calculator räknar ut ditt snitt, betyget du behöver på slutprovet och ditt GPA, och Formal Nöbet Çözücü gör månatliga jourscheman för läkare."
+   "Kuafix är för tidsbokning hos frisörer och barberare, TurnuVolt skapar turnerings- och seriescheman för alla spel, Grade Calculator räknar ut ditt snitt, betyget du behöver på slutprovet och ditt GPA, och Formal Nöbet Çözücü gör månatliga jourscheman för läkare. PinkOrBlue är för en gender reveal-fest online: alla röstar flicka eller pojke, blåser upp ballongen tillsammans och ser resultatet i samma sekund."
   ],
   [
    "Kan jag prova dem utan att installera?",
-   "Ja. TurnuVolts webbplats har en gratis spelschemagenerator och Grade Calculators webbplats gratis räknare för slutbetyg, snitt och GPA. Formal Nöbet Çözücü körs ändå i webbläsaren."
+   "Ja. TurnuVolts webbplats har en gratis spelschemagenerator och Grade Calculators webbplats gratis räknare för slutbetyg, snitt och GPA. Formal Nöbet Çözücü körs ändå i webbläsaren. PinkOrBlue körs också i webbläsaren via en enda länk."
   ],
   [
    "Vilka språk finns de på?",
-   "TurnuVolt finns på 33 språk och Grade Calculator på 17. Kuafix och Formal Nöbet Çözücü är på turkiska."
+   "TurnuVolt finns på 33 språk och Grade Calculator på 17. Kuafix och Formal Nöbet Çözücü är på turkiska. PinkOrBlue finns på 15 språk."
   ],
   [
    "Hur kontaktar jag er?",
