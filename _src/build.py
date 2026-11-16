@@ -57,11 +57,16 @@ APPS = {
            'play': 'https://play.google.com/store/apps/details?id=com.anbertech.nothesaplayici', 'guides': ('fin', 'avg', 'gpa'), 'category': 'EducationalApplication'},
     'nf': {'name': 'Formal Nöbet Çözücü', 'repo': 'NobetFormal', 'path': 'NobetFormal/', 'icon': 'nobetformal.png', 'cls': 'ico-nobet',
            'a': '#f472b6', 'a2': '#fb7185', 'ios': None, 'play': None, 'guides': (), 'category': 'BusinessApplication'},
+    'pob': {'name': 'PinkOrBlue', 'repo': 'PinkOrBlue', 'path': 'PinkOrBlue/', 'icon': 'pinkorblue.png', 'cls': 'ico-pob',
+            'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': ('app',), 'category': 'LifestyleApplication', 'web': True},
 }
-ORDER = ('kfx', 'tv', 'nh', 'nf')
+ORDER = ('pob', 'kfx', 'tv', 'nh', 'nf')
+# PinkOrBlue bu dillerde gösterilmez (doğum öncesi cinsiyet açıklaması Hindistan ve Çin'de yasal olarak kısıtlı)
+HIDE = {'pob': {'hi', 'zh-Hans', 'zh-Hant'}}
+POB_DOCS = {'tr': ('destek/', 'gizlilik/')}
 STR_KEYS = ['title', 'meta_desc', 'h1_a', 'h1_b', 'lead', 'aria_theme', 'aria_lang', 'soon', 'support', 'privacy',
             'kfx_tag', 'kfx_txt', 'kfx_plat', 'tv_tag', 'tv_txt', 'tv_plat', 'nh_tag', 'nh_txt', 'nh_plat',
-            'nf_tag', 'nf_txt', 'nf_plat', 'nf_open', 'about_h2', 'about_p', 'faq_h2', 'rights']
+            'nf_tag', 'nf_txt', 'nf_plat', 'nf_open', 'pob_tag', 'pob_txt', 'pob_plat', 'pob_open', 'about_h2', 'about_p', 'faq_h2', 'rights']
 FAQ_LEN = 5
 
 
@@ -132,6 +137,11 @@ def app_links(key, code, S):
     if key == 'nf':
         return 'tr', base, None, None, []
     avail = S[key]
+    if key == 'pob':   # web uygulaması: dil klasörü + oda kurma sayfası; destek/gizlilik klasör adresli
+        c = sub_code(code, avail)
+        home = base + sub_dir(c)
+        sup, prv = POB_DOCS.get(c, ('support/', 'privacy/'))
+        return c, home, home + sup, home + prv, [(avail[c]['fx_name'], home + avail[c]['fx_slug'] + '/')]
     c = sub_code(code, avail)
     t = avail[c]
     home = base + sub_dir(c)
@@ -164,7 +174,11 @@ def card(key, i, code, t, S, base):
     if key == 'nh':
         name = S['nh'][sc]['brand']
     stores = ''
-    if key != 'nf':
+    if a.get('web') and guides:
+        stores = (f'<a data-goatcounter-click="home-open-{key}-{code.lower()}" class="st" href="{e(guides[0][1])}"'
+                  f'{"" if sc == code else f" hreflang={chr(34)}{sc}{chr(34)}"}><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
+        guides = []
+    elif key != 'nf':
         ios = a['ios_tr'] if code == 'tr' else a['ios']
         stores = (f'<a data-goatcounter-click="home-appstore-{key}-{code.lower()}" class="st" href="{e(ios)}" target="_blank" rel="noopener" aria-label="App Store">'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-apple"/></svg>App Store</a>')
@@ -194,17 +208,22 @@ def card(key, i, code, t, S, base):
 def jsonld(code, t, S):
     graph = [{'@type': 'Organization', '@id': ORG, 'name': 'AnberTech', 'url': SITE, 'email': EMAIL,
               'logo': SITE + 'assets/img/icon-512.png', 'description': t['lead'],
-              'owns': [{'@id': SITE + APPS[k]['path'] + '#app'} for k in ORDER]}]
+              'owns': [{'@id': SITE + APPS[k]['path'] + '#app'} for k in ORDER if code not in HIDE.get(k, ())]}]
     for k in ORDER:
+        if code in HIDE.get(k, ()):
+            continue
         a = APPS[k]
         sc, home, *_ = app_links(k, code, S)
         name = S['nh'][sc]['brand'] if k == 'nh' else a['name']
-        node = {'@type': 'WebApplication' if k == 'nf' else 'MobileApplication', '@id': SITE + a['path'] + '#app', 'name': name,
+        node = {'@type': 'WebApplication' if k == 'nf' or a.get('web') else 'MobileApplication', '@id': SITE + a['path'] + '#app', 'name': name,
                 'url': home, 'description': t[k + '_txt'], 'applicationCategory': a['category'],
                 'author': {'@id': ORG}, 'publisher': {'@id': ORG}}
         if k == 'nf':
             node.update({'operatingSystem': 'Any (web browser)', 'inLanguage': 'tr', 'isAccessibleForFree': True,
                          'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'TRY'}})
+        elif a.get('web'):
+            node.update({'operatingSystem': 'Any (web browser)', 'inLanguage': sorted(S[k]), 'isAccessibleForFree': True,
+                         'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}})
         else:
             node['operatingSystem'] = 'iOS, iPadOS' + (', Android' if a['play'] else '')
             node['downloadUrl'] = [x for x in (a['ios'], a['play']) if x]
@@ -225,7 +244,8 @@ def build(code, T, built, S, symbols):
     base = '' if code == 'tr' else '../'
     url = home_url(code)
     alts = ''.join(f'<link rel="alternate" hreflang="{c}" href="{home_url(c)}">\n' for c in built)
-    cards = '\n'.join(card(k, i, code, t, S, base) for i, k in enumerate(ORDER))
+    shown = [k for k in ORDER if code not in HIDE.get(k, ())]
+    cards = '\n'.join(card(k, i, code, t, S, base) for i, k in enumerate(shown))
     faq = ''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in t['faq'])
     page = f'''<!doctype html>
 <html lang="{code}" dir="{LANG[code][1]}" data-theme="dark">
@@ -245,7 +265,7 @@ def build(code, T, built, S, symbols):
 <meta property="og:locale" content="{LANG[code][3]}">
 <meta property="og:image" content="{SITE}assets/img/icon-512.png">
 <meta name="theme-color" content="#08090d">
-<link rel="stylesheet" href="{base}assets/style.css?v=2">
+<link rel="stylesheet" href="{base}assets/style.css?v=3">
 <script>try{{var s=localStorage.getItem('ab_theme');var d=s||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',d)}}catch(e){{}}</script>
 <script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 {jsonld(code, t, S)}
@@ -304,7 +324,7 @@ def build_llms(S):
         '',
         '> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: '
         'hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) '
-        'and on-call rosters for doctors (Formal Nöbet Çözücü).',
+        'on-call rosters for doctors (Formal Nöbet Çözücü) and live online gender reveal parties (PinkOrBlue).',
         '',
         '## Apps',
         '',
@@ -320,6 +340,11 @@ def build_llms(S):
         f'Free web calculators: {", ".join(h for _, h in ng)}. Details: {SITE}NotHesaplayici/llms.txt',
         f'- [Formal Nöbet Çözücü]({SITE}NobetFormal/): free in-browser tool that builds balanced monthly on-call (nöbet) schedules for hospital doctors '
         f'around overtime targets, leave and holidays. Turkish. Details: {SITE}NobetFormal/llms.txt',
+        '',
+        f'- [PinkOrBlue]({SITE}PinkOrBlue/): free online gender reveal party in the browser. Parents share one link; family and friends (around 30 people) '
+        'vote boy or girl, add guesses, inflate one balloon together by tapping and see the result on every screen in the same second; message wall, '
+        'mini game and Instagram story card. No app or account, room data deleted 7 days after the party, 15 languages. '
+        f'Create a room: {SITE}PinkOrBlue/en/virtual-gender-reveal/ (Turkish: {SITE}PinkOrBlue/cinsiyet-partisi/). Details: {SITE}PinkOrBlue/llms.txt',
         '',
         '## Contact',
         '',
@@ -339,7 +364,7 @@ def main():
     built = [c for c, *_ in LANGS if c in T]
     if not {'tr', 'en'} <= set(built):
         sys.exit('i18n/tr.json ve i18n/en.json gerekli')
-    S = {'kfx': sub_langs('Kuafix'), 'tv': sub_langs('TurnuVolt'), 'nh': sub_langs('NotHesaplayici')}
+    S = {'kfx': sub_langs('Kuafix'), 'tv': sub_langs('TurnuVolt'), 'nh': sub_langs('NotHesaplayici'), 'pob': sub_langs('PinkOrBlue')}
     symbols = read(os.path.join(SRC, 'symbols.svg')).strip()
     for c in built:
         build(c, T, built, S, symbols)

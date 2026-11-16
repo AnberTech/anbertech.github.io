@@ -1,6 +1,6 @@
 # AnberTech
 
-> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) and on-call rosters for doctors (Formal Nöbet Çözücü).
+> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) on-call rosters for doctors (Formal Nöbet Çözücü) and live online gender reveal parties (PinkOrBlue).
 
 ## Apps
 
@@ -8,6 +8,8 @@
 - [TurnuVolt](https://anbertech.github.io/TurnuVolt/): tournament and league organizer for any game, from football to chess and esports: league and knockout fixtures, scores, standings, podium. iPhone, iPad and Android, 33 languages, one-time purchase. Free web fixture generator: https://anbertech.github.io/TurnuVolt/en/fixture-generator/. Details: https://anbertech.github.io/TurnuVolt/llms.txt
 - [Not Hesaplayıcı / Grade Calculator](https://anbertech.github.io/NotHesaplayici/): course average, the final exam grade needed to pass, and GPA (GANO) tracking. Free, ad-free, offline, no account. iPhone, iPad and Android, 17 languages. Free web calculators: https://anbertech.github.io/NotHesaplayici/en/final-grade-calculator/, https://anbertech.github.io/NotHesaplayici/en/grade-average-calculator/, https://anbertech.github.io/NotHesaplayici/en/gpa-calculator/. Details: https://anbertech.github.io/NotHesaplayici/llms.txt
 - [Formal Nöbet Çözücü](https://anbertech.github.io/NobetFormal/): free in-browser tool that builds balanced monthly on-call (nöbet) schedules for hospital doctors around overtime targets, leave and holidays. Turkish. Details: https://anbertech.github.io/NobetFormal/llms.txt
+
+- [PinkOrBlue](https://anbertech.github.io/PinkOrBlue/): free online gender reveal party in the browser. Parents share one link; family and friends (around 30 people) vote boy or girl, add guesses, inflate one balloon together by tapping and see the result on every screen in the same second; message wall, mini game and Instagram story card. No app or account, room data deleted 7 days after the party, 15 languages. Create a room: https://anbertech.github.io/PinkOrBlue/en/virtual-gender-reveal/ (Turkish: https://anbertech.github.io/PinkOrBlue/cinsiyet-partisi/). Details: https://anbertech.github.io/PinkOrBlue/llms.txt
 
 ## Contact
 

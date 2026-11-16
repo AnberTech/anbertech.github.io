@@ -26,11 +26,30 @@
  "about_p": "AnberTech builds mobile apps and web tools that offer a simple solution to an everyday problem. The apps are published on the App Store and Google Play, and each has its own website with free web tools and guides. Kuafix and Formal Nöbet Çözücü are made in Turkish for Turkey; TurnuVolt and Grade Calculator are available in many languages.",
  "faq_h2": "Frequently asked questions",
  "faq": [
-  ["Are AnberTech's apps free?", "Grade Calculator and Formal Nöbet Çözücü are free. TurnuVolt is a one-time purchase. Kuafix is free to download and free for customers to book; the hairdresser panel needs a Premium subscription after a 1-month free trial."],
-  ["What does each app do?", "Kuafix is for hair salon and barber appointments, TurnuVolt creates tournament and league fixtures for any game, Grade Calculator works out your average, the final grade you need and your GPA, and Formal Nöbet Çözücü builds monthly on-call rosters for doctors."],
-  ["Can I try them without installing?", "Yes. The TurnuVolt site has a free fixture generator, and the Grade Calculator site has free final grade, average and GPA calculators. Formal Nöbet Çözücü runs in the browser anyway."],
-  ["Which languages are available?", "TurnuVolt is available in 33 languages and Grade Calculator in 17. Kuafix and Formal Nöbet Çözücü are in Turkish."],
-  ["How can I get in touch?", "For general questions, write to destek.anbertech@gmail.com. Each app also has its own support page."]
+  [
+   "Are AnberTech's apps free?",
+   "Grade Calculator and Formal Nöbet Çözücü are free. TurnuVolt is a one-time purchase. Kuafix is free to download and free for customers to book; the hairdresser panel needs a Premium subscription after a 1-month free trial."
+  ],
+  [
+   "What does each app do?",
+   "Kuafix is for hair salon and barber appointments, TurnuVolt creates tournament and league fixtures for any game, Grade Calculator works out your average, the final grade you need and your GPA, and Formal Nöbet Çözücü builds monthly on-call rosters for doctors."
+  ],
+  [
+   "Can I try them without installing?",
+   "Yes. The TurnuVolt site has a free fixture generator, and the Grade Calculator site has free final grade, average and GPA calculators. Formal Nöbet Çözücü runs in the browser anyway."
+  ],
+  [
+   "Which languages are available?",
+   "TurnuVolt is available in 33 languages and Grade Calculator in 17. Kuafix and Formal Nöbet Çözücü are in Turkish."
+  ],
+  [
+   "How can I get in touch?",
+   "For general questions, write to destek.anbertech@gmail.com. Each app also has its own support page."
+  ]
  ],
- "rights": "All rights reserved."
+ "rights": "All rights reserved.",
+ "pob_tag": "Online gender reveal party",
+ "pob_txt": "Share one link with family and friends: everyone votes boy or girl, inflates the balloon together and sees the result in the same second. No app, no sign-up.",
+ "pob_plat": "Web browser · 15 languages · Free",
+ "pob_open": "Open a party room"
 }
