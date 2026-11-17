@@ -175,21 +175,21 @@ def card(key, i, code, t, S, base):
         name = S['nh'][sc]['brand']
     stores = ''
     if a.get('web') and guides:
-        stores = (f'<a data-goatcounter-click="home-open-{key}-{code.lower()}" class="st" href="{e(guides[0][1])}"'
+        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-{key}" class="st" href="{e(guides[0][1])}"'
                   f'{"" if sc == code else f" hreflang={chr(34)}{sc}{chr(34)}"}><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
         guides = []
     elif key != 'nf':
         ios = a['ios_tr'] if code == 'tr' else a['ios']
-        stores = (f'<a data-goatcounter-click="home-appstore-{key}-{code.lower()}" class="st" href="{e(ios)}" target="_blank" rel="noopener" aria-label="App Store">'
+        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/appstore-{key}" class="st" href="{e(ios)}" target="_blank" rel="noopener" aria-label="App Store">'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-apple"/></svg>App Store</a>')
         if a['play']:
             play = a['play'] + ('' if code == 'tr' else f'&hl={sc}')
-            stores += (f'<a data-goatcounter-click="home-googleplay-{key}-{code.lower()}" class="st" href="{e(play)}" target="_blank" rel="noopener" aria-label="Google Play">'
+            stores += (f'<a data-goatcounter-click="hub/{code.lower()}/googleplay-{key}" class="st" href="{e(play)}" target="_blank" rel="noopener" aria-label="Google Play">'
                        f'<svg class="ic" aria-hidden="true"><use href="#i-play"/></svg>Google Play</a>')
         else:
             stores += f'<span class="st off"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg>{e(t["soon"])}</span>'
     else:
-        stores = (f'<a data-goatcounter-click="home-open-nobetformal-{code.lower()}" class="st" href="{e(home)}">'
+        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-nf" class="st" href="{e(home)}">'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t["nf_open"])}</a>')
     gl = ''.join(f'<a href="{e(h)}">{e(n)}</a>' for n, h in guides)
     gl = f'<div class="guides">{gl}</div>' if gl else ''
