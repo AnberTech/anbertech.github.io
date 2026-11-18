@@ -50,7 +50,7 @@ APPS = {
             'category': 'BusinessApplication'},
     'tv': {'name': 'TurnuVolt', 'repo': 'TurnuVolt', 'path': 'TurnuVolt/', 'icon': 'turnuvolt.png', 'cls': 'ico-turnuvolt', 'a': '#fbbf24', 'a2': '#f59e0b',
            'ios': 'https://apps.apple.com/app/id6745177155', 'ios_tr': 'https://apps.apple.com/tr/app/turnuvolt/id6745177155?l=tr',
-           'play': 'https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt', 'guides': ('fx',), 'category': 'SportsApplication'},
+           'play': 'https://play.google.com/store/apps/details?id=com.anbertech.turnuvolt', 'guides': ('fx', 'table', 'bracket'), 'category': 'SportsApplication'},
     'nh': {'name': 'Not Hesaplayıcı', 'repo': 'NotHesaplayici', 'path': 'NotHesaplayici/', 'icon': 'nothesaplayici.png', 'cls': 'ico-nothesaplayici',
            'a': '#60a5fa', 'a2': '#818cf8', 'ios': 'https://apps.apple.com/app/id6745179531',
            'ios_tr': 'https://apps.apple.com/tr/app/not-hesaplay%C4%B1c%C4%B1/id6745179531?l=tr',
@@ -58,7 +58,7 @@ APPS = {
     'nf': {'name': 'Formal Nöbet Çözücü', 'repo': 'NobetFormal', 'path': 'NobetFormal/', 'icon': 'nobetformal.png', 'cls': 'ico-nobet',
            'a': '#f472b6', 'a2': '#fb7185', 'ios': None, 'play': None, 'guides': ('liste', 'adil'), 'category': 'BusinessApplication'},
     'pob': {'name': 'PinkOrBlue', 'repo': 'PinkOrBlue', 'path': 'PinkOrBlue/', 'icon': 'pinkorblue.png', 'cls': 'ico-pob',
-            'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': (), 'category': 'LifestyleApplication', 'web': True},
+            'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': ('party', 'vote', 'far'), 'category': 'LifestyleApplication', 'web': True},
     'is': {'name': 'WeddingInvite', 'repo': 'WeddingInvite', 'path': 'WeddingInvite/', 'icon': 'weddinginvite.png', 'cls': 'ico-is',
            'a': '#b9a77a', 'a2': '#a8a9ad', 'ios': None, 'play': None, 'guides': ('make', 'engage', 'rsvp'), 'category': 'LifestyleApplication'},
 }
@@ -155,14 +155,16 @@ def app_links(key, code, S, t=None):
         c = sub_code(code, avail)
         home = base + sub_dir(c)
         sup, prv = POB_DOCS.get(c, ('support/', 'privacy/'))
-        return c, home, home + sup, home + prv, [(avail[c][f'{g}_name'], home + avail[c][f'{g}_slug'] + '/') for g in a['guides']]
+        G = S.get('pob_g', {}).get(c)   # rehberler _src/guides/<dil>.json
+        return c, home, home + sup, home + prv, [(G[f'{g}_name'], home + G[f'{g}_slug'] + '/') for g in a['guides']] if G else []
     c = sub_code(code, avail)
     t = avail[c]
     home = base + sub_dir(c)
     if key == 'is':   # web davetiyesi: destek/gizlilik sayfası yok; rehberler _src/guides/<dil>.json
         G = S.get('is_g', {}).get(c)
         return c, home, None, None, [(G[f'{g}_name'], home + G[f'{g}_slug'] + '/') for g in a['guides']] if G else []
-    guides = [(t[f'{g}_name'], home + t[f'{g}_slug'] + '/') for g in a['guides']]
+    G = S.get(key + '_g', {}).get(c, {})   # ek rehberler _src/guides/<dil>.json (TurnuVolt); fikstür aracı gibi araçlar i18n'de
+    guides = [(src[f'{g}_name'], home + src[f'{g}_slug'] + '/') for g in a['guides'] for src in [t if f'{g}_slug' in t else G] if f'{g}_slug' in src]
     return c, home, home + 'support.html', home + 'privacy.html', guides
 
 
@@ -383,7 +385,7 @@ def main():
     if not {'tr', 'en'} <= set(built):
         sys.exit('i18n/tr.json ve i18n/en.json gerekli')
     S = {'kfx': sub_langs('Kuafix'), 'tv': sub_langs('TurnuVolt'), 'nh': sub_langs('NotHesaplayici'), 'pob': sub_langs('PinkOrBlue'),
-         'is': sub_langs('WeddingInvite'), 'is_g': sub_guides('WeddingInvite'), 'nf_g': sub_guides('NobetFormal')}
+         'is': sub_langs('WeddingInvite'), 'is_g': sub_guides('WeddingInvite'), 'nf_g': sub_guides('NobetFormal'), 'pob_g': sub_guides('PinkOrBlue'), 'tv_g': sub_guides('TurnuVolt')}
     symbols = read(os.path.join(SRC, 'symbols.svg')).strip()
     for c in built:
         build(c, T, built, S, symbols)
