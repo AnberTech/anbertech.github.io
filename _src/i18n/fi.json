@@ -52,8 +52,8 @@
  "pob_txt": "Jaa yksi linkki perheelle ja ystäville: kaikki äänestävät tyttöä tai poikaa, puhaltavat ilmapallon yhdessä ja näkevät tuloksen samalla sekunnilla. Ei sovellusta, ei rekisteröitymistä.",
  "pob_plat": "Verkkoselain · 15 kieltä · Ilmainen",
  "pob_open": "Avaa juhlahuone",
- "is_tag": "Verkkohääkutsu",
- "is_txt": "Verkkokutsu häihin ja kihlajaisiin: avausanimaatio, musiikki, lähtölaskenta, reittiohjeet, sää ja ilmoittautuminen yhdessä linkissä.",
+ "is_tag": "Hää- ja kihlajaiskutsu",
+ "is_txt": "Lähetä kutsu yhtenä linkkinä: vieraat avaavat oven, näkevät päivän ja paikan, saavat reittiohjeet ja ilmoittavat tulostaan. Ei sovellusta.",
  "is_plat": "Verkkoselain · Turkki · Live-demo",
- "is_open": "Avaa demo"
+ "is_open": "Katso demo"
 }
