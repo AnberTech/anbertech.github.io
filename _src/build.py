@@ -5,8 +5,8 @@ Kullanım (depo kökünden):  python3 _src/build.py
 
 - Sayfa metinleri: _src/i18n/<dil>.json (yalnızca dosyası olan diller üretilir; kaynak en.json)
 - Uygulama sitelerinin dil listesi, rehber adresleri ve adları kardeş depolardan okunur:
-  ../TurnuVolt, ../NotHesaplayici, ../Kuafix (_src/i18n/*.json). Bu depolar aynı klasörde olmalı.
-  Bir dil o uygulamanın sitesinde yoksa İngilizce sayfasına bağlanılır.
+  ../TurnuVolt, ../NotHesaplayici, ../Kuafix, ../PinkOrBlue, ../WeddingInvite (_src/i18n/*.json). Bu depolar aynı klasörde olmalı.
+  Bir dil o uygulamanın sitesinde yoksa en yakın akraba dile (NEAR), o da yoksa İngilizce sayfasına bağlanılır.
 - Stil ve kod: assets/style.css, assets/app.js
 .nojekyll olduğu için _src de yayınlanır; içinde gizli bilgi bulunmaz.
 """
@@ -40,8 +40,8 @@ LANGS = [
 ]
 LANG = {l[0]: l for l in LANGS}
 RASTER_FLAGS = {'es', 'es-mx'}
-# 17 dilli sitelerde (Not Hesaplayıcı, Kuafix) bu dillerin karşılığı
-NEAR = {'es-MX': 'es', 'pt-BR': 'pt', 'pt-PT': 'pt'}
+# Sitesinde olmayan dil için en yakın akraba dil (o da yoksa en)
+NEAR = {'es-MX': 'es', 'pt-BR': 'pt', 'pt-PT': 'pt', 'zh-Hant': 'zh-Hans'}
 
 APPS = {
     'kfx': {'name': 'Kuafix', 'repo': 'Kuafix', 'path': 'Kuafix/', 'icon': 'kuafix.png', 'cls': 'ico-kuafix', 'a': '#22d3ee', 'a2': '#34d399',
@@ -64,7 +64,7 @@ APPS = {
 }
 ORDER = ('kfx', 'pob', 'tv', 'nh', 'is', 'nf')
 # Tek dilli (Türkçe) web sayfaları: kart doğrudan sayfayı açar, destek/gizlilik bağlantısı yok
-TR_ONLY = ('nf', 'is')
+TR_ONLY = ('nf',)
 # PinkOrBlue bu dillerde gösterilmez (doğum öncesi cinsiyet açıklaması Hindistan ve Çin'de yasal olarak kısıtlı)
 HIDE = {'pob': {'hi', 'zh-Hans', 'zh-Hant'}}
 POB_DOCS = {'tr': ('destek/', 'gizlilik/')}
@@ -149,6 +149,8 @@ def app_links(key, code, S):
     c = sub_code(code, avail)
     t = avail[c]
     home = base + sub_dir(c)
+    if key == 'is':   # tek sayfalık web davetiyesi: destek/gizlilik sayfası yok
+        return c, home, None, None, []
     guides = [(t[f'{g}_name'], home + t[f'{g}_slug'] + '/') for g in a['guides']]
     return c, home, home + 'support.html', home + 'privacy.html', guides
 
@@ -182,7 +184,7 @@ def card(key, i, code, t, S, base):
         stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-{key}" class="st" href="{e(guides[0][1])}"'
                   f'{"" if sc == code else f" hreflang={chr(34)}{sc}{chr(34)}"}><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
         guides = []
-    elif key not in TR_ONLY:
+    elif a['ios']:
         ios = a['ios_tr'] if code == 'tr' else a['ios']
         stores = (f'<a data-goatcounter-click="hub/{code.lower()}/appstore-{key}" class="st" href="{e(ios)}" target="_blank" rel="noopener" aria-label="App Store">'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-apple"/></svg>App Store</a>')
@@ -219,13 +221,13 @@ def jsonld(code, t, S):
         a = APPS[k]
         sc, home, *_ = app_links(k, code, S)
         name = S['nh'][sc]['brand'] if k == 'nh' else a['name']
-        node = {'@type': 'WebApplication' if k in TR_ONLY or a.get('web') else 'MobileApplication', '@id': SITE + a['path'] + '#app', 'name': name,
+        node = {'@type': 'WebApplication' if not a['ios'] else 'MobileApplication', '@id': SITE + a['path'] + '#app', 'name': name,
                 'url': home, 'description': t[k + '_txt'], 'applicationCategory': a['category'],
                 'author': {'@id': ORG}, 'publisher': {'@id': ORG}}
         if k in TR_ONLY:
             node.update({'operatingSystem': 'Any (web browser)', 'inLanguage': 'tr', 'isAccessibleForFree': True,
                          'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'TRY'}})
-        elif a.get('web'):
+        elif not a['ios']:
             node.update({'operatingSystem': 'Any (web browser)', 'inLanguage': sorted(S[k]), 'isAccessibleForFree': True,
                          'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}})
         else:
@@ -350,7 +352,8 @@ def build_llms(S):
         'mini game and Instagram story card. No app or account, room data deleted 7 days after the party, 15 languages. '
         f'Create a room: {SITE}PinkOrBlue/en/virtual-gender-reveal/ (Turkish: {SITE}PinkOrBlue/cinsiyet-partisi/). Details: {SITE}PinkOrBlue/llms.txt',
         f'- [WeddingInvite]({SITE}WeddingInvite/): online wedding and engagement invitation in the browser: opening animation, '
-        'music, countdown, directions, weather, add-to-calendar and RSVP in one link. Live demo in Turkish (Elif & Ege, sample data).',
+        'music, countdown, directions, weather, add-to-calendar and RSVP in one link. No app or account. '
+        f'Live demo in {len(S["is"])} languages (Elif & Ege, sample data); English: {SITE}WeddingInvite/en/. Details: {SITE}WeddingInvite/llms.txt',
         '',
         '## Contact',
         '',
@@ -370,7 +373,8 @@ def main():
     built = [c for c, *_ in LANGS if c in T]
     if not {'tr', 'en'} <= set(built):
         sys.exit('i18n/tr.json ve i18n/en.json gerekli')
-    S = {'kfx': sub_langs('Kuafix'), 'tv': sub_langs('TurnuVolt'), 'nh': sub_langs('NotHesaplayici'), 'pob': sub_langs('PinkOrBlue')}
+    S = {'kfx': sub_langs('Kuafix'), 'tv': sub_langs('TurnuVolt'), 'nh': sub_langs('NotHesaplayici'), 'pob': sub_langs('PinkOrBlue'),
+         'is': sub_langs('WeddingInvite')}
     symbols = read(os.path.join(SRC, 'symbols.svg')).strip()
     for c in built:
         build(c, T, built, S, symbols)
