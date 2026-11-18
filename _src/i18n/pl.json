@@ -22,6 +22,8 @@
  "nf_txt": "Układa dla oddziałów szpitalnych zrównoważony miesięczny grafik dyżurów według limitów nadgodzin, urlopów i świąt. Bez instalacji.",
  "nf_plat": "Przeglądarka · tylko po turecku · za darmo",
  "nf_open": "Otwórz narzędzie",
+ "nf_g_liste": "Układanie grafiku dyżurów",
+ "nf_g_adil": "Sprawiedliwy podział dyżurów",
  "about_h2": "O AnberTech",
  "about_p": "AnberTech tworzy aplikacje mobilne i narzędzia internetowe, które w prosty sposób rozwiązują codzienny problem. Aplikacje są dostępne w App Store i Google Play, a każda ma własną stronę z darmowymi narzędziami i poradnikami. Kuafix i Formal Nöbet Çözücü są po turecku dla Turcji; TurnuVolt i Kalkulator ocen są dostępne w wielu językach. PinkOrBlue to darmowa strona do gender reveal online, która działa w przeglądarce i jest dostępna w 15 językach.",
  "faq_h2": "Najczęstsze pytania",

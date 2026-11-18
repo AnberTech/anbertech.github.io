@@ -22,6 +22,8 @@
  "nf_txt": "Skapar ett balanserat jourschema per månad för sjukhusavdelningar utifrån mål för övertid, ledighet och helgdagar. Inget att installera.",
  "nf_plat": "Webbläsare · endast på turkiska · gratis",
  "nf_open": "Öppna verktyget",
+ "nf_g_liste": "Gör ett jourschema",
+ "nf_g_adil": "Rättvis jourfördelning",
  "about_h2": "Om AnberTech",
  "about_p": "AnberTech gör mobilappar och webbverktyg som löser ett vardagsproblem på ett enkelt sätt. Apparna finns i App Store och Google Play, och var och en har en egen webbplats med gratis webbverktyg och guider. Kuafix och Formal Nöbet Çözücü är gjorda på turkiska för Turkiet; TurnuVolt och Grade Calculator finns på många språk. PinkOrBlue är en gratis webbplats för gender reveal-fest online som körs i webbläsaren och finns på 15 språk.",
  "faq_h2": "Vanliga frågor",

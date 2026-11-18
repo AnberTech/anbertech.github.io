@@ -22,6 +22,8 @@
  "nf_txt": "Hastane servisleri için aylık nöbet listesini ek mesai hedeflerine, izinlere ve resmî tatillere göre dengeli dağıtır. Kurulum gerektirmez.",
  "nf_plat": "Web tarayıcı · Türkçe · Ücretsiz",
  "nf_open": "Aracı aç",
+ "nf_g_liste": "Nöbet listesi hazırlama",
+ "nf_g_adil": "Adil nöbet dağılımı",
  "about_h2": "AnberTech hakkında",
  "about_p": "AnberTech, günlük bir derde sade bir çözüm sunan mobil uygulamalar ve web araçları geliştirir. Uygulamalar App Store ve Google Play'de yayınlanır; her birinin kendi sitesinde ücretsiz web araçları ve rehberler vardır. Kuafix ve Formal Nöbet Çözücü Türkiye için Türkçe hazırlanmıştır; TurnuVolt ve Not Hesaplayıcı birçok dilde kullanılabilir. PinkOrBlue ise tarayıcıda çalışan ve 15 dilde kullanılabilen ücretsiz bir online cinsiyet partisi sitesidir.",
  "faq_h2": "Sıkça sorulan sorular",

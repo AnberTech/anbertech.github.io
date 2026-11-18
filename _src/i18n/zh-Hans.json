@@ -22,6 +22,8 @@
  "nf_txt": "根据加班目标、休假和法定节假日，为医院科室排出均衡的月度值班表。无需安装。",
  "nf_plat": "网页浏览器 · 仅土耳其语 · 免费",
  "nf_open": "打开工具",
+ "nf_g_liste": "值班表怎么排",
+ "nf_g_adil": "公平的值班分配",
  "about_h2": "关于 AnberTech",
  "about_p": "AnberTech 开发移动应用和网页工具，用简单的方式解决日常问题。应用已在 App Store 和 Google Play 上架，每个应用都有自己的网站，提供免费网页工具和指南。Kuafix 和 Formal Nöbet Çözücü 为土耳其用户以土耳其语制作；TurnuVolt 和成绩计算器支持多种语言。",
  "faq_h2": "常见问题",

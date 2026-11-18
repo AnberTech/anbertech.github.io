@@ -56,11 +56,11 @@ APPS = {
            'ios_tr': 'https://apps.apple.com/tr/app/not-hesaplay%C4%B1c%C4%B1/id6745179531?l=tr',
            'play': 'https://play.google.com/store/apps/details?id=com.anbertech.nothesaplayici', 'guides': ('fin', 'avg', 'gpa'), 'category': 'EducationalApplication'},
     'nf': {'name': 'Formal Nöbet Çözücü', 'repo': 'NobetFormal', 'path': 'NobetFormal/', 'icon': 'nobetformal.png', 'cls': 'ico-nobet',
-           'a': '#f472b6', 'a2': '#fb7185', 'ios': None, 'play': None, 'guides': (), 'category': 'BusinessApplication'},
+           'a': '#f472b6', 'a2': '#fb7185', 'ios': None, 'play': None, 'guides': ('liste', 'adil'), 'category': 'BusinessApplication'},
     'pob': {'name': 'PinkOrBlue', 'repo': 'PinkOrBlue', 'path': 'PinkOrBlue/', 'icon': 'pinkorblue.png', 'cls': 'ico-pob',
-            'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': ('app',), 'category': 'LifestyleApplication', 'web': True},
+            'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': (), 'category': 'LifestyleApplication', 'web': True},
     'is': {'name': 'WeddingInvite', 'repo': 'WeddingInvite', 'path': 'WeddingInvite/', 'icon': 'weddinginvite.png', 'cls': 'ico-is',
-           'a': '#b9a77a', 'a2': '#a8a9ad', 'ios': None, 'play': None, 'guides': (), 'category': 'LifestyleApplication'},
+           'a': '#b9a77a', 'a2': '#a8a9ad', 'ios': None, 'play': None, 'guides': ('make', 'engage', 'rsvp'), 'category': 'LifestyleApplication'},
 }
 ORDER = ('kfx', 'pob', 'tv', 'nh', 'is', 'nf')
 # Tek dilli (Türkçe) web sayfaları: kart doğrudan sayfayı açar, destek/gizlilik bağlantısı yok
@@ -70,7 +70,7 @@ HIDE = {'pob': {'hi', 'zh-Hans', 'zh-Hant'}}
 POB_DOCS = {'tr': ('destek/', 'gizlilik/')}
 STR_KEYS = ['title', 'meta_desc', 'h1_a', 'h1_b', 'lead', 'aria_theme', 'aria_lang', 'soon', 'support', 'privacy',
             'kfx_tag', 'kfx_txt', 'kfx_plat', 'tv_tag', 'tv_txt', 'tv_plat', 'nh_tag', 'nh_txt', 'nh_plat',
-            'nf_tag', 'nf_txt', 'nf_plat', 'nf_open', 'pob_tag', 'pob_txt', 'pob_plat', 'pob_open', 'is_tag', 'is_txt', 'is_plat', 'is_open', 'about_h2', 'about_p', 'faq_h2', 'rights']
+            'nf_tag', 'nf_txt', 'nf_plat', 'nf_open', 'nf_g_liste', 'nf_g_adil', 'pob_tag', 'pob_txt', 'pob_plat', 'pob_open', 'is_tag', 'is_txt', 'is_plat', 'is_open', 'about_h2', 'about_p', 'faq_h2', 'rights']
 FAQ_LEN = 5
 
 
@@ -122,6 +122,14 @@ def sub_langs(repo):
     return {f[:-5]: load_json(os.path.join(d, f)) for f in os.listdir(d) if f.endswith('.json') and not f.startswith('_')}
 
 
+def sub_guides(repo):
+    """Rehber metinleri ayrı dosyada tutan siteler (WeddingInvite, NobetFormal): _src/guides/<dil>.json; yoksa boş"""
+    d = os.path.join(SIBLINGS, repo, '_src', 'guides')
+    if not os.path.isdir(d):
+        return {}
+    return {f[:-5]: load_json(os.path.join(d, f)) for f in os.listdir(d) if f.endswith('.json') and not f.startswith('_')}
+
+
 def sub_code(code, avail):
     if code in avail:
         return code
@@ -134,23 +142,26 @@ def sub_dir(c):
     return '' if c == 'tr' else c.lower() + '/'
 
 
-def app_links(key, code, S):
-    """(sitedeki dil, ana sayfa, destek, gizlilik, [(rehber adı, adres)])"""
+def app_links(key, code, S, t=None):
+    """(sitedeki dil, ana sayfa, destek, gizlilik, [(rehber adı, adres)]). t: ana sitenin o dildeki metinleri (Nöbet kapsül adları için)"""
     a = APPS[key]
     base = SITE + a['path']
-    if key in TR_ONLY:
-        return 'tr', base, None, None, []
+    if key in TR_ONLY:   # yalnız Türkçe site: kapsül yazısı ana sayfanın dilinde, adres Türkçe rehber
+        G = S.get('nf_g', {}).get('tr')
+        guides = [((t or {}).get(f'nf_g_{x}') or G[f'{x}_name'], base + G[f'{x}_slug'] + '/') for x in a['guides']] if G else []
+        return 'tr', base, None, None, guides
     avail = S[key]
     if key == 'pob':   # web uygulaması: dil klasörü + oda kurma sayfası; destek/gizlilik klasör adresli
         c = sub_code(code, avail)
         home = base + sub_dir(c)
         sup, prv = POB_DOCS.get(c, ('support/', 'privacy/'))
-        return c, home, home + sup, home + prv, [(avail[c]['fx_name'], home + avail[c]['fx_slug'] + '/')]
+        return c, home, home + sup, home + prv, [(avail[c][f'{g}_name'], home + avail[c][f'{g}_slug'] + '/') for g in a['guides']]
     c = sub_code(code, avail)
     t = avail[c]
     home = base + sub_dir(c)
-    if key == 'is':   # tek sayfalık web davetiyesi: destek/gizlilik sayfası yok
-        return c, home, None, None, []
+    if key == 'is':   # web davetiyesi: destek/gizlilik sayfası yok; rehberler _src/guides/<dil>.json
+        G = S.get('is_g', {}).get(c)
+        return c, home, None, None, [(G[f'{g}_name'], home + G[f'{g}_slug'] + '/') for g in a['guides']] if G else []
     guides = [(t[f'{g}_name'], home + t[f'{g}_slug'] + '/') for g in a['guides']]
     return c, home, home + 'support.html', home + 'privacy.html', guides
 
@@ -175,16 +186,13 @@ def home_url(code):
 
 def card(key, i, code, t, S, base):
     a = APPS[key]
-    sc, home, sup, prv, guides = app_links(key, code, S)
+    sc, home, sup, prv, guides = app_links(key, code, S, t)
     name = a['name']
     if key == 'nh':
         name = S['nh'][sc]['brand']
     stores = ''
-    if a.get('web') and guides:
-        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-{key}" class="st" href="{e(guides[0][1])}"'
-                  f'{"" if sc == code else f" hreflang={chr(34)}{sc}{chr(34)}"}><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
-        guides = []
-    elif a['ios']:
+    hl = '' if sc == code else f' hreflang="{sc}"'
+    if a['ios']:
         ios = a['ios_tr'] if code == 'tr' else a['ios']
         stores = (f'<a data-goatcounter-click="hub/{code.lower()}/appstore-{key}" class="st" href="{e(ios)}" target="_blank" rel="noopener" aria-label="App Store">'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-apple"/></svg>App Store</a>')
@@ -194,13 +202,14 @@ def card(key, i, code, t, S, base):
                        f'<svg class="ic" aria-hidden="true"><use href="#i-play"/></svg>Google Play</a>')
         else:
             stores += f'<span class="st off"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg>{e(t["soon"])}</span>'
-    else:
-        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-{key}" class="st" href="{e(home)}">'
+    else:   # web sitesi: "aç" düğmesi (PinkOrBlue'da parti odası sayfası), kapsüller ayrıca görünür
+        target = home + S['pob'][sc]['fx_slug'] + '/' if key == 'pob' else home
+        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-{key}" class="st" href="{e(target)}"{hl}>'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
-    gl = ''.join(f'<a href="{e(h)}">{e(n)}</a>' for n, h in guides)
+    gl = ''.join(f'<a data-goatcounter-click="hub/{code.lower()}/guide-{key}" href="{e(h)}"{hl}>{e(n)}</a>' for n, h in guides)
     gl = f'<div class="guides">{gl}</div>' if gl else ''
     lnk = f'<span class="lnk"><a href="{e(sup)}">{e(t["support"])}</a><a href="{e(prv)}">{e(t["privacy"])}</a></span>' if sup else ''
-    lang_attr = '' if sc == code or key in TR_ONLY else f' hreflang="{sc}"'
+    lang_attr = hl
     return f'''<article class="card" style="--a:{a["a"]};--a2:{a["a2"]};--i:{i}">
   <a class="cover" href="{e(home)}"{lang_attr} aria-label="{e(name)}"></a>
   <div class="head"><span class="ico {a["cls"]}"><img src="{base}assets/img/{a["icon"]}" alt="" width="64" height="64"></span>
@@ -374,7 +383,7 @@ def main():
     if not {'tr', 'en'} <= set(built):
         sys.exit('i18n/tr.json ve i18n/en.json gerekli')
     S = {'kfx': sub_langs('Kuafix'), 'tv': sub_langs('TurnuVolt'), 'nh': sub_langs('NotHesaplayici'), 'pob': sub_langs('PinkOrBlue'),
-         'is': sub_langs('WeddingInvite')}
+         'is': sub_langs('WeddingInvite'), 'is_g': sub_guides('WeddingInvite'), 'nf_g': sub_guides('NobetFormal')}
     symbols = read(os.path.join(SRC, 'symbols.svg')).strip()
     for c in built:
         build(c, T, built, S, symbols)
