@@ -59,14 +59,18 @@ APPS = {
            'a': '#f472b6', 'a2': '#fb7185', 'ios': None, 'play': None, 'guides': (), 'category': 'BusinessApplication'},
     'pob': {'name': 'PinkOrBlue', 'repo': 'PinkOrBlue', 'path': 'PinkOrBlue/', 'icon': 'pinkorblue.png', 'cls': 'ico-pob',
             'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': ('app',), 'category': 'LifestyleApplication', 'web': True},
+    'is': {'name': 'InviteSeal', 'repo': 'InviteSeal', 'path': 'InviteSeal/', 'icon': 'inviteseal.png', 'cls': 'ico-is',
+           'a': '#b9a77a', 'a2': '#a8a9ad', 'ios': None, 'play': None, 'guides': (), 'category': 'LifestyleApplication'},
 }
-ORDER = ('pob', 'kfx', 'tv', 'nh', 'nf')
+ORDER = ('pob', 'is', 'kfx', 'tv', 'nh', 'nf')
+# Tek dilli (Türkçe) web sayfaları: kart doğrudan sayfayı açar, destek/gizlilik bağlantısı yok
+TR_ONLY = ('nf', 'is')
 # PinkOrBlue bu dillerde gösterilmez (doğum öncesi cinsiyet açıklaması Hindistan ve Çin'de yasal olarak kısıtlı)
 HIDE = {'pob': {'hi', 'zh-Hans', 'zh-Hant'}}
 POB_DOCS = {'tr': ('destek/', 'gizlilik/')}
 STR_KEYS = ['title', 'meta_desc', 'h1_a', 'h1_b', 'lead', 'aria_theme', 'aria_lang', 'soon', 'support', 'privacy',
             'kfx_tag', 'kfx_txt', 'kfx_plat', 'tv_tag', 'tv_txt', 'tv_plat', 'nh_tag', 'nh_txt', 'nh_plat',
-            'nf_tag', 'nf_txt', 'nf_plat', 'nf_open', 'pob_tag', 'pob_txt', 'pob_plat', 'pob_open', 'about_h2', 'about_p', 'faq_h2', 'rights']
+            'nf_tag', 'nf_txt', 'nf_plat', 'nf_open', 'pob_tag', 'pob_txt', 'pob_plat', 'pob_open', 'is_tag', 'is_txt', 'is_plat', 'is_open', 'about_h2', 'about_p', 'faq_h2', 'rights']
 FAQ_LEN = 5
 
 
@@ -134,7 +138,7 @@ def app_links(key, code, S):
     """(sitedeki dil, ana sayfa, destek, gizlilik, [(rehber adı, adres)])"""
     a = APPS[key]
     base = SITE + a['path']
-    if key == 'nf':
+    if key in TR_ONLY:
         return 'tr', base, None, None, []
     avail = S[key]
     if key == 'pob':   # web uygulaması: dil klasörü + oda kurma sayfası; destek/gizlilik klasör adresli
@@ -178,7 +182,7 @@ def card(key, i, code, t, S, base):
         stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-{key}" class="st" href="{e(guides[0][1])}"'
                   f'{"" if sc == code else f" hreflang={chr(34)}{sc}{chr(34)}"}><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
         guides = []
-    elif key != 'nf':
+    elif key not in TR_ONLY:
         ios = a['ios_tr'] if code == 'tr' else a['ios']
         stores = (f'<a data-goatcounter-click="hub/{code.lower()}/appstore-{key}" class="st" href="{e(ios)}" target="_blank" rel="noopener" aria-label="App Store">'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-apple"/></svg>App Store</a>')
@@ -189,12 +193,12 @@ def card(key, i, code, t, S, base):
         else:
             stores += f'<span class="st off"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg>{e(t["soon"])}</span>'
     else:
-        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-nf" class="st" href="{e(home)}">'
-                  f'<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t["nf_open"])}</a>')
+        stores = (f'<a data-goatcounter-click="hub/{code.lower()}/open-{key}" class="st" href="{e(home)}">'
+                  f'<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
     gl = ''.join(f'<a href="{e(h)}">{e(n)}</a>' for n, h in guides)
     gl = f'<div class="guides">{gl}</div>' if gl else ''
     lnk = f'<span class="lnk"><a href="{e(sup)}">{e(t["support"])}</a><a href="{e(prv)}">{e(t["privacy"])}</a></span>' if sup else ''
-    lang_attr = '' if sc == code or key == 'nf' else f' hreflang="{sc}"'
+    lang_attr = '' if sc == code or key in TR_ONLY else f' hreflang="{sc}"'
     return f'''<article class="card" style="--a:{a["a"]};--a2:{a["a2"]};--i:{i}">
   <a class="cover" href="{e(home)}"{lang_attr} aria-label="{e(name)}"></a>
   <div class="head"><span class="ico {a["cls"]}"><img src="{base}assets/img/{a["icon"]}" alt="" width="64" height="64"></span>
@@ -215,10 +219,10 @@ def jsonld(code, t, S):
         a = APPS[k]
         sc, home, *_ = app_links(k, code, S)
         name = S['nh'][sc]['brand'] if k == 'nh' else a['name']
-        node = {'@type': 'WebApplication' if k == 'nf' or a.get('web') else 'MobileApplication', '@id': SITE + a['path'] + '#app', 'name': name,
+        node = {'@type': 'WebApplication' if k in TR_ONLY or a.get('web') else 'MobileApplication', '@id': SITE + a['path'] + '#app', 'name': name,
                 'url': home, 'description': t[k + '_txt'], 'applicationCategory': a['category'],
                 'author': {'@id': ORG}, 'publisher': {'@id': ORG}}
-        if k == 'nf':
+        if k in TR_ONLY:
             node.update({'operatingSystem': 'Any (web browser)', 'inLanguage': 'tr', 'isAccessibleForFree': True,
                          'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'TRY'}})
         elif a.get('web'):
@@ -324,7 +328,7 @@ def build_llms(S):
         '',
         '> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: '
         'hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) '
-        'on-call rosters for doctors (Formal Nöbet Çözücü) and live online gender reveal parties (PinkOrBlue).',
+        'on-call rosters for doctors (Formal Nöbet Çözücü), live online gender reveal parties (PinkOrBlue) and sealed online wedding invitations (InviteSeal).',
         '',
         '## Apps',
         '',
@@ -345,6 +349,8 @@ def build_llms(S):
         'vote boy or girl, add guesses, inflate one balloon together by tapping and see the result on every screen in the same second; message wall, '
         'mini game and Instagram story card. No app or account, room data deleted 7 days after the party, 15 languages. '
         f'Create a room: {SITE}PinkOrBlue/en/virtual-gender-reveal/ (Turkish: {SITE}PinkOrBlue/cinsiyet-partisi/). Details: {SITE}PinkOrBlue/llms.txt',
+        f'- [InviteSeal]({SITE}InviteSeal/): online wedding and engagement invitation in the browser that opens with a wax-sealed marble door; '
+        'music, countdown, directions, weather, add-to-calendar and RSVP in one link. Live demo in Turkish (Elif & Ege, sample data).',
         '',
         '## Contact',
         '',

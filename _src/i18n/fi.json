@@ -51,5 +51,9 @@
  "pob_tag": "Online gender reveal -juhlat",
  "pob_txt": "Jaa yksi linkki perheelle ja ystäville: kaikki äänestävät tyttöä tai poikaa, puhaltavat ilmapallon yhdessä ja näkevät tuloksen samalla sekunnilla. Ei sovellusta, ei rekisteröitymistä.",
  "pob_plat": "Verkkoselain · 15 kieltä · Ilmainen",
- "pob_open": "Avaa juhlahuone"
+ "pob_open": "Avaa juhlahuone",
+ "is_tag": "Sinetöity verkkokutsu",
+ "is_txt": "Hää- ja kihlajaiskutsu, joka avautuu vahasinetöidystä marmoriovesta: musiikki, lähtölaskenta, reittiohjeet, sää ja ilmoittautuminen yhdessä linkissä.",
+ "is_plat": "Verkkoselain · Turkki · Live-demo",
+ "is_open": "Avaa demo"
 }

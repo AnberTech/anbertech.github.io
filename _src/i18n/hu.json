@@ -51,5 +51,9 @@
  "pob_tag": "Online gender reveal parti",
  "pob_txt": "Ossz meg egyetlen linket a családdal és a barátokkal: mindenki szavaz, kislány vagy kisfiú, együtt fújják fel a lufit, és ugyanabban a másodpercben látják az eredményt. Alkalmazás és regisztráció nélkül.",
  "pob_plat": "Webböngésző · 15 nyelv · Ingyenes",
- "pob_open": "Partiszoba nyitása"
+ "pob_open": "Partiszoba nyitása",
+ "is_tag": "Pecsétes online meghívó",
+ "is_txt": "Esküvői és eljegyzési meghívó, amely viaszpecsétes márványajtóval nyílik: zene, visszaszámlálás, útvonal, időjárás és visszajelzés egyetlen linken.",
+ "is_plat": "Webböngésző · Török nyelvű · Élő demó",
+ "is_open": "Demó megnyitása"
 }

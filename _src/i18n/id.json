@@ -51,5 +51,9 @@
  "pob_tag": "Pesta gender reveal online",
  "pob_txt": "Bagikan satu link ke keluarga dan teman: semua menebak cewek atau cowok, meniup balon bersama, dan melihat hasilnya di detik yang sama. Tanpa aplikasi, tanpa daftar.",
  "pob_plat": "Browser web · 15 bahasa · Gratis",
- "pob_open": "Buka room pesta"
+ "pob_open": "Buka room pesta",
+ "is_tag": "Undangan online bersegel",
+ "is_txt": "Undangan pernikahan dan pertunangan yang terbuka lewat pintu marmer bersegel lilin: musik, hitung mundur, petunjuk arah, cuaca, dan RSVP dalam satu tautan.",
+ "is_plat": "Peramban web · Bahasa Turki · Demo langsung",
+ "is_open": "Buka demo"
 }

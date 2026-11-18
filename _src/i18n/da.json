@@ -51,5 +51,9 @@
  "pob_tag": "Online gender reveal-fest",
  "pob_txt": "Del ét link med familie og venner: alle stemmer pige eller dreng, puster ballonen op sammen og ser resultatet i samme sekund. Ingen app, ingen tilmelding.",
  "pob_plat": "Webbrowser · 15 sprog · Gratis",
- "pob_open": "Åbn et festrum"
+ "pob_open": "Åbn et festrum",
+ "is_tag": "Forseglet online invitation",
+ "is_txt": "En bryllups- og forlovelsesinvitation, der åbner med en voksforseglet marmordør: musik, nedtælling, rutevejledning, vejr og tilmelding i ét link.",
+ "is_plat": "Webbrowser · Tyrkisk · Live demo",
+ "is_open": "Åbn demoen"
 }

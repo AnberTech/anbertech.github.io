@@ -51,5 +51,9 @@
  "pob_tag": "Online cinsiyet partisi",
  "pob_txt": "Tek linki aile ve dostlarla paylaş: herkes kız mı erkek mi oylar, balonu birlikte şişirir ve sonucu aynı saniyede görür. Uygulama ve üyelik gerekmez.",
  "pob_plat": "Web tarayıcı · 15 dil · Ücretsiz",
- "pob_open": "Parti odası aç"
+ "pob_open": "Parti odası aç",
+ "is_tag": "Mühürlü online davetiye",
+ "is_txt": "Mühürlü mermer kapısı açılan düğün ve nişan davetiyesi: müzik, geri sayım, yol tarifi, hava durumu ve katılım formu tek linkte.",
+ "is_plat": "Web tarayıcı · Türkçe · Canlı örnek",
+ "is_open": "Örneği aç"
 }

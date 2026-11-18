@@ -51,5 +51,9 @@
  "pob_tag": "Online gender reveal",
  "pob_txt": "Deel één link met familie en vrienden: iedereen stemt meisje of jongen, blaast samen de ballon op en ziet de uitslag op hetzelfde moment. Geen app, geen account.",
  "pob_plat": "Webbrowser · 15 talen · Gratis",
- "pob_open": "Open een feestkamer"
+ "pob_open": "Open een feestkamer",
+ "is_tag": "Verzegelde online uitnodiging",
+ "is_txt": "Een trouw- en verlovingsuitnodiging die opent met een marmeren deur met lakzegel: muziek, aftellen, route, weer en aanmelden in één link.",
+ "is_plat": "Webbrowser · Turks · Live demo",
+ "is_open": "Open de demo"
 }

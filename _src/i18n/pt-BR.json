@@ -51,5 +51,9 @@
  "pob_tag": "Chá revelação online",
  "pob_txt": "Compartilhe um só link com a família e os amigos: todo mundo vota menina ou menino, enche o balão junto e vê o resultado no mesmo segundo. Sem app e sem cadastro.",
  "pob_plat": "Navegador · 15 idiomas · Grátis",
- "pob_open": "Abrir uma sala"
+ "pob_open": "Abrir uma sala",
+ "is_tag": "Convite online com selo",
+ "is_txt": "Um convite de casamento e noivado que se abre com uma porta de mármore selada com lacre: música, contagem regressiva, rotas, clima e confirmação de presença em um só link.",
+ "is_plat": "Navegador web · Em turco · Demo ao vivo",
+ "is_open": "Abrir a demo"
 }

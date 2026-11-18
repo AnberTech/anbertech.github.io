@@ -51,5 +51,9 @@
  "pob_tag": "Gender reveal-fest online",
  "pob_txt": "Dela en länk med familj och vänner: alla röstar flicka eller pojke, blåser upp ballongen tillsammans och ser resultatet i samma sekund. Ingen app, ingen registrering.",
  "pob_plat": "Webbläsare · 15 språk · Gratis",
- "pob_open": "Öppna ett festrum"
+ "pob_open": "Öppna ett festrum",
+ "is_tag": "Förseglad onlineinbjudan",
+ "is_txt": "En bröllops- och förlovningsinbjudan som öppnas med en lacksigillerad marmordörr: musik, nedräkning, vägbeskrivning, väder och OSA i en länk.",
+ "is_plat": "Webbläsare · Turkiska · Livedemo",
+ "is_open": "Öppna demon"
 }

@@ -51,5 +51,9 @@
  "pob_tag": "Gender reveal online",
  "pob_txt": "Udostępnij jeden link rodzinie i znajomym: wszyscy głosują, dziewczynka czy chłopiec, razem nadmuchują balon i widzą wynik w tej samej sekundzie. Bez aplikacji i rejestracji.",
  "pob_plat": "Przeglądarka · 15 języków · Za darmo",
- "pob_open": "Otwórz pokój"
+ "pob_open": "Otwórz pokój",
+ "is_tag": "Zaproszenie online z pieczęcią",
+ "is_txt": "Zaproszenie na ślub i zaręczyny, które otwiera się marmurowymi drzwiami z woskową pieczęcią: muzyka, odliczanie, dojazd, pogoda i potwierdzenie obecności w jednym linku.",
+ "is_plat": "Przeglądarka · Po turecku · Wersja demo",
+ "is_open": "Otwórz demo"
 }

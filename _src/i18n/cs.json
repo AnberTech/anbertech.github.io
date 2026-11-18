@@ -51,5 +51,9 @@
  "pob_tag": "Online gender reveal party",
  "pob_txt": "Sdílejte jeden odkaz s rodinou a přáteli: všichni hlasují holka nebo kluk, společně nafouknou balónek a výsledek uvidí ve stejnou vteřinu. Bez aplikace a registrace.",
  "pob_plat": "Webový prohlížeč · 15 jazyků · Zdarma",
- "pob_open": "Otevřít místnost"
+ "pob_open": "Otevřít místnost",
+ "is_tag": "Online pozvánka s pečetí",
+ "is_txt": "Svatební a zásnubní pozvánka, která se otevírá mramorovými dveřmi s voskovou pečetí: hudba, odpočet, trasa, počasí a potvrzení účasti v jednom odkazu.",
+ "is_plat": "Webový prohlížeč · turecky · živá ukázka",
+ "is_open": "Otevřít ukázku"
 }

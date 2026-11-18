@@ -51,5 +51,9 @@
  "pob_tag": "Gender reveal online",
  "pob_txt": "Trimite un singur link familiei și prietenilor: toți votează fetiță sau băiețel, umflă împreună balonul și văd rezultatul în aceeași secundă. Fără aplicație, fără cont.",
  "pob_plat": "Browser web · 15 limbi · Gratuit",
- "pob_open": "Deschide o cameră"
+ "pob_open": "Deschide o cameră",
+ "is_tag": "Invitație online sigilată",
+ "is_txt": "O invitație de nuntă și logodnă care se deschide printr-o ușă de marmură sigilată cu ceară: muzică, numărătoare inversă, indicații, vreme și confirmare într-un singur link.",
+ "is_plat": "Browser web · În turcă · Demo live",
+ "is_open": "Deschide demo-ul"
 }

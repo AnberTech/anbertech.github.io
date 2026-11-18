@@ -51,5 +51,9 @@
  "pob_tag": "Majlis gender reveal dalam talian",
  "pob_txt": "Kongsi satu pautan dengan keluarga dan rakan: semua mengundi perempuan atau lelaki, meniup belon bersama dan melihat keputusan pada saat yang sama. Tanpa aplikasi, tanpa daftar.",
  "pob_plat": "Pelayar web · 15 bahasa · Percuma",
- "pob_open": "Buka bilik majlis"
+ "pob_open": "Buka bilik majlis",
+ "is_tag": "Jemputan dalam talian bermeterai",
+ "is_txt": "Jemputan perkahwinan dan pertunangan yang dibuka melalui pintu marmar bermeterai lilin: muzik, kiraan detik, arah, cuaca dan RSVP dalam satu pautan.",
+ "is_plat": "Pelayar web · Bahasa Turki · Demo langsung",
+ "is_open": "Buka demo"
 }

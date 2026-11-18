@@ -8,3 +8,4 @@ Sitemap: https://anbertech.github.io/Kuafix/sitemap.xml
 Sitemap: https://anbertech.github.io/NotHesaplayici/sitemap.xml
 Sitemap: https://anbertech.github.io/NobetFormal/sitemap.xml
 Sitemap: https://anbertech.github.io/PinkOrBlue/sitemap.xml
+Sitemap: https://anbertech.github.io/InviteSeal/sitemap.xml
