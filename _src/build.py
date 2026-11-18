@@ -59,7 +59,7 @@ APPS = {
            'a': '#f472b6', 'a2': '#fb7185', 'ios': None, 'play': None, 'guides': (), 'category': 'BusinessApplication'},
     'pob': {'name': 'PinkOrBlue', 'repo': 'PinkOrBlue', 'path': 'PinkOrBlue/', 'icon': 'pinkorblue.png', 'cls': 'ico-pob',
             'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': ('app',), 'category': 'LifestyleApplication', 'web': True},
-    'is': {'name': 'InviteSeal', 'repo': 'InviteSeal', 'path': 'InviteSeal/', 'icon': 'inviteseal.png', 'cls': 'ico-is',
+    'is': {'name': 'WeddingInvite', 'repo': 'WeddingInvite', 'path': 'WeddingInvite/', 'icon': 'weddinginvite.png', 'cls': 'ico-is',
            'a': '#b9a77a', 'a2': '#a8a9ad', 'ios': None, 'play': None, 'guides': (), 'category': 'LifestyleApplication'},
 }
 ORDER = ('kfx', 'pob', 'tv', 'nh', 'is', 'nf')
@@ -328,7 +328,7 @@ def build_llms(S):
         '',
         '> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: '
         'hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) '
-        'on-call rosters for doctors (Formal Nöbet Çözücü), live online gender reveal parties (PinkOrBlue) and online wedding invitations (InviteSeal).',
+        'on-call rosters for doctors (Formal Nöbet Çözücü), live online gender reveal parties (PinkOrBlue) and online wedding invitations (WeddingInvite).',
         '',
         '## Apps',
         '',
@@ -349,7 +349,7 @@ def build_llms(S):
         'vote boy or girl, add guesses, inflate one balloon together by tapping and see the result on every screen in the same second; message wall, '
         'mini game and Instagram story card. No app or account, room data deleted 7 days after the party, 15 languages. '
         f'Create a room: {SITE}PinkOrBlue/en/virtual-gender-reveal/ (Turkish: {SITE}PinkOrBlue/cinsiyet-partisi/). Details: {SITE}PinkOrBlue/llms.txt',
-        f'- [InviteSeal]({SITE}InviteSeal/): online wedding and engagement invitation in the browser: opening animation, '
+        f'- [WeddingInvite]({SITE}WeddingInvite/): online wedding and engagement invitation in the browser: opening animation, '
         'music, countdown, directions, weather, add-to-calendar and RSVP in one link. Live demo in Turkish (Elif & Ege, sample data).',
         '',
         '## Contact',
