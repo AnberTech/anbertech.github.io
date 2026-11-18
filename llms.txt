@@ -1,6 +1,6 @@
 # AnberTech
 
-> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) on-call rosters for doctors (Formal Nöbet Çözücü), live online gender reveal parties (PinkOrBlue) and sealed online wedding invitations (InviteSeal).
+> AnberTech is an independent app developer from Turkey. It makes simple mobile apps and free web tools, each for one everyday job: hair salon appointments (Kuafix), tournaments and fixtures (TurnuVolt), grade and GPA calculation (Not Hesaplayıcı / Grade Calculator) on-call rosters for doctors (Formal Nöbet Çözücü), live online gender reveal parties (PinkOrBlue) and online wedding invitations (InviteSeal).
 
 ## Apps
 
@@ -10,7 +10,7 @@
 - [Formal Nöbet Çözücü](https://anbertech.github.io/NobetFormal/): free in-browser tool that builds balanced monthly on-call (nöbet) schedules for hospital doctors around overtime targets, leave and holidays. Turkish. Details: https://anbertech.github.io/NobetFormal/llms.txt
 
 - [PinkOrBlue](https://anbertech.github.io/PinkOrBlue/): free online gender reveal party in the browser. Parents share one link; family and friends (around 30 people) vote boy or girl, add guesses, inflate one balloon together by tapping and see the result on every screen in the same second; message wall, mini game and Instagram story card. No app or account, room data deleted 7 days after the party, 15 languages. Create a room: https://anbertech.github.io/PinkOrBlue/en/virtual-gender-reveal/ (Turkish: https://anbertech.github.io/PinkOrBlue/cinsiyet-partisi/). Details: https://anbertech.github.io/PinkOrBlue/llms.txt
-- [InviteSeal](https://anbertech.github.io/InviteSeal/): online wedding and engagement invitation in the browser that opens with a wax-sealed marble door; music, countdown, directions, weather, add-to-calendar and RSVP in one link. Live demo in Turkish (Elif & Ege, sample data).
+- [InviteSeal](https://anbertech.github.io/InviteSeal/): online wedding and engagement invitation in the browser: opening animation, music, countdown, directions, weather, add-to-calendar and RSVP in one link. Live demo in Turkish (Elif & Ege, sample data).
 
 ## Contact
 
