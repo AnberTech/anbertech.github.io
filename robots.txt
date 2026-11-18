@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /_src/
 
 Sitemap: https://anbertech.github.io/sitemap.xml
 Sitemap: https://anbertech.github.io/TurnuVolt/sitemap.xml
