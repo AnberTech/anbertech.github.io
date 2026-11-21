@@ -210,15 +210,13 @@ def card(key, i, code, t, S, base):
                   f'<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg>{e(t[key + "_open"])}</a>')
     gl = ''.join(f'<a data-goatcounter-click="hub/{code.lower()}/guide-{key}" href="{e(h)}"{hl}>{e(n)}</a>' for n, h in guides)
     gl = f'<div class="guides">{gl}</div>' if gl else ''
-    lnk = f'<span class="lnk"><a href="{e(sup)}">{e(t["support"])}</a><a href="{e(prv)}">{e(t["privacy"])}</a></span>' if sup else ''
-    lang_attr = hl
+    # Sade kart: ikon, ad, tek satır, rehber kapsülleri, mağaza/aç düğmesi. Uzun açıklama (*_txt) yalnız JSON-LD'de,
+    # platform/fiyat (*_plat) ve destek/gizlilik bağlantıları uygulamanın kendi sitesinde.
     return f'''<article class="card" style="--a:{a["a"]};--a2:{a["a2"]};--i:{i}">
-  <a class="cover" href="{e(home)}"{lang_attr} aria-label="{e(name)}"></a>
+  <a class="cover" href="{e(home)}"{hl} aria-label="{e(name)}"></a>
   <div class="head"><span class="ico {a["cls"]}"><img src="{base}assets/img/{a["icon"]}" alt="" width="64" height="64"></span>
     <div class="ttl"><h2>{e(name)}</h2><p class="tag">{e(t[key + "_tag"])}</p></div><svg class="ic go" aria-hidden="true"><use href="#i-arrow"/></svg></div>
-  <p class="txt">{e(t[key + "_txt"])}</p>
   {gl}<div class="stores">{stores}</div>
-  <div class="foot"><span class="plat">{e(t[key + "_plat"])}</span>{lnk}</div>
 </article>'''
 
 
@@ -282,7 +280,7 @@ def build(code, T, built, S, symbols):
 <meta property="og:locale" content="{LANG[code][3]}">
 <meta property="og:image" content="{SITE}assets/img/icon-512.png">
 <meta name="theme-color" content="#08090d">
-<link rel="stylesheet" href="{base}assets/style.css?v=3">
+<link rel="stylesheet" href="{base}assets/style.css?v=4">
 <script>try{{var s=localStorage.getItem('ab_theme');var d=s||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',d)}}catch(e){{}}</script>
 <script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 {jsonld(code, t, S)}

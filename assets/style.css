@@ -103,3 +103,14 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:10px;fl
 [dir="rtl"] .card:hover .go{transform:scaleX(-1) translate(3px,-3px)}
 @media (max-width:900px){.grid{grid-template-columns:1fr}}
 main{justify-content:flex-start;padding-top:48px}
+/* 2026-11-21 sade kartlar: açıklama ve alt satır yok; masaüstünde 3 sütun, kapsüller nötr, düğmeler kart dibinde hizalı */
+.card{gap:14px;padding:22px}
+.guides{gap:6px}
+.guides a{font-weight:500;border-color:var(--line);background:transparent;color:var(--muted)}
+.guides a:hover{color:var(--text);border-color:color-mix(in srgb,var(--a) 60%,var(--line));background:color-mix(in srgb,var(--a) 10%,transparent)}
+.card .stores{margin-top:auto;padding-top:4px}
+.about{text-align:center;margin-inline:auto}
+.about h2{font-size:clamp(18px,2.4vw,21px)}
+.faq{margin-inline:auto;width:100%}
+@media (min-width:901px){.grid{grid-template-columns:repeat(3,1fr)}.card .ico{width:56px;height:56px;border-radius:14px}.card h2{font-size:19px}}
+@media (max-width:900px){.card{padding:18px;gap:12px}}
