@@ -114,3 +114,5 @@ main{justify-content:flex-start;padding-top:48px}
 .faq{margin-inline:auto;width:100%}
 @media (min-width:901px){.grid{grid-template-columns:repeat(3,1fr)}.card .ico{width:56px;height:56px;border-radius:14px}.card h2{font-size:19px}}
 @media (max-width:900px){.card{padding:18px;gap:12px}}
+.ico-sence{background:#fff}
+@media (min-width:901px){.grid .card:last-child:nth-child(3n+1){grid-column:2}}

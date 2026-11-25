@@ -61,8 +61,13 @@ APPS = {
             'a': '#FF8FB8', 'a2': '#7EC8FF', 'ios': None, 'play': None, 'guides': ('party', 'vote', 'far'), 'category': 'LifestyleApplication', 'web': True},
     'is': {'name': 'WeddingInvite', 'repo': 'WeddingInvite', 'path': 'WeddingInvite/', 'icon': 'weddinginvite.png', 'cls': 'ico-is',
            'a': '#b9a77a', 'a2': '#a8a9ad', 'ios': None, 'play': None, 'guides': ('make', 'engage', 'rsvp'), 'category': 'LifestyleApplication'},
+    # Sence: henüz yayında değil ('soon'). Kart yalnız TR/EN sitesine gider, iki mağaza da "Yakında" (ana sitenin "soon" metni);
+    # 33 dile ayrı metin yok: kartın tek satırı Sence sitesinin kendi dilinden (TR, diğer bütün diller EN). JSON-LD'ye girmez.
+    'sc': {'name': 'Sence', 'repo': 'Sence', 'path': 'Sence/', 'icon': 'sence.png', 'cls': 'ico-sence', 'a': '#22d3ee', 'a2': '#a78bfa',
+           'ios': None, 'play': None, 'guides': (), 'category': 'SocialNetworkingApplication', 'soon': True,
+           'tag': {'tr': 'Kararsız mısın? Herkes oylasın', 'en': 'Ask it. The crowd votes.'}},
 }
-ORDER = ('kfx', 'pob', 'tv', 'nh', 'is', 'nf')
+ORDER = ('kfx', 'pob', 'tv', 'nh', 'is', 'nf', 'sc')
 # Tek dilli (Türkçe) web sayfaları: kart doğrudan sayfayı açar, destek/gizlilik bağlantısı yok
 TR_ONLY = ('nf',)
 # PinkOrBlue bu dillerde gösterilmez (doğum öncesi cinsiyet açıklaması Hindistan ve Çin'de yasal olarak kısıtlı)
@@ -146,6 +151,9 @@ def app_links(key, code, S, t=None):
     """(sitedeki dil, ana sayfa, destek, gizlilik, [(rehber adı, adres)]). t: ana sitenin o dildeki metinleri (Nöbet kapsül adları için)"""
     a = APPS[key]
     base = SITE + a['path']
+    if a.get('soon'):   # yayında olmayan uygulama (Sence): yalnız TR ve EN sitesi var
+        c = 'tr' if code == 'tr' else 'en'
+        return c, base + sub_dir(c), None, None, []
     if key in TR_ONLY:   # yalnız Türkçe site: kapsül yazısı ana sayfanın dilinde, adres Türkçe rehber
         G = S.get('nf_g', {}).get('tr')
         guides = [((t or {}).get(f'nf_g_{x}') or G[f'{x}_name'], base + G[f'{x}_slug'] + '/') for x in a['guides']] if G else []
@@ -194,7 +202,10 @@ def card(key, i, code, t, S, base):
         name = S['nh'][sc]['brand']
     stores = ''
     hl = '' if sc == code else f' hreflang="{sc}"'
-    if a['ios']:
+    if a.get('soon'):   # iki mağaza da "Yakında", bağlantısız
+        stores = (f'<span class="st off"><svg class="ic" aria-hidden="true"><use href="#i-apple"/></svg>{e(t["soon"])}</span>'
+                  f'<span class="st off"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg>{e(t["soon"])}</span>')
+    elif a['ios']:
         ios = a['ios_tr'] if code == 'tr' else a['ios']
         stores = (f'<a data-goatcounter-click="hub/{code.lower()}/appstore-{key}" class="st" href="{e(ios)}" target="_blank" rel="noopener" aria-label="App Store">'
                   f'<svg class="ic" aria-hidden="true"><use href="#i-apple"/></svg>App Store</a>')
@@ -215,7 +226,7 @@ def card(key, i, code, t, S, base):
     return f'''<article class="card" style="--a:{a["a"]};--a2:{a["a2"]};--i:{i}">
   <a class="cover" href="{e(home)}"{hl} aria-label="{e(name)}"></a>
   <div class="head"><span class="ico {a["cls"]}"><img src="{base}assets/img/{a["icon"]}" alt="" width="64" height="64"></span>
-    <div class="ttl"><h2>{e(name)}</h2><p class="tag">{e(t[key + "_tag"])}</p></div><svg class="ic go" aria-hidden="true"><use href="#i-arrow"/></svg></div>
+    <div class="ttl"><h2>{e(name)}</h2><p class="tag"{"" if sc == code or "tag" not in a else f' lang="{sc}"'}>{e(a["tag"][sc] if "tag" in a else t[key + "_tag"])}</p></div><svg class="ic go" aria-hidden="true"><use href="#i-arrow"/></svg></div>
   {gl}<div class="stores">{stores}</div>
 </article>'''
 
@@ -223,9 +234,9 @@ def card(key, i, code, t, S, base):
 def jsonld(code, t, S):
     graph = [{'@type': 'Organization', '@id': ORG, 'name': 'AnberTech', 'url': SITE, 'email': EMAIL,
               'logo': SITE + 'assets/img/icon-512.png', 'description': t['lead'],
-              'owns': [{'@id': SITE + APPS[k]['path'] + '#app'} for k in ORDER if code not in HIDE.get(k, ())]}]
+              'owns': [{'@id': SITE + APPS[k]['path'] + '#app'} for k in ORDER if code not in HIDE.get(k, ()) and not APPS[k].get('soon')]}]
     for k in ORDER:
-        if code in HIDE.get(k, ()):
+        if code in HIDE.get(k, ()) or APPS[k].get('soon'):
             continue
         a = APPS[k]
         sc, home, *_ = app_links(k, code, S)
@@ -280,7 +291,7 @@ def build(code, T, built, S, symbols):
 <meta property="og:locale" content="{LANG[code][3]}">
 <meta property="og:image" content="{SITE}assets/img/icon-512.png">
 <meta name="theme-color" content="#08090d">
-<link rel="stylesheet" href="{base}assets/style.css?v=4">
+<link rel="stylesheet" href="{base}assets/style.css?v=5">
 <script>try{{var s=localStorage.getItem('ab_theme');var d=s||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',d)}}catch(e){{}}</script>
 <script data-goatcounter="https://anbertech.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 {jsonld(code, t, S)}
@@ -363,6 +374,9 @@ def build_llms(S):
         f'- [WeddingInvite]({SITE}WeddingInvite/): online wedding and engagement invitation in the browser: opening animation, '
         'music, countdown, directions, weather, add-to-calendar and RSVP in one link. No app or account. '
         f'Live demo in {len(S["is"])} languages (Elif & Ege, sample data); English: {SITE}WeddingInvite/en/. Details: {SITE}WeddingInvite/llms.txt',
+        f'- [Sence]({SITE}Sence/en/): coming soon to the App Store and Google Play. Ask a question under a nickname and the crowd votes: '
+        'Yes/No, Pick (2–4 options) or Rate (0–10); votes stay private, only the numbers are shown. Turkish and English, 18+. '
+        f'Details: {SITE}Sence/llms.txt',
         '',
         '## Contact',
         '',

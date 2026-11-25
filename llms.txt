@@ -11,6 +11,7 @@
 
 - [PinkOrBlue](https://anbertech.github.io/PinkOrBlue/): free online gender reveal party in the browser. Parents share one link; family and friends (around 30 people) vote boy or girl, add guesses, inflate one balloon together by tapping and see the result on every screen in the same second; message wall, mini game and Instagram story card. No app or account, room data deleted 7 days after the party, 15 languages. Create a room: https://anbertech.github.io/PinkOrBlue/en/virtual-gender-reveal/ (Turkish: https://anbertech.github.io/PinkOrBlue/cinsiyet-partisi/). Details: https://anbertech.github.io/PinkOrBlue/llms.txt
 - [WeddingInvite](https://anbertech.github.io/WeddingInvite/): online wedding and engagement invitation in the browser: opening animation, music, countdown, directions, weather, add-to-calendar and RSVP in one link. No app or account. Live demo in 16 languages (Elif & Ege, sample data); English: https://anbertech.github.io/WeddingInvite/en/. Details: https://anbertech.github.io/WeddingInvite/llms.txt
+- [Sence](https://anbertech.github.io/Sence/en/): coming soon to the App Store and Google Play. Ask a question under a nickname and the crowd votes: Yes/No, Pick (2–4 options) or Rate (0–10); votes stay private, only the numbers are shown. Turkish and English, 18+. Details: https://anbertech.github.io/Sence/llms.txt
 
 ## Contact
 

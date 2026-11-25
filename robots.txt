@@ -9,3 +9,4 @@ Sitemap: https://anbertech.github.io/NotHesaplayici/sitemap.xml
 Sitemap: https://anbertech.github.io/NobetFormal/sitemap.xml
 Sitemap: https://anbertech.github.io/PinkOrBlue/sitemap.xml
 Sitemap: https://anbertech.github.io/WeddingInvite/sitemap.xml
+Sitemap: https://anbertech.github.io/Sence/sitemap.xml
