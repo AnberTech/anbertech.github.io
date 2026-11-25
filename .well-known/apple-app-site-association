@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["R7G2FW2835.com.anbertech.Sence"],
+        "components": [
+          { "/": "/Sence/s/*", "comment": "Sence: paylaşılan soru sayfası, uygulamada açılır" }
+        ]
+      }
+    ]
+  }
+}
